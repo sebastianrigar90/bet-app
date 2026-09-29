@@ -1,0 +1,2 @@
+﻿model_name,model_version,sport,competition,season,evaluation_rows,accuracy,log_loss,brier_score,mean_calibration_error,evaluation_status,skipped_rows
+poisson,evaluation_test,football,premier_league,2026-27,4,0.75,0.9132023877126876,0.6097396603614776,0.3829737683495817,LOW_SAMPLE_SIZE,6

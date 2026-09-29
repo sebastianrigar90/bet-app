@@ -1,0 +1,2 @@
+﻿model_name,model_version,sport,competition,season,evaluation_rows,accuracy,log_loss,brier_score,mean_calibration_error,evaluation_status,run_id,training_rows,validation_rows,valid_predictions,skipped_rows,coverage,sample_status,probability_tolerance
+poisson,,football,premier_league,2026-27,10,0.3,2.882157069430782,1.0171243264336307,0.45925574968945765,LOW_SAMPLE_SIZE,20260928_155227,40,10,10,0,1.0,LOW_SAMPLE_SIZE,1e-06

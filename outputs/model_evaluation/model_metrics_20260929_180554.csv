@@ -1,0 +1,2 @@
+﻿model_name,model_version,sport,competition,season,evaluation_rows,accuracy,log_loss,brier_score,mean_calibration_error,evaluation_status,skipped_rows
+poisson,candidate,football,primera_a_clausura,2026,22,0.4090909090909091,1.0359730436595762,0.6437618434467747,0.24821519719365565,SUCCESS,0

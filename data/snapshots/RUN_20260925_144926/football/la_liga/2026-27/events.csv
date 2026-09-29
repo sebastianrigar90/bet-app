@@ -1,0 +1,381 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,la_liga,2026-27,2026-08-15 17:30:00+00:00,Deportivo Alavés,Getafe CF,3.0,0.0,finished,football_data_org,564634
+football,la_liga,2026-27,2026-08-15 19:30:00+00:00,Sevilla FC,Rayo Vallecano de Madrid,2.0,1.0,finished,football_data_org,564633
+football,la_liga,2026-27,2026-08-16 15:00:00+00:00,Real Racing Club de Santander,Villarreal CF,2.0,2.0,finished,football_data_org,564629
+football,la_liga,2026-27,2026-08-16 17:00:00+00:00,RCD Espanyol de Barcelona,Levante UD,3.0,0.0,finished,football_data_org,564632
+football,la_liga,2026-27,2026-08-17 19:00:00+00:00,RC Deportivo La Coruña,Elche CF,1.0,1.0,finished,football_data_org,564635
+football,la_liga,2026-27,2026-08-19 19:00:00+00:00,Club Atlético de Madrid,Málaga CF,2.0,0.0,finished,football_data_org,564628
+football,la_liga,2026-27,2026-08-20 19:00:00+00:00,Rayo Vallecano de Madrid,Deportivo Alavés,1.0,1.0,finished,football_data_org,564638
+football,la_liga,2026-27,2026-08-21 19:00:00+00:00,Real Betis Balompié,Real Sociedad de Fútbol,1.0,0.0,finished,football_data_org,564647
+football,la_liga,2026-27,2026-08-22 15:00:00+00:00,Athletic Club,Sevilla FC,1.0,3.0,finished,football_data_org,564641
+football,la_liga,2026-27,2026-08-22 17:30:00+00:00,Valencia CF,RC Celta de Vigo,0.0,0.0,finished,football_data_org,564643
+football,la_liga,2026-27,2026-08-22 19:30:00+00:00,RCD Espanyol de Barcelona,Real Madrid CF,1.0,2.0,finished,football_data_org,564645
+football,la_liga,2026-27,2026-08-23 15:00:00+00:00,Club Atlético de Madrid,Villarreal CF,2.0,2.0,finished,football_data_org,564646
+football,la_liga,2026-27,2026-08-23 17:30:00+00:00,Getafe CF,Real Racing Club de Santander,1.0,0.0,finished,football_data_org,564644
+football,la_liga,2026-27,2026-08-23 19:30:00+00:00,Elche CF,FC Barcelona,0.0,5.0,finished,football_data_org,564642
+football,la_liga,2026-27,2026-08-24 17:30:00+00:00,CA Osasuna,Levante UD,0.0,0.0,finished,football_data_org,564639
+football,la_liga,2026-27,2026-08-24 19:30:00+00:00,Málaga CF,RC Deportivo La Coruña,1.0,1.0,finished,football_data_org,564640
+football,la_liga,2026-27,2026-08-25 19:00:00+00:00,Valencia CF,Real Betis Balompié,0.0,1.0,finished,football_data_org,564637
+football,la_liga,2026-27,2026-08-26 19:00:00+00:00,Real Madrid CF,Real Sociedad de Fútbol,4.0,1.0,finished,football_data_org,564631
+football,la_liga,2026-27,2026-08-27 18:30:00+00:00,RC Celta de Vigo,CA Osasuna,1.0,2.0,finished,football_data_org,564636
+football,la_liga,2026-27,2026-08-27 19:00:00+00:00,FC Barcelona,Athletic Club,2.0,0.0,finished,football_data_org,564630
+football,la_liga,2026-27,2026-08-28 17:00:00+00:00,Real Racing Club de Santander,Elche CF,3.0,2.0,finished,football_data_org,564654
+football,la_liga,2026-27,2026-08-28 19:30:00+00:00,Deportivo Alavés,Villarreal CF,1.0,0.0,finished,football_data_org,564648
+football,la_liga,2026-27,2026-08-29 15:00:00+00:00,Levante UD,Real Betis Balompié,5.0,2.0,finished,football_data_org,564655
+football,la_liga,2026-27,2026-08-29 17:00:00+00:00,Real Sociedad de Fútbol,RCD Espanyol de Barcelona,2.0,1.0,finished,football_data_org,564653
+football,la_liga,2026-27,2026-08-29 19:30:00+00:00,Sevilla FC,Club Atlético de Madrid,1.0,3.0,finished,football_data_org,564649
+football,la_liga,2026-27,2026-08-30 15:00:00+00:00,Real Madrid CF,Málaga CF,4.0,0.0,finished,football_data_org,564656
+football,la_liga,2026-27,2026-08-30 17:30:00+00:00,RC Deportivo La Coruña,Valencia CF,3.0,1.0,finished,football_data_org,564651
+football,la_liga,2026-27,2026-08-30 19:30:00+00:00,RC Celta de Vigo,Athletic Club,0.0,2.0,finished,football_data_org,564652
+football,la_liga,2026-27,2026-08-31 17:30:00+00:00,CA Osasuna,Getafe CF,1.0,0.0,finished,football_data_org,564657
+football,la_liga,2026-27,2026-08-31 19:30:00+00:00,FC Barcelona,Rayo Vallecano de Madrid,5.0,2.0,finished,football_data_org,564650
+football,la_liga,2026-27,2026-09-03 19:00:00+00:00,Real Sociedad de Fútbol,RC Celta de Vigo,0.0,0.0,finished,football_data_org,564682
+football,la_liga,2026-27,2026-09-04 19:00:00+00:00,Real Betis Balompié,Real Madrid CF,1.0,0.0,finished,football_data_org,564667
+football,la_liga,2026-27,2026-09-05 14:15:00+00:00,Athletic Club,Club Atlético de Madrid,3.0,0.0,finished,football_data_org,564663
+football,la_liga,2026-27,2026-09-05 16:30:00+00:00,Rayo Vallecano de Madrid,Real Racing Club de Santander,3.0,2.0,finished,football_data_org,564660
+football,la_liga,2026-27,2026-09-05 19:00:00+00:00,Villarreal CF,RC Deportivo La Coruña,2.0,3.0,finished,football_data_org,564662
+football,la_liga,2026-27,2026-09-06 14:15:00+00:00,Valencia CF,FC Barcelona,0.0,5.0,finished,football_data_org,564659
+football,la_liga,2026-27,2026-09-06 16:30:00+00:00,Deportivo Alavés,CA Osasuna,5.0,2.0,finished,football_data_org,564664
+football,la_liga,2026-27,2026-09-06 16:30:00+00:00,Málaga CF,Levante UD,0.0,0.0,finished,football_data_org,564666
+football,la_liga,2026-27,2026-09-06 19:00:00+00:00,RCD Espanyol de Barcelona,Sevilla FC,1.0,1.0,finished,football_data_org,564661
+football,la_liga,2026-27,2026-09-07 17:00:00+00:00,Getafe CF,RC Celta de Vigo,1.0,1.0,finished,football_data_org,564665
+football,la_liga,2026-27,2026-09-07 19:30:00+00:00,Elche CF,Real Sociedad de Fútbol,2.0,3.0,finished,football_data_org,564658
+football,la_liga,2026-27,2026-09-11 19:00:00+00:00,Sevilla FC,Valencia CF,1.0,0.0,finished,football_data_org,564669
+football,la_liga,2026-27,2026-09-12 12:00:00+00:00,Real Racing Club de Santander,Deportivo Alavés,2.0,1.0,finished,football_data_org,564670
+football,la_liga,2026-27,2026-09-12 14:15:00+00:00,CA Osasuna,RCD Espanyol de Barcelona,0.0,2.0,finished,football_data_org,564673
+football,la_liga,2026-27,2026-09-12 16:30:00+00:00,Athletic Club,Elche CF,1.0,1.0,finished,football_data_org,564676
+football,la_liga,2026-27,2026-09-12 19:00:00+00:00,Real Madrid CF,Rayo Vallecano de Madrid,4.0,1.0,finished,football_data_org,564677
+football,la_liga,2026-27,2026-09-13 12:00:00+00:00,RC Celta de Vigo,Málaga CF,1.0,1.0,finished,football_data_org,564672
+football,la_liga,2026-27,2026-09-13 14:15:00+00:00,Levante UD,FC Barcelona,2.0,4.0,finished,football_data_org,564675
+football,la_liga,2026-27,2026-09-13 16:30:00+00:00,Getafe CF,RC Deportivo La Coruña,1.0,1.0,finished,football_data_org,564668
+football,la_liga,2026-27,2026-09-13 19:00:00+00:00,Real Sociedad de Fútbol,Club Atlético de Madrid,0.0,3.0,finished,football_data_org,564674
+football,la_liga,2026-27,2026-09-14 19:00:00+00:00,Villarreal CF,Real Betis Balompié,1.0,2.0,finished,football_data_org,564671
+football,la_liga,2026-27,2026-09-15 17:00:00+00:00,Rayo Vallecano de Madrid,RCD Espanyol de Barcelona,2.0,1.0,finished,football_data_org,564678
+football,la_liga,2026-27,2026-09-15 18:00:00+00:00,Deportivo Alavés,Valencia CF,0.0,1.0,finished,football_data_org,564680
+football,la_liga,2026-27,2026-09-15 19:30:00+00:00,Elche CF,Real Madrid CF,2.0,3.0,finished,football_data_org,564681
+football,la_liga,2026-27,2026-09-16 17:00:00+00:00,RC Deportivo La Coruña,Sevilla FC,0.0,1.0,finished,football_data_org,564679
+football,la_liga,2026-27,2026-09-16 17:00:00+00:00,Club Atlético de Madrid,CA Osasuna,4.0,0.0,finished,football_data_org,564684
+football,la_liga,2026-27,2026-09-16 19:30:00+00:00,FC Barcelona,Real Racing Club de Santander,7.0,2.0,finished,football_data_org,564687
+football,la_liga,2026-27,2026-09-17 17:00:00+00:00,Real Betis Balompié,Getafe CF,1.0,0.0,finished,football_data_org,564686
+football,la_liga,2026-27,2026-09-17 19:30:00+00:00,Málaga CF,Villarreal CF,1.0,3.0,finished,football_data_org,564683
+football,la_liga,2026-27,2026-09-18 19:00:00+00:00,RCD Espanyol de Barcelona,Elche CF,1.0,3.0,finished,football_data_org,564692
+football,la_liga,2026-27,2026-09-19 12:00:00+00:00,CA Osasuna,Rayo Vallecano de Madrid,1.0,1.0,finished,football_data_org,564693
+football,la_liga,2026-27,2026-09-19 14:15:00+00:00,Athletic Club,Deportivo Alavés,0.0,0.0,finished,football_data_org,564691
+football,la_liga,2026-27,2026-09-19 16:30:00+00:00,RC Celta de Vigo,Real Racing Club de Santander,5.0,0.0,finished,football_data_org,564694
+football,la_liga,2026-27,2026-09-19 19:00:00+00:00,Sevilla FC,FC Barcelona,1.0,3.0,finished,football_data_org,564690
+football,la_liga,2026-27,2026-09-20 12:00:00+00:00,Getafe CF,Málaga CF,1.0,0.0,finished,football_data_org,564697
+football,la_liga,2026-27,2026-09-20 14:15:00+00:00,Club Atlético de Madrid,Real Madrid CF,2.0,1.0,finished,football_data_org,564688
+football,la_liga,2026-27,2026-09-20 16:30:00+00:00,RC Deportivo La Coruña,Real Betis Balompié,1.0,1.0,finished,football_data_org,564695
+football,la_liga,2026-27,2026-09-20 16:30:00+00:00,Villarreal CF,Levante UD,3.0,1.0,finished,football_data_org,564696
+football,la_liga,2026-27,2026-09-20 19:00:00+00:00,Valencia CF,Real Sociedad de Fútbol,2.0,3.0,finished,football_data_org,564689
+football,la_liga,2026-27,2026-10-09 19:00:00+00:00,Málaga CF,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564706
+football,la_liga,2026-27,2026-10-10 12:00:00+00:00,Rayo Vallecano de Madrid,Athletic Club,,,scheduled,football_data_org,564698
+football,la_liga,2026-27,2026-10-10 14:15:00+00:00,Deportivo Alavés,Club Atlético de Madrid,,,scheduled,football_data_org,564699
+football,la_liga,2026-27,2026-10-10 16:30:00+00:00,FC Barcelona,Getafe CF,,,scheduled,football_data_org,564700
+football,la_liga,2026-27,2026-10-10 19:00:00+00:00,Real Madrid CF,Villarreal CF,,,scheduled,football_data_org,564702
+football,la_liga,2026-27,2026-10-11 12:00:00+00:00,Elche CF,RC Celta de Vigo,,,scheduled,football_data_org,564703
+football,la_liga,2026-27,2026-10-11 14:15:00+00:00,Real Sociedad de Fútbol,RC Deportivo La Coruña,,,scheduled,football_data_org,564707
+football,la_liga,2026-27,2026-10-11 16:30:00+00:00,Real Betis Balompié,CA Osasuna,,,scheduled,football_data_org,564701
+football,la_liga,2026-27,2026-10-11 19:00:00+00:00,Real Racing Club de Santander,Valencia CF,,,scheduled,football_data_org,564705
+football,la_liga,2026-27,2026-10-12 19:00:00+00:00,Levante UD,Sevilla FC,,,scheduled,football_data_org,564704
+football,la_liga,2026-27,2026-10-16 19:00:00+00:00,RC Deportivo La Coruña,Levante UD,,,scheduled,football_data_org,564716
+football,la_liga,2026-27,2026-10-17 12:00:00+00:00,RCD Espanyol de Barcelona,Club Atlético de Madrid,,,scheduled,football_data_org,564710
+football,la_liga,2026-27,2026-10-17 14:15:00+00:00,Villarreal CF,Elche CF,,,scheduled,football_data_org,564708
+football,la_liga,2026-27,2026-10-17 16:30:00+00:00,Real Betis Balompié,FC Barcelona,,,scheduled,football_data_org,564713
+football,la_liga,2026-27,2026-10-17 19:00:00+00:00,Valencia CF,Athletic Club,,,scheduled,football_data_org,564711
+football,la_liga,2026-27,2026-10-18 12:00:00+00:00,CA Osasuna,Real Racing Club de Santander,,,scheduled,football_data_org,564715
+football,la_liga,2026-27,2026-10-18 14:15:00+00:00,RC Celta de Vigo,Deportivo Alavés,,,scheduled,football_data_org,564712
+football,la_liga,2026-27,2026-10-18 16:30:00+00:00,Málaga CF,Real Sociedad de Fútbol,,,scheduled,football_data_org,564714
+football,la_liga,2026-27,2026-10-18 19:00:00+00:00,Real Madrid CF,Sevilla FC,,,scheduled,football_data_org,564709
+football,la_liga,2026-27,2026-10-19 19:00:00+00:00,Getafe CF,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564717
+football,la_liga,2026-27,2026-10-21 18:00:00+00:00,Levante UD,Athletic Club,0.0,0.0,scheduled,football_data_org,564685
+football,la_liga,2026-27,2026-10-23 19:00:00+00:00,Deportivo Alavés,Málaga CF,,,scheduled,football_data_org,564719
+football,la_liga,2026-27,2026-10-24 12:00:00+00:00,Rayo Vallecano de Madrid,Elche CF,,,scheduled,football_data_org,564718
+football,la_liga,2026-27,2026-10-24 14:15:00+00:00,Real Racing Club de Santander,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564727
+football,la_liga,2026-27,2026-10-24 16:30:00+00:00,Valencia CF,Villarreal CF,,,scheduled,football_data_org,564722
+football,la_liga,2026-27,2026-10-24 19:00:00+00:00,Club Atlético de Madrid,RC Deportivo La Coruña,,,scheduled,football_data_org,564724
+football,la_liga,2026-27,2026-10-25 13:00:00+00:00,Athletic Club,Getafe CF,,,scheduled,football_data_org,564720
+football,la_liga,2026-27,2026-10-25 15:15:00+00:00,RC Celta de Vigo,Real Betis Balompié,,,scheduled,football_data_org,564725
+football,la_liga,2026-27,2026-10-25 17:30:00+00:00,Real Sociedad de Fútbol,Levante UD,,,scheduled,football_data_org,564726
+football,la_liga,2026-27,2026-10-25 20:00:00+00:00,FC Barcelona,Real Madrid CF,,,scheduled,football_data_org,564723
+football,la_liga,2026-27,2026-10-26 20:00:00+00:00,Sevilla FC,CA Osasuna,,,scheduled,football_data_org,564721
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Real Betis Balompié,Málaga CF,,,scheduled,football_data_org,564736
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Villarreal CF,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564737
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Elche CF,Valencia CF,,,scheduled,football_data_org,564728
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Athletic Club,Real Sociedad de Fútbol,,,scheduled,football_data_org,564729
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Levante UD,Club Atlético de Madrid,,,scheduled,football_data_org,564730
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,RC Deportivo La Coruña,CA Osasuna,,,scheduled,football_data_org,564731
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,FC Barcelona,Deportivo Alavés,,,scheduled,football_data_org,564732
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Getafe CF,Sevilla FC,,,scheduled,football_data_org,564733
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Real Racing Club de Santander,Real Madrid CF,,,scheduled,football_data_org,564734
+football,la_liga,2026-27,2026-11-01 00:00:00+00:00,Rayo Vallecano de Madrid,RC Celta de Vigo,,,scheduled,football_data_org,564735
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Elche CF,Real Betis Balompié,,,scheduled,football_data_org,564738
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,CA Osasuna,Athletic Club,,,scheduled,football_data_org,564739
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Sevilla FC,Deportivo Alavés,,,scheduled,football_data_org,564740
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Valencia CF,Real Madrid CF,,,scheduled,football_data_org,564741
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,RC Celta de Vigo,Levante UD,,,scheduled,football_data_org,564742
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Real Sociedad de Fútbol,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564743
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Málaga CF,Real Racing Club de Santander,,,scheduled,football_data_org,564744
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,RCD Espanyol de Barcelona,RC Deportivo La Coruña,,,scheduled,football_data_org,564745
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Club Atlético de Madrid,FC Barcelona,,,scheduled,football_data_org,564746
+football,la_liga,2026-27,2026-11-08 00:00:00+00:00,Villarreal CF,Getafe CF,,,scheduled,football_data_org,564747
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Athletic Club,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564748
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,FC Barcelona,Villarreal CF,,,scheduled,football_data_org,564749
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Real Racing Club de Santander,Real Sociedad de Fútbol,,,scheduled,football_data_org,564750
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Rayo Vallecano de Madrid,Valencia CF,,,scheduled,football_data_org,564751
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,CA Osasuna,Málaga CF,,,scheduled,football_data_org,564752
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Getafe CF,Club Atlético de Madrid,,,scheduled,football_data_org,564753
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Real Madrid CF,RC Celta de Vigo,,,scheduled,football_data_org,564754
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Deportivo Alavés,RC Deportivo La Coruña,,,scheduled,football_data_org,564755
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Sevilla FC,Real Betis Balompié,,,scheduled,football_data_org,564756
+football,la_liga,2026-27,2026-11-22 00:00:00+00:00,Levante UD,Elche CF,,,scheduled,football_data_org,564757
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,RC Celta de Vigo,Villarreal CF,,,scheduled,football_data_org,564758
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Elche CF,Club Atlético de Madrid,,,scheduled,football_data_org,564759
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Real Betis Balompié,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564760
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Valencia CF,CA Osasuna,,,scheduled,football_data_org,564761
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Real Madrid CF,Deportivo Alavés,,,scheduled,football_data_org,564762
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,RCD Espanyol de Barcelona,Getafe CF,,,scheduled,football_data_org,564763
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Real Sociedad de Fútbol,Sevilla FC,,,scheduled,football_data_org,564764
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Levante UD,Real Racing Club de Santander,,,scheduled,football_data_org,564765
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,RC Deportivo La Coruña,FC Barcelona,,,scheduled,football_data_org,564766
+football,la_liga,2026-27,2026-11-29 00:00:00+00:00,Málaga CF,Athletic Club,,,scheduled,football_data_org,564767
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,CA Osasuna,Elche CF,,,scheduled,football_data_org,564768
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Sevilla FC,Málaga CF,,,scheduled,football_data_org,564769
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Deportivo Alavés,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564770
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Club Atlético de Madrid,Real Betis Balompié,,,scheduled,football_data_org,564771
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Real Racing Club de Santander,RC Deportivo La Coruña,,,scheduled,football_data_org,564772
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,FC Barcelona,RC Celta de Vigo,,,scheduled,football_data_org,564773
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Getafe CF,Valencia CF,,,scheduled,football_data_org,564774
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Athletic Club,Real Madrid CF,,,scheduled,football_data_org,564775
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Villarreal CF,Real Sociedad de Fútbol,,,scheduled,football_data_org,564776
+football,la_liga,2026-27,2026-12-06 00:00:00+00:00,Rayo Vallecano de Madrid,Levante UD,,,scheduled,football_data_org,564777
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,RCD Espanyol de Barcelona,RC Celta de Vigo,,,scheduled,football_data_org,564778
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Málaga CF,FC Barcelona,,,scheduled,football_data_org,564779
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Real Madrid CF,CA Osasuna,,,scheduled,football_data_org,564780
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,RC Deportivo La Coruña,Athletic Club,,,scheduled,football_data_org,564781
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Levante UD,Deportivo Alavés,,,scheduled,football_data_org,564782
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Elche CF,Sevilla FC,,,scheduled,football_data_org,564783
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Villarreal CF,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564784
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Real Betis Balompié,Real Racing Club de Santander,,,scheduled,football_data_org,564785
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Real Sociedad de Fútbol,Getafe CF,,,scheduled,football_data_org,564786
+football,la_liga,2026-27,2026-12-13 00:00:00+00:00,Club Atlético de Madrid,Valencia CF,,,scheduled,football_data_org,564787
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,Athletic Club,Real Betis Balompié,,,scheduled,football_data_org,564788
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,Getafe CF,Levante UD,,,scheduled,football_data_org,564789
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,Deportivo Alavés,Elche CF,,,scheduled,football_data_org,564790
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,Valencia CF,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564791
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,CA Osasuna,Villarreal CF,,,scheduled,football_data_org,564792
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,FC Barcelona,Real Sociedad de Fútbol,,,scheduled,football_data_org,564793
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,RC Celta de Vigo,Club Atlético de Madrid,,,scheduled,football_data_org,564794
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,Rayo Vallecano de Madrid,Málaga CF,,,scheduled,football_data_org,564795
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,RC Deportivo La Coruña,Real Madrid CF,,,scheduled,football_data_org,564796
+football,la_liga,2026-27,2026-12-20 00:00:00+00:00,Sevilla FC,Real Racing Club de Santander,,,scheduled,football_data_org,564797
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Real Madrid CF,Getafe CF,,,scheduled,football_data_org,564798
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Real Sociedad de Fútbol,CA Osasuna,,,scheduled,football_data_org,564799
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Levante UD,Valencia CF,,,scheduled,football_data_org,564800
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Real Racing Club de Santander,Athletic Club,,,scheduled,football_data_org,564801
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Málaga CF,Elche CF,,,scheduled,football_data_org,564802
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Real Betis Balompié,Deportivo Alavés,,,scheduled,football_data_org,564803
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,RC Celta de Vigo,RC Deportivo La Coruña,,,scheduled,football_data_org,564804
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,RCD Espanyol de Barcelona,FC Barcelona,,,scheduled,football_data_org,564805
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Villarreal CF,Sevilla FC,,,scheduled,football_data_org,564806
+football,la_liga,2026-27,2027-01-03 00:00:00+00:00,Rayo Vallecano de Madrid,Club Atlético de Madrid,,,scheduled,football_data_org,564807
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Athletic Club,Villarreal CF,,,scheduled,football_data_org,564808
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Elche CF,Getafe CF,,,scheduled,football_data_org,564809
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Real Madrid CF,Levante UD,,,scheduled,football_data_org,564810
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,CA Osasuna,FC Barcelona,,,scheduled,football_data_org,564811
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,RC Deportivo La Coruña,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564812
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Club Atlético de Madrid,Real Racing Club de Santander,,,scheduled,football_data_org,564813
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Deportivo Alavés,Real Sociedad de Fútbol,,,scheduled,football_data_org,564814
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Sevilla FC,RC Celta de Vigo,,,scheduled,football_data_org,564815
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,RCD Espanyol de Barcelona,Real Betis Balompié,,,scheduled,football_data_org,564816
+football,la_liga,2026-27,2027-01-10 00:00:00+00:00,Valencia CF,Málaga CF,,,scheduled,football_data_org,564817
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Málaga CF,Real Madrid CF,,,scheduled,football_data_org,564818
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,FC Barcelona,Elche CF,,,scheduled,football_data_org,564819
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Villarreal CF,Deportivo Alavés,,,scheduled,football_data_org,564820
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Real Racing Club de Santander,CA Osasuna,,,scheduled,football_data_org,564821
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Levante UD,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564822
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,RC Celta de Vigo,Valencia CF,,,scheduled,football_data_org,564823
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Getafe CF,Athletic Club,,,scheduled,football_data_org,564824
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Rayo Vallecano de Madrid,Sevilla FC,,,scheduled,football_data_org,564825
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Real Betis Balompié,RC Deportivo La Coruña,,,scheduled,football_data_org,564826
+football,la_liga,2026-27,2027-01-17 00:00:00+00:00,Club Atlético de Madrid,Real Sociedad de Fútbol,,,scheduled,football_data_org,564827
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Real Madrid CF,Real Betis Balompié,,,scheduled,football_data_org,564828
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Getafe CF,CA Osasuna,,,scheduled,football_data_org,564829
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Valencia CF,Sevilla FC,,,scheduled,football_data_org,564830
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Elche CF,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564831
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Deportivo Alavés,FC Barcelona,,,scheduled,football_data_org,564832
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Real Sociedad de Fútbol,Málaga CF,,,scheduled,football_data_org,564833
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Real Racing Club de Santander,RC Celta de Vigo,,,scheduled,football_data_org,564834
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,Athletic Club,Levante UD,,,scheduled,football_data_org,564835
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,RCD Espanyol de Barcelona,Villarreal CF,,,scheduled,football_data_org,564836
+football,la_liga,2026-27,2027-01-24 00:00:00+00:00,RC Deportivo La Coruña,Club Atlético de Madrid,,,scheduled,football_data_org,564837
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Real Betis Balompié,Elche CF,,,scheduled,football_data_org,564838
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Rayo Vallecano de Madrid,Real Madrid CF,,,scheduled,football_data_org,564839
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Club Atlético de Madrid,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564840
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,RC Celta de Vigo,Getafe CF,,,scheduled,football_data_org,564841
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Villarreal CF,Real Racing Club de Santander,,,scheduled,football_data_org,564842
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Levante UD,Real Sociedad de Fútbol,,,scheduled,football_data_org,564843
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,FC Barcelona,Valencia CF,,,scheduled,football_data_org,564844
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Sevilla FC,Athletic Club,,,scheduled,football_data_org,564845
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,CA Osasuna,RC Deportivo La Coruña,,,scheduled,football_data_org,564846
+football,la_liga,2026-27,2027-01-31 00:00:00+00:00,Málaga CF,Deportivo Alavés,,,scheduled,football_data_org,564847
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Athletic Club,CA Osasuna,,,scheduled,football_data_org,564848
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Deportivo Alavés,RC Celta de Vigo,,,scheduled,football_data_org,564849
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Real Betis Balompié,Sevilla FC,,,scheduled,football_data_org,564850
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Elche CF,Levante UD,,,scheduled,football_data_org,564851
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,RCD Espanyol de Barcelona,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564852
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Getafe CF,Villarreal CF,,,scheduled,football_data_org,564853
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,RC Deportivo La Coruña,Málaga CF,,,scheduled,football_data_org,564854
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Real Sociedad de Fútbol,Real Madrid CF,,,scheduled,football_data_org,564855
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,Valencia CF,Real Racing Club de Santander,,,scheduled,football_data_org,564856
+football,la_liga,2026-27,2027-02-07 00:00:00+00:00,FC Barcelona,Club Atlético de Madrid,,,scheduled,football_data_org,564857
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Sevilla FC,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564858
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,CA Osasuna,Club Atlético de Madrid,,,scheduled,football_data_org,564859
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,RC Celta de Vigo,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564860
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Villarreal CF,FC Barcelona,,,scheduled,football_data_org,564861
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Real Sociedad de Fútbol,Real Betis Balompié,,,scheduled,football_data_org,564862
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Elche CF,RC Deportivo La Coruña,,,scheduled,football_data_org,564863
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Valencia CF,Deportivo Alavés,,,scheduled,football_data_org,564864
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Levante UD,Málaga CF,,,scheduled,football_data_org,564865
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Real Racing Club de Santander,Getafe CF,,,scheduled,football_data_org,564866
+football,la_liga,2026-27,2027-02-14 00:00:00+00:00,Real Madrid CF,Athletic Club,,,scheduled,football_data_org,564867
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Deportivo Alavés,Real Racing Club de Santander,,,scheduled,football_data_org,564868
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Málaga CF,Real Betis Balompié,,,scheduled,football_data_org,564869
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Villarreal CF,Valencia CF,,,scheduled,football_data_org,564870
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,FC Barcelona,Levante UD,,,scheduled,football_data_org,564871
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Athletic Club,RC Celta de Vigo,,,scheduled,football_data_org,564872
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,RCD Espanyol de Barcelona,CA Osasuna,,,scheduled,football_data_org,564873
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Sevilla FC,Real Madrid CF,,,scheduled,football_data_org,564874
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Club Atlético de Madrid,Elche CF,,,scheduled,football_data_org,564875
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,RC Deportivo La Coruña,Real Sociedad de Fútbol,,,scheduled,football_data_org,564876
+football,la_liga,2026-27,2027-02-21 00:00:00+00:00,Rayo Vallecano de Madrid,Getafe CF,,,scheduled,football_data_org,564877
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,RC Celta de Vigo,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564878
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Levante UD,RC Deportivo La Coruña,,,scheduled,football_data_org,564879
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Málaga CF,Club Atlético de Madrid,,,scheduled,football_data_org,564880
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,CA Osasuna,Sevilla FC,,,scheduled,football_data_org,564881
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Real Madrid CF,Valencia CF,,,scheduled,football_data_org,564882
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Getafe CF,Deportivo Alavés,,,scheduled,football_data_org,564883
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Athletic Club,FC Barcelona,,,scheduled,football_data_org,564884
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Real Racing Club de Santander,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564885
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Real Betis Balompié,Villarreal CF,,,scheduled,football_data_org,564886
+football,la_liga,2026-27,2027-02-28 00:00:00+00:00,Real Sociedad de Fútbol,Elche CF,,,scheduled,football_data_org,564887
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,FC Barcelona,Real Betis Balompié,,,scheduled,football_data_org,564888
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Elche CF,Málaga CF,,,scheduled,football_data_org,564889
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Deportivo Alavés,Athletic Club,,,scheduled,football_data_org,564890
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Rayo Vallecano de Madrid,CA Osasuna,,,scheduled,football_data_org,564891
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Sevilla FC,Real Sociedad de Fútbol,,,scheduled,football_data_org,564892
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Club Atlético de Madrid,RC Celta de Vigo,,,scheduled,football_data_org,564893
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Villarreal CF,Real Madrid CF,,,scheduled,football_data_org,564894
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,Valencia CF,Levante UD,,,scheduled,football_data_org,564895
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,RC Deportivo La Coruña,Getafe CF,,,scheduled,football_data_org,564896
+football,la_liga,2026-27,2027-03-07 00:00:00+00:00,RCD Espanyol de Barcelona,Real Racing Club de Santander,,,scheduled,football_data_org,564897
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,CA Osasuna,RC Celta de Vigo,,,scheduled,football_data_org,564898
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Elche CF,Villarreal CF,,,scheduled,football_data_org,564899
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Deportivo Alavés,Sevilla FC,,,scheduled,football_data_org,564900
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Athletic Club,Valencia CF,,,scheduled,football_data_org,564901
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Real Betis Balompié,Levante UD,,,scheduled,football_data_org,564902
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Real Racing Club de Santander,Club Atlético de Madrid,,,scheduled,football_data_org,564903
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Málaga CF,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564904
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Getafe CF,Real Sociedad de Fútbol,,,scheduled,football_data_org,564905
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,FC Barcelona,RC Deportivo La Coruña,,,scheduled,football_data_org,564906
+football,la_liga,2026-27,2027-03-14 00:00:00+00:00,Real Madrid CF,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564907
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Villarreal CF,Málaga CF,,,scheduled,football_data_org,564908
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Sevilla FC,Elche CF,,,scheduled,football_data_org,564909
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Levante UD,CA Osasuna,,,scheduled,football_data_org,564910
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,RC Celta de Vigo,Real Madrid CF,,,scheduled,football_data_org,564911
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Rayo Vallecano de Madrid,FC Barcelona,,,scheduled,football_data_org,564912
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Real Sociedad de Fútbol,Deportivo Alavés,,,scheduled,football_data_org,564913
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,RCD Espanyol de Barcelona,Athletic Club,,,scheduled,football_data_org,564914
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Real Racing Club de Santander,Real Betis Balompié,,,scheduled,football_data_org,564915
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Valencia CF,RC Deportivo La Coruña,,,scheduled,football_data_org,564916
+football,la_liga,2026-27,2027-03-21 00:00:00+00:00,Club Atlético de Madrid,Getafe CF,,,scheduled,football_data_org,564917
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Levante UD,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564918
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,FC Barcelona,Sevilla FC,,,scheduled,football_data_org,564919
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Málaga CF,CA Osasuna,,,scheduled,football_data_org,564920
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Athletic Club,Real Racing Club de Santander,,,scheduled,football_data_org,564921
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,RC Deportivo La Coruña,Villarreal CF,,,scheduled,football_data_org,564922
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Real Sociedad de Fútbol,Valencia CF,,,scheduled,football_data_org,564923
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Elche CF,Deportivo Alavés,,,scheduled,football_data_org,564924
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Real Madrid CF,Club Atlético de Madrid,,,scheduled,football_data_org,564925
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Getafe CF,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564926
+football,la_liga,2026-27,2027-04-04 00:00:00+00:00,Real Betis Balompié,RC Celta de Vigo,,,scheduled,football_data_org,564927
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Rayo Vallecano de Madrid,Real Sociedad de Fútbol,,,scheduled,football_data_org,564928
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,RCD Espanyol de Barcelona,Málaga CF,,,scheduled,football_data_org,564929
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Villarreal CF,Athletic Club,,,scheduled,football_data_org,564930
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Deportivo Alavés,Real Betis Balompié,,,scheduled,football_data_org,564931
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Valencia CF,Getafe CF,,,scheduled,football_data_org,564932
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Sevilla FC,RC Deportivo La Coruña,,,scheduled,football_data_org,564933
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,RC Celta de Vigo,Elche CF,,,scheduled,football_data_org,564934
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Real Racing Club de Santander,FC Barcelona,,,scheduled,football_data_org,564935
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,CA Osasuna,Real Madrid CF,,,scheduled,football_data_org,564936
+football,la_liga,2026-27,2027-04-11 00:00:00+00:00,Club Atlético de Madrid,Levante UD,,,scheduled,football_data_org,564937
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Club Atlético de Madrid,Sevilla FC,,,scheduled,football_data_org,564938
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,FC Barcelona,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564939
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Levante UD,Villarreal CF,,,scheduled,football_data_org,564940
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Real Sociedad de Fútbol,Real Racing Club de Santander,,,scheduled,football_data_org,564941
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Málaga CF,Valencia CF,,,scheduled,football_data_org,564942
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,RC Deportivo La Coruña,RC Celta de Vigo,,,scheduled,football_data_org,564943
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Elche CF,CA Osasuna,,,scheduled,football_data_org,564944
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Deportivo Alavés,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564945
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Real Betis Balompié,Athletic Club,,,scheduled,football_data_org,564946
+football,la_liga,2026-27,2027-04-18 00:00:00+00:00,Getafe CF,Real Madrid CF,,,scheduled,football_data_org,564947
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Getafe CF,Real Betis Balompié,,,scheduled,football_data_org,564948
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Valencia CF,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564949
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,RC Celta de Vigo,FC Barcelona,,,scheduled,football_data_org,564950
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,CA Osasuna,Deportivo Alavés,,,scheduled,football_data_org,564951
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Real Madrid CF,Elche CF,,,scheduled,football_data_org,564952
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Athletic Club,RC Deportivo La Coruña,,,scheduled,football_data_org,564953
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Real Racing Club de Santander,Málaga CF,,,scheduled,football_data_org,564954
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Villarreal CF,Club Atlético de Madrid,,,scheduled,football_data_org,564955
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,Sevilla FC,Levante UD,,,scheduled,football_data_org,564956
+football,la_liga,2026-27,2027-04-21 00:00:00+00:00,RCD Espanyol de Barcelona,Real Sociedad de Fútbol,,,scheduled,football_data_org,564957
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,RC Deportivo La Coruña,Real Racing Club de Santander,,,scheduled,football_data_org,564958
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,RC Celta de Vigo,Sevilla FC,,,scheduled,football_data_org,564959
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Real Sociedad de Fútbol,Athletic Club,,,scheduled,football_data_org,564960
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,FC Barcelona,CA Osasuna,,,scheduled,football_data_org,564961
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Rayo Vallecano de Madrid,Villarreal CF,,,scheduled,football_data_org,564962
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Málaga CF,Getafe CF,,,scheduled,football_data_org,564963
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Real Betis Balompié,Valencia CF,,,scheduled,football_data_org,564964
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Elche CF,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564965
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Levante UD,Real Madrid CF,,,scheduled,football_data_org,564966
+football,la_liga,2026-27,2027-05-02 00:00:00+00:00,Club Atlético de Madrid,Deportivo Alavés,,,scheduled,football_data_org,564967
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Valencia CF,Club Atlético de Madrid,,,scheduled,football_data_org,564968
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,CA Osasuna,Real Sociedad de Fútbol,,,scheduled,football_data_org,564969
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Deportivo Alavés,Levante UD,,,scheduled,football_data_org,564970
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Athletic Club,Málaga CF,,,scheduled,football_data_org,564971
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Real Racing Club de Santander,Sevilla FC,,,scheduled,football_data_org,564972
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Rayo Vallecano de Madrid,RC Deportivo La Coruña,,,scheduled,football_data_org,564973
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Real Betis Balompié,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564974
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Real Madrid CF,FC Barcelona,,,scheduled,football_data_org,564975
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Getafe CF,Elche CF,,,scheduled,football_data_org,564976
+football,la_liga,2026-27,2027-05-09 00:00:00+00:00,Villarreal CF,RC Celta de Vigo,,,scheduled,football_data_org,564977
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Club Atlético de Madrid,Rayo Vallecano de Madrid,,,scheduled,football_data_org,564978
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Sevilla FC,Villarreal CF,,,scheduled,football_data_org,564979
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Real Sociedad de Fútbol,FC Barcelona,,,scheduled,football_data_org,564980
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Elche CF,Athletic Club,,,scheduled,football_data_org,564981
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Málaga CF,RC Celta de Vigo,,,scheduled,football_data_org,564982
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,RC Deportivo La Coruña,Deportivo Alavés,,,scheduled,football_data_org,564983
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Levante UD,Getafe CF,,,scheduled,football_data_org,564984
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,RCD Espanyol de Barcelona,Valencia CF,,,scheduled,football_data_org,564985
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,Real Madrid CF,Real Racing Club de Santander,,,scheduled,football_data_org,564986
+football,la_liga,2026-27,2027-05-16 00:00:00+00:00,CA Osasuna,Real Betis Balompié,,,scheduled,football_data_org,564987
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Club Atlético de Madrid,Athletic Club,,,scheduled,football_data_org,564992
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Deportivo Alavés,Real Madrid CF,,,scheduled,football_data_org,564993
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Sevilla FC,Getafe CF,,,scheduled,football_data_org,564994
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Villarreal CF,CA Osasuna,,,scheduled,football_data_org,564995
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Real Racing Club de Santander,Levante UD,,,scheduled,football_data_org,564996
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,RC Deportivo La Coruña,RCD Espanyol de Barcelona,,,scheduled,football_data_org,564997
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Rayo Vallecano de Madrid,Real Betis Balompié,,,scheduled,football_data_org,564988
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,FC Barcelona,Málaga CF,,,scheduled,football_data_org,564989
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,Valencia CF,Elche CF,,,scheduled,football_data_org,564990
+football,la_liga,2026-27,2027-05-23 00:00:00+00:00,RC Celta de Vigo,Real Sociedad de Fútbol,,,scheduled,football_data_org,564991
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Levante UD,RC Celta de Vigo,,,scheduled,football_data_org,564998
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Real Madrid CF,RC Deportivo La Coruña,,,scheduled,football_data_org,564999
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Real Betis Balompié,Club Atlético de Madrid,,,scheduled,football_data_org,565000
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Real Sociedad de Fútbol,Villarreal CF,,,scheduled,football_data_org,565001
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Málaga CF,Sevilla FC,,,scheduled,football_data_org,565002
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Elche CF,Real Racing Club de Santander,,,scheduled,football_data_org,565003
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Athletic Club,Rayo Vallecano de Madrid,,,scheduled,football_data_org,565004
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,RCD Espanyol de Barcelona,Deportivo Alavés,,,scheduled,football_data_org,565005
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,Getafe CF,FC Barcelona,,,scheduled,football_data_org,565006
+football,la_liga,2026-27,2027-05-30 00:00:00+00:00,CA Osasuna,Valencia CF,,,scheduled,football_data_org,565007

@@ -1,0 +1,43 @@
+football:
+
+  premier_league:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  primera_a_clausura:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  serie_a:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  ligue_1:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  la_liga:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  bundesliga:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  brasileirao:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10

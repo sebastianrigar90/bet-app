@@ -1,0 +1,16 @@
+[
+    {
+        "model_name":"poisson",
+        "model_version":"evaluation_test",
+        "sport":"football",
+        "competition":"premier_league",
+        "season":"2026-27",
+        "evaluation_rows":4,
+        "accuracy":0.75,
+        "log_loss":0.9132023877,
+        "brier_score":0.6097396604,
+        "mean_calibration_error":0.3829737683,
+        "evaluation_status":"LOW_SAMPLE_SIZE",
+        "skipped_rows":6
+    }
+]

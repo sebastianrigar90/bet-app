@@ -1,0 +1,381 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,premier_league,2026-27,2026-08-21 19:00:00+00:00,Arsenal,Coventry City,3.0,0.0,finished,pulselive,128923
+football,premier_league,2026-27,2026-08-22 11:30:00+00:00,Hull City,Manchester United,2.0,0.0,finished,pulselive,128926
+football,premier_league,2026-27,2026-08-22 14:00:00+00:00,Everton,Crystal Palace,2.0,0.0,finished,pulselive,128925
+football,premier_league,2026-27,2026-08-22 14:00:00+00:00,Ipswich Town,Sunderland,2.0,1.0,finished,pulselive,128927
+football,premier_league,2026-27,2026-08-22 14:00:00+00:00,Nottingham Forest,Leeds United,0.0,1.0,finished,pulselive,128928
+football,premier_league,2026-27,2026-08-22 16:30:00+00:00,Brentford,Tottenham Hotspur,3.0,0.0,finished,pulselive,128924
+football,premier_league,2026-27,2026-08-23 13:00:00+00:00,Brighton & Hove Albion,Aston Villa,4.0,0.0,finished,pulselive,128929
+football,premier_league,2026-27,2026-08-23 13:00:00+00:00,Manchester City,Bournemouth,2.0,1.0,finished,pulselive,128930
+football,premier_league,2026-27,2026-08-23 15:30:00+00:00,Newcastle United,Liverpool,2.0,2.0,finished,pulselive,128931
+football,premier_league,2026-27,2026-08-24 19:00:00+00:00,Fulham,Chelsea,2.0,3.0,finished,pulselive,128932
+football,premier_league,2026-27,2026-08-28 19:00:00+00:00,Crystal Palace,Manchester City,1.0,4.0,finished,pulselive,128937
+football,premier_league,2026-27,2026-08-29 11:30:00+00:00,Liverpool,Nottingham Forest,2.0,2.0,finished,pulselive,128939
+football,premier_league,2026-27,2026-08-29 14:00:00+00:00,Bournemouth,Everton,1.0,1.0,finished,pulselive,128934
+football,premier_league,2026-27,2026-08-29 14:00:00+00:00,Coventry City,Hull City,0.0,1.0,finished,pulselive,128936
+football,premier_league,2026-27,2026-08-29 16:30:00+00:00,Tottenham Hotspur,Newcastle United,0.0,2.0,finished,pulselive,128942
+football,premier_league,2026-27,2026-08-30 13:00:00+00:00,Chelsea,Brighton & Hove Albion,4.0,3.0,finished,pulselive,128935
+football,premier_league,2026-27,2026-08-30 13:00:00+00:00,Leeds United,Brentford,1.0,1.0,finished,pulselive,128938
+football,premier_league,2026-27,2026-08-30 13:00:00+00:00,Sunderland,Fulham,1.0,0.0,finished,pulselive,128941
+football,premier_league,2026-27,2026-08-30 15:30:00+00:00,Manchester United,Ipswich Town,5.0,2.0,finished,pulselive,128940
+football,premier_league,2026-27,2026-08-31 19:00:00+00:00,Aston Villa,Arsenal,0.0,1.0,finished,pulselive,128933
+football,premier_league,2026-27,2026-09-04 19:00:00+00:00,Ipswich Town,Liverpool,0.0,2.0,finished,pulselive,128949
+football,premier_league,2026-27,2026-09-05 11:30:00+00:00,Newcastle United,Bournemouth,2.0,2.0,finished,pulselive,128951
+football,premier_league,2026-27,2026-09-05 14:00:00+00:00,Brentford,Sunderland,1.0,1.0,finished,pulselive,128944
+football,premier_league,2026-27,2026-09-05 14:00:00+00:00,Brighton & Hove Albion,Leeds United,1.0,1.0,finished,pulselive,128945
+football,premier_league,2026-27,2026-09-05 14:00:00+00:00,Fulham,Crystal Palace,2.0,3.0,finished,pulselive,128947
+football,premier_league,2026-27,2026-09-05 14:00:00+00:00,Manchester City,Coventry City,1.0,0.0,finished,pulselive,128950
+football,premier_league,2026-27,2026-09-05 14:00:00+00:00,Nottingham Forest,Tottenham Hotspur,0.0,0.0,finished,pulselive,128952
+football,premier_league,2026-27,2026-09-05 16:30:00+00:00,Hull City,Aston Villa,0.0,0.0,finished,pulselive,128948
+football,premier_league,2026-27,2026-09-06 13:00:00+00:00,Everton,Manchester United,2.0,2.0,finished,pulselive,128946
+football,premier_league,2026-27,2026-09-06 15:30:00+00:00,Arsenal,Chelsea,2.0,1.0,finished,pulselive,128943
+football,premier_league,2026-27,2026-09-12 14:00:00+00:00,Aston Villa,Nottingham Forest,1.0,2.0,finished,pulselive,128953
+football,premier_league,2026-27,2026-09-12 14:00:00+00:00,Bournemouth,Brentford,2.0,2.0,finished,pulselive,128954
+football,premier_league,2026-27,2026-09-12 14:00:00+00:00,Chelsea,Hull City,2.0,2.0,finished,pulselive,128955
+football,premier_league,2026-27,2026-09-12 14:00:00+00:00,Crystal Palace,Ipswich Town,2.0,3.0,finished,pulselive,128957
+football,premier_league,2026-27,2026-09-12 14:00:00+00:00,Liverpool,Fulham,0.0,0.0,finished,pulselive,128959
+football,premier_league,2026-27,2026-09-12 16:30:00+00:00,Tottenham Hotspur,Everton,0.0,0.0,finished,pulselive,128962
+football,premier_league,2026-27,2026-09-12 19:00:00+00:00,Sunderland,Arsenal,0.0,2.0,finished,pulselive,128961
+football,premier_league,2026-27,2026-09-13 13:00:00+00:00,Coventry City,Brighton & Hove Albion,0.0,5.0,finished,pulselive,128956
+football,premier_league,2026-27,2026-09-13 15:30:00+00:00,Manchester United,Manchester City,0.0,1.0,finished,pulselive,128960
+football,premier_league,2026-27,2026-09-14 19:00:00+00:00,Leeds United,Newcastle United,4.0,1.0,finished,pulselive,128958
+football,premier_league,2026-27,2026-09-18 19:00:00+00:00,Brentford,Chelsea,3.0,0.0,finished,pulselive,128964
+football,premier_league,2026-27,2026-09-19 11:30:00+00:00,Tottenham Hotspur,Aston Villa,2.0,3.0,finished,pulselive,128972
+football,premier_league,2026-27,2026-09-19 14:00:00+00:00,Brighton & Hove Albion,Arsenal,3.0,0.0,finished,pulselive,128965
+football,premier_league,2026-27,2026-09-19 14:00:00+00:00,Everton,Ipswich Town,1.0,0.0,finished,pulselive,128966
+football,premier_league,2026-27,2026-09-19 14:00:00+00:00,Newcastle United,Hull City,2.0,1.0,finished,pulselive,128970
+football,premier_league,2026-27,2026-09-19 16:30:00+00:00,Nottingham Forest,Coventry City,0.0,1.0,finished,pulselive,128971
+football,premier_league,2026-27,2026-09-20 13:00:00+00:00,Bournemouth,Liverpool,0.0,1.0,finished,pulselive,128963
+football,premier_league,2026-27,2026-09-20 13:00:00+00:00,Leeds United,Crystal Palace,0.0,0.0,finished,pulselive,128968
+football,premier_league,2026-27,2026-09-20 13:00:00+00:00,Manchester City,Sunderland,5.0,3.0,finished,pulselive,128969
+football,premier_league,2026-27,2026-09-20 15:30:00+00:00,Fulham,Manchester United,1.0,1.0,finished,pulselive,128967
+football,premier_league,2026-27,2026-10-10 11:30:00+00:00,Arsenal,Leeds United,,,scheduled,pulselive,128973
+football,premier_league,2026-27,2026-10-10 14:00:00+00:00,Aston Villa,Brentford,,,scheduled,pulselive,128974
+football,premier_league,2026-27,2026-10-10 14:00:00+00:00,Chelsea,Bournemouth,,,scheduled,pulselive,128975
+football,premier_league,2026-27,2026-10-10 14:00:00+00:00,Ipswich Town,Fulham,,,scheduled,pulselive,128979
+football,premier_league,2026-27,2026-10-10 14:00:00+00:00,Sunderland,Brighton & Hove Albion,,,scheduled,pulselive,128982
+football,premier_league,2026-27,2026-10-10 16:30:00+00:00,Manchester United,Tottenham Hotspur,,,scheduled,pulselive,128981
+football,premier_league,2026-27,2026-10-11 13:00:00+00:00,Crystal Palace,Nottingham Forest,,,scheduled,pulselive,128977
+football,premier_league,2026-27,2026-10-11 13:00:00+00:00,Hull City,Everton,,,scheduled,pulselive,128978
+football,premier_league,2026-27,2026-10-11 15:30:00+00:00,Liverpool,Manchester City,,,scheduled,pulselive,128980
+football,premier_league,2026-27,2026-10-12 19:00:00+00:00,Coventry City,Newcastle United,,,scheduled,pulselive,128976
+football,premier_league,2026-27,2026-10-17 11:30:00+00:00,Everton,Chelsea,,,scheduled,pulselive,128986
+football,premier_league,2026-27,2026-10-17 14:00:00+00:00,Brentford,Liverpool,,,scheduled,pulselive,128984
+football,premier_league,2026-27,2026-10-17 14:00:00+00:00,Fulham,Hull City,,,scheduled,pulselive,128987
+football,premier_league,2026-27,2026-10-17 14:00:00+00:00,Manchester City,Ipswich Town,,,scheduled,pulselive,128989
+football,premier_league,2026-27,2026-10-17 16:30:00+00:00,Newcastle United,Aston Villa,,,scheduled,pulselive,128990
+football,premier_league,2026-27,2026-10-18 13:00:00+00:00,Bournemouth,Sunderland,,,scheduled,pulselive,128983
+football,premier_league,2026-27,2026-10-18 13:00:00+00:00,Brighton & Hove Albion,Crystal Palace,,,scheduled,pulselive,128985
+football,premier_league,2026-27,2026-10-18 13:00:00+00:00,Leeds United,Manchester United,,,scheduled,pulselive,128988
+football,premier_league,2026-27,2026-10-18 15:30:00+00:00,Nottingham Forest,Arsenal,,,scheduled,pulselive,128991
+football,premier_league,2026-27,2026-10-19 19:00:00+00:00,Tottenham Hotspur,Coventry City,,,scheduled,pulselive,128992
+football,premier_league,2026-27,2026-10-23 19:00:00+00:00,Ipswich Town,Nottingham Forest,,,scheduled,pulselive,128999
+football,premier_league,2026-27,2026-10-24 11:30:00+00:00,Aston Villa,Manchester City,,,scheduled,pulselive,128994
+football,premier_league,2026-27,2026-10-24 14:00:00+00:00,Arsenal,Everton,,,scheduled,pulselive,128993
+football,premier_league,2026-27,2026-10-24 14:00:00+00:00,Coventry City,Fulham,,,scheduled,pulselive,128996
+football,premier_league,2026-27,2026-10-24 16:30:00+00:00,Chelsea,Tottenham Hotspur,,,scheduled,pulselive,128995
+football,premier_league,2026-27,2026-10-25 14:00:00+00:00,Crystal Palace,Newcastle United,,,scheduled,pulselive,128997
+football,premier_league,2026-27,2026-10-25 14:00:00+00:00,Hull City,Brentford,,,scheduled,pulselive,128998
+football,premier_league,2026-27,2026-10-25 14:00:00+00:00,Liverpool,Brighton & Hove Albion,,,scheduled,pulselive,129000
+football,premier_league,2026-27,2026-10-25 14:00:00+00:00,Manchester United,Bournemouth,,,scheduled,pulselive,129001
+football,premier_league,2026-27,2026-10-25 16:30:00+00:00,Sunderland,Leeds United,,,scheduled,pulselive,129002
+football,premier_league,2026-27,2026-10-31 12:30:00+00:00,Chelsea,Manchester United,,,scheduled,pulselive,129006
+football,premier_league,2026-27,2026-10-31 15:00:00+00:00,Bournemouth,Leeds United,,,scheduled,pulselive,129004
+football,premier_league,2026-27,2026-10-31 15:00:00+00:00,Brentford,Nottingham Forest,,,scheduled,pulselive,129005
+football,premier_league,2026-27,2026-10-31 15:00:00+00:00,Coventry City,Sunderland,,,scheduled,pulselive,129007
+football,premier_league,2026-27,2026-10-31 15:00:00+00:00,Hull City,Ipswich Town,,,scheduled,pulselive,129008
+football,premier_league,2026-27,2026-10-31 15:00:00+00:00,Manchester City,Brighton & Hove Albion,,,scheduled,pulselive,129010
+football,premier_league,2026-27,2026-10-31 17:30:00+00:00,Tottenham Hotspur,Crystal Palace,,,scheduled,pulselive,129012
+football,premier_league,2026-27,2026-10-31 20:00:00+00:00,Aston Villa,Fulham,,,scheduled,pulselive,129003
+football,premier_league,2026-27,2026-11-01 16:30:00+00:00,Liverpool,Arsenal,,,scheduled,pulselive,129009
+football,premier_league,2026-27,2026-11-02 20:00:00+00:00,Newcastle United,Everton,,,scheduled,pulselive,129011
+football,premier_league,2026-27,2026-11-06 20:00:00+00:00,Everton,Coventry City,,,scheduled,pulselive,129016
+football,premier_league,2026-27,2026-11-07 12:30:00+00:00,Leeds United,Tottenham Hotspur,,,scheduled,pulselive,129019
+football,premier_league,2026-27,2026-11-07 15:00:00+00:00,Arsenal,Hull City,,,scheduled,pulselive,129013
+football,premier_league,2026-27,2026-11-07 15:00:00+00:00,Fulham,Newcastle United,,,scheduled,pulselive,129017
+football,premier_league,2026-27,2026-11-07 17:30:00+00:00,Nottingham Forest,Manchester City,,,scheduled,pulselive,129021
+football,premier_league,2026-27,2026-11-08 14:00:00+00:00,Brighton & Hove Albion,Brentford,,,scheduled,pulselive,129014
+football,premier_league,2026-27,2026-11-08 14:00:00+00:00,Crystal Palace,Liverpool,,,scheduled,pulselive,129015
+football,premier_league,2026-27,2026-11-08 14:00:00+00:00,Ipswich Town,Bournemouth,,,scheduled,pulselive,129018
+football,premier_league,2026-27,2026-11-08 14:00:00+00:00,Sunderland,Chelsea,,,scheduled,pulselive,129022
+football,premier_league,2026-27,2026-11-08 16:30:00+00:00,Manchester United,Aston Villa,,,scheduled,pulselive,129020
+football,premier_league,2026-27,2026-11-21 12:30:00+00:00,Manchester City,Fulham,,,scheduled,pulselive,129030
+football,premier_league,2026-27,2026-11-21 15:00:00+00:00,Aston Villa,Sunderland,,,scheduled,pulselive,129023
+football,premier_league,2026-27,2026-11-21 15:00:00+00:00,Bournemouth,Nottingham Forest,,,scheduled,pulselive,129024
+football,premier_league,2026-27,2026-11-21 15:00:00+00:00,Chelsea,Leeds United,,,scheduled,pulselive,129026
+football,premier_league,2026-27,2026-11-21 15:00:00+00:00,Coventry City,Crystal Palace,,,scheduled,pulselive,129027
+football,premier_league,2026-27,2026-11-21 15:00:00+00:00,Tottenham Hotspur,Ipswich Town,,,scheduled,pulselive,129032
+football,premier_league,2026-27,2026-11-21 17:30:00+00:00,Newcastle United,Arsenal,,,scheduled,pulselive,129031
+football,premier_league,2026-27,2026-11-22 14:00:00+00:00,Hull City,Brighton & Hove Albion,,,scheduled,pulselive,129028
+football,premier_league,2026-27,2026-11-22 16:30:00+00:00,Liverpool,Manchester United,,,scheduled,pulselive,129029
+football,premier_league,2026-27,2026-11-23 20:00:00+00:00,Brentford,Everton,,,scheduled,pulselive,129025
+football,premier_league,2026-27,2026-11-27 20:00:00+00:00,Nottingham Forest,Chelsea,,,scheduled,pulselive,129041
+football,premier_league,2026-27,2026-11-28 15:00:00+00:00,Leeds United,Coventry City,,,scheduled,pulselive,129039
+football,premier_league,2026-27,2026-11-28 15:00:00+00:00,Manchester United,Brentford,,,scheduled,pulselive,129040
+football,premier_league,2026-27,2026-11-28 17:30:00+00:00,Ipswich Town,Aston Villa,,,scheduled,pulselive,129038
+football,premier_league,2026-27,2026-11-29 12:00:00+00:00,Everton,Liverpool,,,scheduled,pulselive,129036
+football,premier_league,2026-27,2026-11-29 14:05:00+00:00,Brighton & Hove Albion,Newcastle United,,,scheduled,pulselive,129034
+football,premier_league,2026-27,2026-11-29 14:05:00+00:00,Crystal Palace,Hull City,,,scheduled,pulselive,129035
+football,premier_league,2026-27,2026-11-29 14:05:00+00:00,Fulham,Bournemouth,,,scheduled,pulselive,129037
+football,premier_league,2026-27,2026-11-29 14:05:00+00:00,Sunderland,Tottenham Hotspur,,,scheduled,pulselive,129042
+football,premier_league,2026-27,2026-11-29 16:30:00+00:00,Arsenal,Manchester City,,,scheduled,pulselive,129033
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Aston Villa,Everton,,,scheduled,pulselive,129043
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Bournemouth,Brighton & Hove Albion,,,scheduled,pulselive,129044
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Brentford,Arsenal,,,scheduled,pulselive,129045
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Chelsea,Crystal Palace,,,scheduled,pulselive,129046
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Coventry City,Ipswich Town,,,scheduled,pulselive,129047
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Hull City,Nottingham Forest,,,scheduled,pulselive,129048
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Liverpool,Sunderland,,,scheduled,pulselive,129049
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Manchester City,Leeds United,,,scheduled,pulselive,129050
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Newcastle United,Manchester United,,,scheduled,pulselive,129051
+football,premier_league,2026-27,2026-12-02 20:00:00+00:00,Tottenham Hotspur,Fulham,,,scheduled,pulselive,129052
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Aston Villa,Crystal Palace,,,scheduled,pulselive,129053
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Bournemouth,Hull City,,,scheduled,pulselive,129054
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Brentford,Manchester City,,,scheduled,pulselive,129055
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Chelsea,Liverpool,,,scheduled,pulselive,129056
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Everton,Fulham,,,scheduled,pulselive,129057
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Leeds United,Ipswich Town,,,scheduled,pulselive,129058
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Manchester United,Coventry City,,,scheduled,pulselive,129059
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Newcastle United,Sunderland,,,scheduled,pulselive,129060
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Nottingham Forest,Brighton & Hove Albion,,,scheduled,pulselive,129061
+football,premier_league,2026-27,2026-12-05 15:00:00+00:00,Tottenham Hotspur,Arsenal,,,scheduled,pulselive,129062
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Arsenal,Bournemouth,,,scheduled,pulselive,129063
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Brighton & Hove Albion,Everton,,,scheduled,pulselive,129064
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Coventry City,Aston Villa,,,scheduled,pulselive,129065
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Crystal Palace,Manchester United,,,scheduled,pulselive,129066
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Fulham,Brentford,,,scheduled,pulselive,129067
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Hull City,Tottenham Hotspur,,,scheduled,pulselive,129068
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Ipswich Town,Newcastle United,,,scheduled,pulselive,129069
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Liverpool,Leeds United,,,scheduled,pulselive,129070
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Manchester City,Chelsea,,,scheduled,pulselive,129071
+football,premier_league,2026-27,2026-12-12 15:00:00+00:00,Sunderland,Nottingham Forest,,,scheduled,pulselive,129072
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Arsenal,Manchester United,,,scheduled,pulselive,129073
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Bournemouth,Coventry City,,,scheduled,pulselive,129074
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Brentford,Newcastle United,,,scheduled,pulselive,129075
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Brighton & Hove Albion,Ipswich Town,,,scheduled,pulselive,129076
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Chelsea,Aston Villa,,,scheduled,pulselive,129077
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Leeds United,Fulham,,,scheduled,pulselive,129078
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Liverpool,Tottenham Hotspur,,,scheduled,pulselive,129079
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Manchester City,Hull City,,,scheduled,pulselive,129080
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Nottingham Forest,Everton,,,scheduled,pulselive,129081
+football,premier_league,2026-27,2026-12-19 15:00:00+00:00,Sunderland,Crystal Palace,,,scheduled,pulselive,129082
+football,premier_league,2026-27,2026-12-26 12:30:00+00:00,Aston Villa,Leeds United,,,scheduled,pulselive,129083
+football,premier_league,2026-27,2026-12-26 15:00:00+00:00,Everton,Sunderland,,,scheduled,pulselive,129086
+football,premier_league,2026-27,2026-12-26 15:00:00+00:00,Fulham,Brighton & Hove Albion,,,scheduled,pulselive,129087
+football,premier_league,2026-27,2026-12-26 15:00:00+00:00,Ipswich Town,Brentford,,,scheduled,pulselive,129089
+football,premier_league,2026-27,2026-12-26 15:00:00+00:00,Tottenham Hotspur,Bournemouth,,,scheduled,pulselive,129092
+football,premier_league,2026-27,2026-12-26 17:30:00+00:00,Hull City,Liverpool,,,scheduled,pulselive,129088
+football,premier_league,2026-27,2026-12-26 20:00:00+00:00,Newcastle United,Manchester City,,,scheduled,pulselive,129091
+football,premier_league,2026-27,2026-12-27 14:00:00+00:00,Coventry City,Chelsea,,,scheduled,pulselive,129084
+football,premier_league,2026-27,2026-12-27 16:30:00+00:00,Manchester United,Nottingham Forest,,,scheduled,pulselive,129090
+football,premier_league,2026-27,2026-12-27 19:00:00+00:00,Crystal Palace,Arsenal,,,scheduled,pulselive,129085
+football,premier_league,2026-27,2026-12-29 19:30:00+00:00,Hull City,Leeds United,,,scheduled,pulselive,129098
+football,premier_league,2026-27,2026-12-29 19:30:00+00:00,Tottenham Hotspur,Brighton & Hove Albion,,,scheduled,pulselive,129102
+football,premier_league,2026-27,2026-12-29 20:15:00+00:00,Everton,Manchester City,,,scheduled,pulselive,129096
+football,premier_league,2026-27,2026-12-30 19:30:00+00:00,Coventry City,Brentford,,,scheduled,pulselive,129094
+football,premier_league,2026-27,2026-12-30 19:30:00+00:00,Crystal Palace,Bournemouth,,,scheduled,pulselive,129095
+football,premier_league,2026-27,2026-12-30 19:30:00+00:00,Fulham,Arsenal,,,scheduled,pulselive,129097
+football,premier_league,2026-27,2026-12-30 19:30:00+00:00,Manchester United,Sunderland,,,scheduled,pulselive,129100
+football,premier_league,2026-27,2026-12-30 19:30:00+00:00,Newcastle United,Nottingham Forest,,,scheduled,pulselive,129101
+football,premier_league,2026-27,2026-12-30 20:15:00+00:00,Aston Villa,Liverpool,,,scheduled,pulselive,129093
+football,premier_league,2026-27,2026-12-30 20:15:00+00:00,Ipswich Town,Chelsea,,,scheduled,pulselive,129099
+football,premier_league,2026-27,2027-01-01 20:00:00+00:00,Leeds United,Everton,,,scheduled,pulselive,129108
+football,premier_league,2026-27,2027-01-02 12:30:00+00:00,Brighton & Hove Albion,Manchester United,,,scheduled,pulselive,129106
+football,premier_league,2026-27,2027-01-02 15:00:00+00:00,Arsenal,Ipswich Town,,,scheduled,pulselive,129103
+football,premier_league,2026-27,2027-01-02 15:00:00+00:00,Brentford,Crystal Palace,,,scheduled,pulselive,129105
+football,premier_league,2026-27,2027-01-02 15:00:00+00:00,Liverpool,Coventry City,,,scheduled,pulselive,129109
+football,premier_league,2026-27,2027-01-02 15:00:00+00:00,Nottingham Forest,Fulham,,,scheduled,pulselive,129111
+football,premier_league,2026-27,2027-01-02 15:00:00+00:00,Sunderland,Hull City,,,scheduled,pulselive,129112
+football,premier_league,2026-27,2027-01-02 17:30:00+00:00,Bournemouth,Aston Villa,,,scheduled,pulselive,129104
+football,premier_league,2026-27,2027-01-03 14:00:00+00:00,Chelsea,Newcastle United,,,scheduled,pulselive,129107
+football,premier_league,2026-27,2027-01-03 16:30:00+00:00,Manchester City,Tottenham Hotspur,,,scheduled,pulselive,129110
+football,premier_league,2026-27,2027-01-05 19:30:00+00:00,Arsenal,Brentford,,,scheduled,pulselive,129113
+football,premier_league,2026-27,2027-01-05 19:30:00+00:00,Brighton & Hove Albion,Bournemouth,,,scheduled,pulselive,129114
+football,premier_league,2026-27,2027-01-05 19:30:00+00:00,Everton,Aston Villa,,,scheduled,pulselive,129116
+football,premier_league,2026-27,2027-01-05 19:30:00+00:00,Nottingham Forest,Hull City,,,scheduled,pulselive,129121
+football,premier_league,2026-27,2027-01-05 20:15:00+00:00,Sunderland,Liverpool,,,scheduled,pulselive,129122
+football,premier_league,2026-27,2027-01-06 19:30:00+00:00,Crystal Palace,Chelsea,,,scheduled,pulselive,129115
+football,premier_league,2026-27,2027-01-06 19:30:00+00:00,Fulham,Tottenham Hotspur,,,scheduled,pulselive,129117
+football,premier_league,2026-27,2027-01-06 19:30:00+00:00,Ipswich Town,Coventry City,,,scheduled,pulselive,129118
+football,premier_league,2026-27,2027-01-06 20:15:00+00:00,Leeds United,Manchester City,,,scheduled,pulselive,129119
+football,premier_league,2026-27,2027-01-07 20:00:00+00:00,Manchester United,Newcastle United,,,scheduled,pulselive,129120
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Aston Villa,Manchester United,,,scheduled,pulselive,129123
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Bournemouth,Ipswich Town,,,scheduled,pulselive,129124
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Brentford,Brighton & Hove Albion,,,scheduled,pulselive,129125
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Chelsea,Sunderland,,,scheduled,pulselive,129126
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Coventry City,Everton,,,scheduled,pulselive,129127
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Hull City,Arsenal,,,scheduled,pulselive,129128
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Liverpool,Crystal Palace,,,scheduled,pulselive,129129
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Manchester City,Nottingham Forest,,,scheduled,pulselive,129130
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Newcastle United,Fulham,,,scheduled,pulselive,129131
+football,premier_league,2026-27,2027-01-16 15:00:00+00:00,Tottenham Hotspur,Leeds United,,,scheduled,pulselive,129132
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Arsenal,Newcastle United,,,scheduled,pulselive,129133
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Brighton & Hove Albion,Manchester City,,,scheduled,pulselive,129134
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Crystal Palace,Tottenham Hotspur,,,scheduled,pulselive,129135
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Everton,Brentford,,,scheduled,pulselive,129136
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Fulham,Aston Villa,,,scheduled,pulselive,129137
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Ipswich Town,Hull City,,,scheduled,pulselive,129138
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Leeds United,Chelsea,,,scheduled,pulselive,129139
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Manchester United,Liverpool,,,scheduled,pulselive,129140
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Nottingham Forest,Bournemouth,,,scheduled,pulselive,129141
+football,premier_league,2026-27,2027-01-23 15:00:00+00:00,Sunderland,Coventry City,,,scheduled,pulselive,129142
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Aston Villa,Ipswich Town,,,scheduled,pulselive,129143
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Bournemouth,Fulham,,,scheduled,pulselive,129144
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Brentford,Manchester United,,,scheduled,pulselive,129145
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Chelsea,Nottingham Forest,,,scheduled,pulselive,129146
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Coventry City,Leeds United,,,scheduled,pulselive,129147
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Hull City,Crystal Palace,,,scheduled,pulselive,129148
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Liverpool,Everton,,,scheduled,pulselive,129149
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Manchester City,Arsenal,,,scheduled,pulselive,129150
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Newcastle United,Brighton & Hove Albion,,,scheduled,pulselive,129151
+football,premier_league,2026-27,2027-01-30 15:00:00+00:00,Tottenham Hotspur,Sunderland,,,scheduled,pulselive,129152
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Arsenal,Liverpool,,,scheduled,pulselive,129153
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Brighton & Hove Albion,Hull City,,,scheduled,pulselive,129154
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Crystal Palace,Coventry City,,,scheduled,pulselive,129155
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Everton,Newcastle United,,,scheduled,pulselive,129156
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Fulham,Manchester City,,,scheduled,pulselive,129157
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Ipswich Town,Tottenham Hotspur,,,scheduled,pulselive,129158
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Leeds United,Bournemouth,,,scheduled,pulselive,129159
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Manchester United,Chelsea,,,scheduled,pulselive,129160
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Nottingham Forest,Brentford,,,scheduled,pulselive,129161
+football,premier_league,2026-27,2027-02-06 15:00:00+00:00,Sunderland,Aston Villa,,,scheduled,pulselive,129162
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Aston Villa,Bournemouth,,,scheduled,pulselive,129163
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Coventry City,Liverpool,,,scheduled,pulselive,129164
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Crystal Palace,Brentford,,,scheduled,pulselive,129165
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Everton,Leeds United,,,scheduled,pulselive,129166
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Fulham,Nottingham Forest,,,scheduled,pulselive,129167
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Hull City,Sunderland,,,scheduled,pulselive,129168
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Ipswich Town,Arsenal,,,scheduled,pulselive,129169
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Manchester United,Brighton & Hove Albion,,,scheduled,pulselive,129170
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Newcastle United,Chelsea,,,scheduled,pulselive,129171
+football,premier_league,2026-27,2027-02-10 20:00:00+00:00,Tottenham Hotspur,Manchester City,,,scheduled,pulselive,129172
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Arsenal,Fulham,,,scheduled,pulselive,129173
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Bournemouth,Crystal Palace,,,scheduled,pulselive,129174
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Brentford,Coventry City,,,scheduled,pulselive,129175
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Brighton & Hove Albion,Tottenham Hotspur,,,scheduled,pulselive,129176
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Chelsea,Ipswich Town,,,scheduled,pulselive,129177
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Leeds United,Aston Villa,,,scheduled,pulselive,129178
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Liverpool,Hull City,,,scheduled,pulselive,129179
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Manchester City,Newcastle United,,,scheduled,pulselive,129180
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Nottingham Forest,Manchester United,,,scheduled,pulselive,129181
+football,premier_league,2026-27,2027-02-20 15:00:00+00:00,Sunderland,Everton,,,scheduled,pulselive,129182
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Aston Villa,Chelsea,,,scheduled,pulselive,129183
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Coventry City,Bournemouth,,,scheduled,pulselive,129184
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Crystal Palace,Sunderland,,,scheduled,pulselive,129185
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Everton,Nottingham Forest,,,scheduled,pulselive,129186
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Fulham,Leeds United,,,scheduled,pulselive,129187
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Hull City,Manchester City,,,scheduled,pulselive,129188
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Ipswich Town,Brighton & Hove Albion,,,scheduled,pulselive,129189
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Manchester United,Arsenal,,,scheduled,pulselive,129190
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Newcastle United,Brentford,,,scheduled,pulselive,129191
+football,premier_league,2026-27,2027-02-27 15:00:00+00:00,Tottenham Hotspur,Liverpool,,,scheduled,pulselive,129192
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Arsenal,Crystal Palace,,,scheduled,pulselive,129193
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Bournemouth,Tottenham Hotspur,,,scheduled,pulselive,129194
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Brentford,Ipswich Town,,,scheduled,pulselive,129195
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Brighton & Hove Albion,Fulham,,,scheduled,pulselive,129196
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Chelsea,Coventry City,,,scheduled,pulselive,129197
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Leeds United,Hull City,,,scheduled,pulselive,129198
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Liverpool,Aston Villa,,,scheduled,pulselive,129199
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Manchester City,Everton,,,scheduled,pulselive,129200
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Nottingham Forest,Newcastle United,,,scheduled,pulselive,129201
+football,premier_league,2026-27,2027-03-03 20:00:00+00:00,Sunderland,Manchester United,,,scheduled,pulselive,129202
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Aston Villa,Hull City,,,scheduled,pulselive,129203
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Bournemouth,Newcastle United,,,scheduled,pulselive,129204
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Chelsea,Arsenal,,,scheduled,pulselive,129205
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Coventry City,Manchester City,,,scheduled,pulselive,129206
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Crystal Palace,Fulham,,,scheduled,pulselive,129207
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Leeds United,Brighton & Hove Albion,,,scheduled,pulselive,129208
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Liverpool,Ipswich Town,,,scheduled,pulselive,129209
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Manchester United,Everton,,,scheduled,pulselive,129210
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Sunderland,Brentford,,,scheduled,pulselive,129211
+football,premier_league,2026-27,2027-03-13 15:00:00+00:00,Tottenham Hotspur,Nottingham Forest,,,scheduled,pulselive,129212
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Arsenal,Sunderland,,,scheduled,pulselive,129213
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Brentford,Bournemouth,,,scheduled,pulselive,129214
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Brighton & Hove Albion,Coventry City,,,scheduled,pulselive,129215
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Everton,Tottenham Hotspur,,,scheduled,pulselive,129216
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Fulham,Liverpool,,,scheduled,pulselive,129217
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Hull City,Chelsea,,,scheduled,pulselive,129218
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Ipswich Town,Crystal Palace,,,scheduled,pulselive,129219
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Manchester City,Manchester United,,,scheduled,pulselive,129220
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Newcastle United,Leeds United,,,scheduled,pulselive,129221
+football,premier_league,2026-27,2027-03-20 15:00:00+00:00,Nottingham Forest,Aston Villa,,,scheduled,pulselive,129222
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Aston Villa,Brighton & Hove Albion,,,scheduled,pulselive,129223
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Bournemouth,Manchester City,,,scheduled,pulselive,129224
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Chelsea,Fulham,,,scheduled,pulselive,129225
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Coventry City,Arsenal,,,scheduled,pulselive,129226
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Crystal Palace,Everton,,,scheduled,pulselive,129227
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Leeds United,Nottingham Forest,,,scheduled,pulselive,129228
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Liverpool,Newcastle United,,,scheduled,pulselive,129229
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Manchester United,Hull City,,,scheduled,pulselive,129230
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Sunderland,Ipswich Town,,,scheduled,pulselive,129231
+football,premier_league,2026-27,2027-04-10 14:00:00+00:00,Tottenham Hotspur,Brentford,,,scheduled,pulselive,129232
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Arsenal,Aston Villa,,,scheduled,pulselive,129233
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Brentford,Leeds United,,,scheduled,pulselive,129234
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Brighton & Hove Albion,Chelsea,,,scheduled,pulselive,129235
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Everton,Bournemouth,,,scheduled,pulselive,129236
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Fulham,Sunderland,,,scheduled,pulselive,129237
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Hull City,Coventry City,,,scheduled,pulselive,129238
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Ipswich Town,Manchester United,,,scheduled,pulselive,129239
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Manchester City,Crystal Palace,,,scheduled,pulselive,129240
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Newcastle United,Tottenham Hotspur,,,scheduled,pulselive,129241
+football,premier_league,2026-27,2027-04-17 14:00:00+00:00,Nottingham Forest,Liverpool,,,scheduled,pulselive,129242
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Aston Villa,Coventry City,,,scheduled,pulselive,129243
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Bournemouth,Arsenal,,,scheduled,pulselive,129244
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Brentford,Fulham,,,scheduled,pulselive,129245
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Chelsea,Manchester City,,,scheduled,pulselive,129246
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Everton,Brighton & Hove Albion,,,scheduled,pulselive,129247
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Leeds United,Liverpool,,,scheduled,pulselive,129248
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Manchester United,Crystal Palace,,,scheduled,pulselive,129249
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Newcastle United,Ipswich Town,,,scheduled,pulselive,129250
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Nottingham Forest,Sunderland,,,scheduled,pulselive,129251
+football,premier_league,2026-27,2027-04-24 14:00:00+00:00,Tottenham Hotspur,Hull City,,,scheduled,pulselive,129252
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Arsenal,Tottenham Hotspur,,,scheduled,pulselive,129253
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Brighton & Hove Albion,Nottingham Forest,,,scheduled,pulselive,129254
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Coventry City,Manchester United,,,scheduled,pulselive,129255
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Crystal Palace,Aston Villa,,,scheduled,pulselive,129256
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Fulham,Everton,,,scheduled,pulselive,129257
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Hull City,Bournemouth,,,scheduled,pulselive,129258
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Ipswich Town,Leeds United,,,scheduled,pulselive,129259
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Liverpool,Chelsea,,,scheduled,pulselive,129260
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Manchester City,Brentford,,,scheduled,pulselive,129261
+football,premier_league,2026-27,2027-05-01 14:00:00+00:00,Sunderland,Newcastle United,,,scheduled,pulselive,129262
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Bournemouth,Manchester United,,,scheduled,pulselive,129263
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Brentford,Aston Villa,,,scheduled,pulselive,129264
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Brighton & Hove Albion,Sunderland,,,scheduled,pulselive,129265
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Everton,Hull City,,,scheduled,pulselive,129266
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Fulham,Ipswich Town,,,scheduled,pulselive,129267
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Leeds United,Arsenal,,,scheduled,pulselive,129268
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Manchester City,Liverpool,,,scheduled,pulselive,129269
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Newcastle United,Coventry City,,,scheduled,pulselive,129270
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Nottingham Forest,Crystal Palace,,,scheduled,pulselive,129271
+football,premier_league,2026-27,2027-05-08 14:00:00+00:00,Tottenham Hotspur,Chelsea,,,scheduled,pulselive,129272
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Arsenal,Nottingham Forest,,,scheduled,pulselive,129273
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Aston Villa,Newcastle United,,,scheduled,pulselive,129274
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Chelsea,Everton,,,scheduled,pulselive,129275
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Coventry City,Tottenham Hotspur,,,scheduled,pulselive,129276
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Crystal Palace,Brighton & Hove Albion,,,scheduled,pulselive,129277
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Hull City,Fulham,,,scheduled,pulselive,129278
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Ipswich Town,Manchester City,,,scheduled,pulselive,129279
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Liverpool,Brentford,,,scheduled,pulselive,129280
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Manchester United,Leeds United,,,scheduled,pulselive,129281
+football,premier_league,2026-27,2027-05-15 14:00:00+00:00,Sunderland,Bournemouth,,,scheduled,pulselive,129282
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Bournemouth,Chelsea,,,scheduled,pulselive,129283
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Brentford,Hull City,,,scheduled,pulselive,129284
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Brighton & Hove Albion,Liverpool,,,scheduled,pulselive,129285
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Everton,Arsenal,,,scheduled,pulselive,129286
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Fulham,Coventry City,,,scheduled,pulselive,129287
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Leeds United,Sunderland,,,scheduled,pulselive,129288
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Manchester City,Aston Villa,,,scheduled,pulselive,129289
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Newcastle United,Crystal Palace,,,scheduled,pulselive,129290
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Nottingham Forest,Ipswich Town,,,scheduled,pulselive,129291
+football,premier_league,2026-27,2027-05-23 14:00:00+00:00,Tottenham Hotspur,Manchester United,,,scheduled,pulselive,129292
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Arsenal,Brighton & Hove Albion,,,scheduled,pulselive,129293
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Aston Villa,Tottenham Hotspur,,,scheduled,pulselive,129294
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Chelsea,Brentford,,,scheduled,pulselive,129295
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Coventry City,Nottingham Forest,,,scheduled,pulselive,129296
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Crystal Palace,Leeds United,,,scheduled,pulselive,129297
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Hull City,Newcastle United,,,scheduled,pulselive,129298
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Ipswich Town,Everton,,,scheduled,pulselive,129299
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Liverpool,Bournemouth,,,scheduled,pulselive,129300
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Manchester United,Fulham,,,scheduled,pulselive,129301
+football,premier_league,2026-27,2027-05-30 15:00:00+00:00,Sunderland,Manchester City,,,scheduled,pulselive,129302

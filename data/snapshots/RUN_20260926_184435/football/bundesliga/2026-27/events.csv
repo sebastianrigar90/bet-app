@@ -1,0 +1,307 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,bundesliga,2026-27,2026-08-28 18:30:00+00:00,FC Bayern München,VfB Stuttgart,5.0,1.0,finished,football_data_org,565776
+football,bundesliga,2026-27,2026-08-29 13:30:00+00:00,RB Leipzig,Borussia Mönchengladbach,3.0,0.0,finished,football_data_org,565777
+football,bundesliga,2026-27,2026-08-29 13:30:00+00:00,1. FSV Mainz 05,SC Paderborn 07,0.0,0.0,finished,football_data_org,565778
+football,bundesliga,2026-27,2026-08-29 13:30:00+00:00,1. FC Union Berlin,Eintracht Frankfurt,3.0,3.0,finished,football_data_org,565779
+football,bundesliga,2026-27,2026-08-29 13:30:00+00:00,SV 07 Elversberg,Bayer 04 Leverkusen,3.0,2.0,finished,football_data_org,565780
+football,bundesliga,2026-27,2026-08-29 13:30:00+00:00,1. FC Köln,TSG 1899 Hoffenheim,3.0,2.0,finished,football_data_org,565783
+football,bundesliga,2026-27,2026-08-29 16:30:00+00:00,Borussia Dortmund,Hamburger SV,2.0,0.0,finished,football_data_org,565781
+football,bundesliga,2026-27,2026-08-30 13:30:00+00:00,SC Freiburg,SV Werder Bremen,4.0,1.0,finished,football_data_org,565784
+football,bundesliga,2026-27,2026-08-30 15:30:00+00:00,FC Augsburg,FC Schalke 04,3.0,0.0,finished,football_data_org,565782
+football,bundesliga,2026-27,2026-09-04 18:30:00+00:00,VfB Stuttgart,1. FC Köln,4.0,1.0,finished,football_data_org,565791
+football,bundesliga,2026-27,2026-09-05 13:30:00+00:00,SV Werder Bremen,RB Leipzig,3.0,1.0,finished,football_data_org,565785
+football,bundesliga,2026-27,2026-09-05 13:30:00+00:00,TSG 1899 Hoffenheim,Borussia Dortmund,2.0,3.0,finished,football_data_org,565787
+football,bundesliga,2026-27,2026-09-05 13:30:00+00:00,Bayer 04 Leverkusen,1. FC Union Berlin,4.0,0.0,finished,football_data_org,565790
+football,bundesliga,2026-27,2026-09-05 13:30:00+00:00,Borussia Mönchengladbach,SV 07 Elversberg,3.0,4.0,finished,football_data_org,565792
+football,bundesliga,2026-27,2026-09-05 13:30:00+00:00,SC Paderborn 07,SC Freiburg,0.0,1.0,finished,football_data_org,565793
+football,bundesliga,2026-27,2026-09-05 16:30:00+00:00,FC Schalke 04,FC Bayern München,0.0,0.0,finished,football_data_org,565789
+football,bundesliga,2026-27,2026-09-06 13:30:00+00:00,Hamburger SV,1. FSV Mainz 05,0.0,5.0,finished,football_data_org,565788
+football,bundesliga,2026-27,2026-09-06 15:30:00+00:00,Eintracht Frankfurt,FC Augsburg,1.0,4.0,finished,football_data_org,565786
+football,bundesliga,2026-27,2026-09-11 18:30:00+00:00,1. FC Union Berlin,FC Schalke 04,1.0,3.0,finished,football_data_org,565797
+football,bundesliga,2026-27,2026-09-12 13:30:00+00:00,TSG 1899 Hoffenheim,VfB Stuttgart,2.0,1.0,finished,football_data_org,565794
+football,bundesliga,2026-27,2026-09-12 13:30:00+00:00,Borussia Dortmund,SC Paderborn 07,3.0,0.0,finished,football_data_org,565795
+football,bundesliga,2026-27,2026-09-12 13:30:00+00:00,FC Augsburg,Bayer 04 Leverkusen,2.0,2.0,finished,football_data_org,565796
+football,bundesliga,2026-27,2026-09-12 13:30:00+00:00,1. FSV Mainz 05,Eintracht Frankfurt,1.0,3.0,finished,football_data_org,565801
+football,bundesliga,2026-27,2026-09-12 13:30:00+00:00,SC Freiburg,Borussia Mönchengladbach,5.0,0.0,finished,football_data_org,565802
+football,bundesliga,2026-27,2026-09-12 16:30:00+00:00,1. FC Köln,SV Werder Bremen,1.0,1.0,finished,football_data_org,565798
+football,bundesliga,2026-27,2026-09-13 13:30:00+00:00,RB Leipzig,Hamburger SV,5.0,0.0,finished,football_data_org,565799
+football,bundesliga,2026-27,2026-09-13 15:30:00+00:00,SV 07 Elversberg,FC Bayern München,1.0,2.0,finished,football_data_org,565800
+football,bundesliga,2026-27,2026-09-18 18:30:00+00:00,FC Bayern München,1. FC Union Berlin,7.0,0.0,finished,football_data_org,565804
+football,bundesliga,2026-27,2026-09-19 13:30:00+00:00,Hamburger SV,1. FC Köln,2.0,1.0,finished,football_data_org,565808
+football,bundesliga,2026-27,2026-09-19 13:30:00+00:00,Borussia Mönchengladbach,1. FSV Mainz 05,3.0,4.0,finished,football_data_org,565809
+football,bundesliga,2026-27,2026-09-19 13:30:00+00:00,SV Werder Bremen,FC Augsburg,3.0,2.0,finished,football_data_org,565810
+football,bundesliga,2026-27,2026-09-19 13:30:00+00:00,Eintracht Frankfurt,SC Freiburg,2.0,2.0,finished,football_data_org,565811
+football,bundesliga,2026-27,2026-09-19 16:30:00+00:00,VfB Stuttgart,Borussia Dortmund,0.0,1.0,finished,football_data_org,565806
+football,bundesliga,2026-27,2026-09-20 13:30:00+00:00,Bayer 04 Leverkusen,RB Leipzig,2.0,0.0,finished,football_data_org,565807
+football,bundesliga,2026-27,2026-09-20 15:30:00+00:00,FC Schalke 04,SV 07 Elversberg,0.0,0.0,finished,football_data_org,565805
+football,bundesliga,2026-27,2026-09-20 17:30:00+00:00,SC Paderborn 07,TSG 1899 Hoffenheim,3.0,1.0,finished,football_data_org,565803
+football,bundesliga,2026-27,2026-10-09 18:30:00+00:00,Borussia Dortmund,SV Werder Bremen,,,scheduled,football_data_org,565820
+football,bundesliga,2026-27,2026-10-10 13:30:00+00:00,1. FSV Mainz 05,Bayer 04 Leverkusen,,,scheduled,football_data_org,565812
+football,bundesliga,2026-27,2026-10-10 13:30:00+00:00,SC Paderborn 07,VfB Stuttgart,,,scheduled,football_data_org,565813
+football,bundesliga,2026-27,2026-10-10 13:30:00+00:00,1. FC Union Berlin,SV 07 Elversberg,,,scheduled,football_data_org,565817
+football,bundesliga,2026-27,2026-10-10 13:30:00+00:00,TSG 1899 Hoffenheim,Hamburger SV,,,scheduled,football_data_org,565818
+football,bundesliga,2026-27,2026-10-10 13:30:00+00:00,FC Augsburg,FC Bayern München,,,scheduled,football_data_org,565819
+football,bundesliga,2026-27,2026-10-10 16:30:00+00:00,RB Leipzig,Eintracht Frankfurt,,,scheduled,football_data_org,565815
+football,bundesliga,2026-27,2026-10-11 13:30:00+00:00,1. FC Köln,Borussia Mönchengladbach,,,scheduled,football_data_org,565814
+football,bundesliga,2026-27,2026-10-11 15:30:00+00:00,SC Freiburg,FC Schalke 04,,,scheduled,football_data_org,565816
+football,bundesliga,2026-27,2026-10-16 18:30:00+00:00,Eintracht Frankfurt,1. FC Köln,,,scheduled,football_data_org,565828
+football,bundesliga,2026-27,2026-10-17 13:30:00+00:00,1. FC Union Berlin,Borussia Dortmund,,,scheduled,football_data_org,565821
+football,bundesliga,2026-27,2026-10-17 13:30:00+00:00,Hamburger SV,VfB Stuttgart,,,scheduled,football_data_org,565822
+football,bundesliga,2026-27,2026-10-17 13:30:00+00:00,SV Werder Bremen,SC Paderborn 07,,,scheduled,football_data_org,565823
+football,bundesliga,2026-27,2026-10-17 13:30:00+00:00,SV 07 Elversberg,FC Augsburg,,,scheduled,football_data_org,565824
+football,bundesliga,2026-27,2026-10-17 13:30:00+00:00,FC Schalke 04,1. FSV Mainz 05,,,scheduled,football_data_org,565829
+football,bundesliga,2026-27,2026-10-17 16:30:00+00:00,FC Bayern München,RB Leipzig,,,scheduled,football_data_org,565825
+football,bundesliga,2026-27,2026-10-18 13:30:00+00:00,Bayer 04 Leverkusen,SC Freiburg,,,scheduled,football_data_org,565827
+football,bundesliga,2026-27,2026-10-18 15:30:00+00:00,Borussia Mönchengladbach,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565826
+football,bundesliga,2026-27,2026-10-23 18:30:00+00:00,VfB Stuttgart,Borussia Mönchengladbach,,,scheduled,football_data_org,565833
+football,bundesliga,2026-27,2026-10-24 13:30:00+00:00,1. FSV Mainz 05,SV Werder Bremen,,,scheduled,football_data_org,565830
+football,bundesliga,2026-27,2026-10-24 13:30:00+00:00,1. FC Köln,FC Schalke 04,,,scheduled,football_data_org,565831
+football,bundesliga,2026-27,2026-10-24 13:30:00+00:00,RB Leipzig,SV 07 Elversberg,,,scheduled,football_data_org,565832
+football,bundesliga,2026-27,2026-10-24 13:30:00+00:00,SC Paderborn 07,Hamburger SV,,,scheduled,football_data_org,565834
+football,bundesliga,2026-27,2026-10-24 13:30:00+00:00,FC Augsburg,1. FC Union Berlin,,,scheduled,football_data_org,565838
+football,bundesliga,2026-27,2026-10-24 16:30:00+00:00,Borussia Dortmund,Eintracht Frankfurt,,,scheduled,football_data_org,565837
+football,bundesliga,2026-27,2026-10-25 14:30:00+00:00,TSG 1899 Hoffenheim,Bayer 04 Leverkusen,,,scheduled,football_data_org,565835
+football,bundesliga,2026-27,2026-10-25 16:30:00+00:00,SC Freiburg,FC Bayern München,,,scheduled,football_data_org,565836
+football,bundesliga,2026-27,2026-10-30 19:30:00+00:00,SV 07 Elversberg,1. FSV Mainz 05,,,scheduled,football_data_org,565846
+football,bundesliga,2026-27,2026-10-31 14:30:00+00:00,Borussia Mönchengladbach,SC Paderborn 07,,,scheduled,football_data_org,565839
+football,bundesliga,2026-27,2026-10-31 14:30:00+00:00,FC Schalke 04,RB Leipzig,,,scheduled,football_data_org,565840
+football,bundesliga,2026-27,2026-10-31 14:30:00+00:00,FC Augsburg,SC Freiburg,,,scheduled,football_data_org,565842
+football,bundesliga,2026-27,2026-10-31 14:30:00+00:00,SV Werder Bremen,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565843
+football,bundesliga,2026-27,2026-10-31 14:30:00+00:00,Bayer 04 Leverkusen,VfB Stuttgart,,,scheduled,football_data_org,565847
+football,bundesliga,2026-27,2026-10-31 17:30:00+00:00,FC Bayern München,Borussia Dortmund,,,scheduled,football_data_org,565845
+football,bundesliga,2026-27,2026-11-01 14:30:00+00:00,1. FC Union Berlin,1. FC Köln,,,scheduled,football_data_org,565841
+football,bundesliga,2026-27,2026-11-01 16:30:00+00:00,Eintracht Frankfurt,Hamburger SV,,,scheduled,football_data_org,565844
+football,bundesliga,2026-27,2026-11-06 19:30:00+00:00,Hamburger SV,Borussia Mönchengladbach,,,scheduled,football_data_org,565852
+football,bundesliga,2026-27,2026-11-07 14:30:00+00:00,RB Leipzig,FC Augsburg,,,scheduled,football_data_org,565848
+football,bundesliga,2026-27,2026-11-07 14:30:00+00:00,Borussia Dortmund,SV 07 Elversberg,,,scheduled,football_data_org,565850
+football,bundesliga,2026-27,2026-11-07 14:30:00+00:00,1. FSV Mainz 05,FC Bayern München,,,scheduled,football_data_org,565851
+football,bundesliga,2026-27,2026-11-07 14:30:00+00:00,SC Paderborn 07,Eintracht Frankfurt,,,scheduled,football_data_org,565853
+football,bundesliga,2026-27,2026-11-07 17:30:00+00:00,VfB Stuttgart,SV Werder Bremen,,,scheduled,football_data_org,565849
+football,bundesliga,2026-27,2026-11-08 14:30:00+00:00,1. FC Köln,Bayer 04 Leverkusen,,,scheduled,football_data_org,565855
+football,bundesliga,2026-27,2026-11-08 16:30:00+00:00,SC Freiburg,1. FC Union Berlin,,,scheduled,football_data_org,565854
+football,bundesliga,2026-27,2026-11-08 18:30:00+00:00,TSG 1899 Hoffenheim,FC Schalke 04,,,scheduled,football_data_org,565856
+football,bundesliga,2026-27,2026-11-20 19:30:00+00:00,FC Bayern München,1. FC Köln,,,scheduled,football_data_org,565859
+football,bundesliga,2026-27,2026-11-21 14:30:00+00:00,Bayer 04 Leverkusen,SC Paderborn 07,,,scheduled,football_data_org,565857
+football,bundesliga,2026-27,2026-11-21 14:30:00+00:00,1. FC Union Berlin,RB Leipzig,,,scheduled,football_data_org,565858
+football,bundesliga,2026-27,2026-11-21 14:30:00+00:00,SV 07 Elversberg,SC Freiburg,,,scheduled,football_data_org,565860
+football,bundesliga,2026-27,2026-11-21 14:30:00+00:00,Borussia Mönchengladbach,Borussia Dortmund,,,scheduled,football_data_org,565862
+football,bundesliga,2026-27,2026-11-21 14:30:00+00:00,Eintracht Frankfurt,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565865
+football,bundesliga,2026-27,2026-11-21 17:30:00+00:00,FC Schalke 04,VfB Stuttgart,,,scheduled,football_data_org,565861
+football,bundesliga,2026-27,2026-11-22 14:30:00+00:00,FC Augsburg,1. FSV Mainz 05,,,scheduled,football_data_org,565864
+football,bundesliga,2026-27,2026-11-22 16:30:00+00:00,SV Werder Bremen,Hamburger SV,,,scheduled,football_data_org,565863
+football,bundesliga,2026-27,2026-11-27 19:30:00+00:00,SV Werder Bremen,Borussia Mönchengladbach,,,scheduled,football_data_org,565869
+football,bundesliga,2026-27,2026-11-28 14:30:00+00:00,1. FC Köln,SV 07 Elversberg,,,scheduled,football_data_org,565866
+football,bundesliga,2026-27,2026-11-28 14:30:00+00:00,1. FSV Mainz 05,1. FC Union Berlin,,,scheduled,football_data_org,565867
+football,bundesliga,2026-27,2026-11-28 14:30:00+00:00,SC Paderborn 07,FC Schalke 04,,,scheduled,football_data_org,565868
+football,bundesliga,2026-27,2026-11-28 14:30:00+00:00,Hamburger SV,FC Bayern München,,,scheduled,football_data_org,565874
+football,bundesliga,2026-27,2026-11-28 17:30:00+00:00,VfB Stuttgart,Eintracht Frankfurt,,,scheduled,football_data_org,565870
+football,bundesliga,2026-27,2026-11-29 14:30:00+00:00,SC Freiburg,RB Leipzig,,,scheduled,football_data_org,565873
+football,bundesliga,2026-27,2026-11-29 16:30:00+00:00,TSG 1899 Hoffenheim,FC Augsburg,,,scheduled,football_data_org,565871
+football,bundesliga,2026-27,2026-11-29 18:30:00+00:00,Borussia Dortmund,Bayer 04 Leverkusen,,,scheduled,football_data_org,565872
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,1. FC Union Berlin,Hamburger SV,,,scheduled,football_data_org,565875
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,FC Schalke 04,Borussia Dortmund,,,scheduled,football_data_org,565876
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,Bayer 04 Leverkusen,Borussia Mönchengladbach,,,scheduled,football_data_org,565877
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,Eintracht Frankfurt,SV Werder Bremen,,,scheduled,football_data_org,565878
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,RB Leipzig,1. FSV Mainz 05,,,scheduled,football_data_org,565879
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,SV 07 Elversberg,VfB Stuttgart,,,scheduled,football_data_org,565880
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,SC Freiburg,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565881
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,FC Bayern München,SC Paderborn 07,,,scheduled,football_data_org,565882
+football,bundesliga,2026-27,2026-12-05 00:00:00+00:00,FC Augsburg,1. FC Köln,,,scheduled,football_data_org,565883
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,SC Paderborn 07,SV 07 Elversberg,,,scheduled,football_data_org,565884
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,SV Werder Bremen,Bayer 04 Leverkusen,,,scheduled,football_data_org,565885
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,VfB Stuttgart,1. FC Union Berlin,,,scheduled,football_data_org,565886
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,Borussia Dortmund,FC Augsburg,,,scheduled,football_data_org,565887
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,Hamburger SV,FC Schalke 04,,,scheduled,football_data_org,565888
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,1. FSV Mainz 05,SC Freiburg,,,scheduled,football_data_org,565889
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,1. FC Köln,RB Leipzig,,,scheduled,football_data_org,565890
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,TSG 1899 Hoffenheim,FC Bayern München,,,scheduled,football_data_org,565891
+football,bundesliga,2026-27,2026-12-12 00:00:00+00:00,Borussia Mönchengladbach,Eintracht Frankfurt,,,scheduled,football_data_org,565892
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,FC Schalke 04,Borussia Mönchengladbach,,,scheduled,football_data_org,565893
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,FC Bayern München,SV Werder Bremen,,,scheduled,football_data_org,565894
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,SV 07 Elversberg,Hamburger SV,,,scheduled,football_data_org,565895
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,Bayer 04 Leverkusen,Eintracht Frankfurt,,,scheduled,football_data_org,565896
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,SC Freiburg,VfB Stuttgart,,,scheduled,football_data_org,565897
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,RB Leipzig,Borussia Dortmund,,,scheduled,football_data_org,565898
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,1. FSV Mainz 05,1. FC Köln,,,scheduled,football_data_org,565899
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,1. FC Union Berlin,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565900
+football,bundesliga,2026-27,2026-12-19 00:00:00+00:00,FC Augsburg,SC Paderborn 07,,,scheduled,football_data_org,565901
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,VfB Stuttgart,FC Augsburg,,,scheduled,football_data_org,565902
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,Hamburger SV,Bayer 04 Leverkusen,,,scheduled,football_data_org,565903
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,1. FC Köln,SC Freiburg,,,scheduled,football_data_org,565904
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,Eintracht Frankfurt,FC Schalke 04,,,scheduled,football_data_org,565905
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,TSG 1899 Hoffenheim,SV 07 Elversberg,,,scheduled,football_data_org,565906
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,Borussia Mönchengladbach,FC Bayern München,,,scheduled,football_data_org,565907
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,Borussia Dortmund,1. FSV Mainz 05,,,scheduled,football_data_org,565908
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,SV Werder Bremen,1. FC Union Berlin,,,scheduled,football_data_org,565909
+football,bundesliga,2026-27,2027-01-09 00:00:00+00:00,SC Paderborn 07,RB Leipzig,,,scheduled,football_data_org,565910
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,1. FSV Mainz 05,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565911
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,SC Freiburg,Hamburger SV,,,scheduled,football_data_org,565912
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,FC Schalke 04,SV Werder Bremen,,,scheduled,football_data_org,565913
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,RB Leipzig,VfB Stuttgart,,,scheduled,football_data_org,565914
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,1. FC Union Berlin,SC Paderborn 07,,,scheduled,football_data_org,565915
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,FC Bayern München,Bayer 04 Leverkusen,,,scheduled,football_data_org,565916
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,FC Augsburg,Borussia Mönchengladbach,,,scheduled,football_data_org,565917
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,SV 07 Elversberg,Eintracht Frankfurt,,,scheduled,football_data_org,565918
+football,bundesliga,2026-27,2027-01-13 00:00:00+00:00,1. FC Köln,Borussia Dortmund,,,scheduled,football_data_org,565919
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,SV Werder Bremen,SV 07 Elversberg,,,scheduled,football_data_org,565920
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,Eintracht Frankfurt,FC Bayern München,,,scheduled,football_data_org,565921
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,SC Paderborn 07,1. FC Köln,,,scheduled,football_data_org,565922
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,TSG 1899 Hoffenheim,RB Leipzig,,,scheduled,football_data_org,565923
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,Bayer 04 Leverkusen,FC Schalke 04,,,scheduled,football_data_org,565924
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,VfB Stuttgart,1. FSV Mainz 05,,,scheduled,football_data_org,565925
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,Hamburger SV,FC Augsburg,,,scheduled,football_data_org,565926
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,Borussia Mönchengladbach,1. FC Union Berlin,,,scheduled,football_data_org,565927
+football,bundesliga,2026-27,2027-01-16 00:00:00+00:00,Borussia Dortmund,SC Freiburg,,,scheduled,football_data_org,565928
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,SV Werder Bremen,SC Freiburg,,,scheduled,football_data_org,565929
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,Hamburger SV,Borussia Dortmund,,,scheduled,football_data_org,565930
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,SC Paderborn 07,1. FSV Mainz 05,,,scheduled,football_data_org,565931
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,FC Schalke 04,FC Augsburg,,,scheduled,football_data_org,565932
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,TSG 1899 Hoffenheim,1. FC Köln,,,scheduled,football_data_org,565933
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,VfB Stuttgart,FC Bayern München,,,scheduled,football_data_org,565934
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,Borussia Mönchengladbach,RB Leipzig,,,scheduled,football_data_org,565935
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,Eintracht Frankfurt,1. FC Union Berlin,,,scheduled,football_data_org,565936
+football,bundesliga,2026-27,2027-01-23 00:00:00+00:00,Bayer 04 Leverkusen,SV 07 Elversberg,,,scheduled,football_data_org,565937
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,SV 07 Elversberg,Borussia Mönchengladbach,,,scheduled,football_data_org,565938
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,FC Augsburg,Eintracht Frankfurt,,,scheduled,football_data_org,565939
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,1. FSV Mainz 05,Hamburger SV,,,scheduled,football_data_org,565940
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,RB Leipzig,SV Werder Bremen,,,scheduled,football_data_org,565941
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,1. FC Köln,VfB Stuttgart,,,scheduled,football_data_org,565942
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,1. FC Union Berlin,Bayer 04 Leverkusen,,,scheduled,football_data_org,565943
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,SC Freiburg,SC Paderborn 07,,,scheduled,football_data_org,565944
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,Borussia Dortmund,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565945
+football,bundesliga,2026-27,2027-01-30 00:00:00+00:00,FC Bayern München,FC Schalke 04,,,scheduled,football_data_org,565946
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,Eintracht Frankfurt,1. FSV Mainz 05,,,scheduled,football_data_org,565947
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,Borussia Mönchengladbach,SC Freiburg,,,scheduled,football_data_org,565948
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,FC Schalke 04,1. FC Union Berlin,,,scheduled,football_data_org,565949
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,Hamburger SV,RB Leipzig,,,scheduled,football_data_org,565950
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,Bayer 04 Leverkusen,FC Augsburg,,,scheduled,football_data_org,565951
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,SV Werder Bremen,1. FC Köln,,,scheduled,football_data_org,565952
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,VfB Stuttgart,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565953
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,FC Bayern München,SV 07 Elversberg,,,scheduled,football_data_org,565954
+football,bundesliga,2026-27,2027-02-06 00:00:00+00:00,SC Paderborn 07,Borussia Dortmund,,,scheduled,football_data_org,565955
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,1. FC Köln,Hamburger SV,,,scheduled,football_data_org,565956
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,1. FSV Mainz 05,Borussia Mönchengladbach,,,scheduled,football_data_org,565957
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,1. FC Union Berlin,FC Bayern München,,,scheduled,football_data_org,565958
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,SV 07 Elversberg,FC Schalke 04,,,scheduled,football_data_org,565959
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,Borussia Dortmund,VfB Stuttgart,,,scheduled,football_data_org,565960
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,TSG 1899 Hoffenheim,SC Paderborn 07,,,scheduled,football_data_org,565961
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,SC Freiburg,Eintracht Frankfurt,,,scheduled,football_data_org,565962
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,FC Augsburg,SV Werder Bremen,,,scheduled,football_data_org,565963
+football,bundesliga,2026-27,2027-02-13 00:00:00+00:00,RB Leipzig,Bayer 04 Leverkusen,,,scheduled,football_data_org,565964
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,FC Schalke 04,SC Freiburg,,,scheduled,football_data_org,565965
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,VfB Stuttgart,SC Paderborn 07,,,scheduled,football_data_org,565966
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,Borussia Mönchengladbach,1. FC Köln,,,scheduled,football_data_org,565967
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,SV Werder Bremen,Borussia Dortmund,,,scheduled,football_data_org,565968
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,Hamburger SV,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565969
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,Bayer 04 Leverkusen,1. FSV Mainz 05,,,scheduled,football_data_org,565970
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,Eintracht Frankfurt,RB Leipzig,,,scheduled,football_data_org,565971
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,FC Bayern München,FC Augsburg,,,scheduled,football_data_org,565972
+football,bundesliga,2026-27,2027-02-20 00:00:00+00:00,SV 07 Elversberg,1. FC Union Berlin,,,scheduled,football_data_org,565973
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,VfB Stuttgart,Hamburger SV,,,scheduled,football_data_org,565974
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,1. FC Köln,Eintracht Frankfurt,,,scheduled,football_data_org,565975
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,SC Freiburg,Bayer 04 Leverkusen,,,scheduled,football_data_org,565976
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,FC Augsburg,SV 07 Elversberg,,,scheduled,football_data_org,565977
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,1. FSV Mainz 05,FC Schalke 04,,,scheduled,football_data_org,565978
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,TSG 1899 Hoffenheim,Borussia Mönchengladbach,,,scheduled,football_data_org,565979
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,SC Paderborn 07,SV Werder Bremen,,,scheduled,football_data_org,565980
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,RB Leipzig,FC Bayern München,,,scheduled,football_data_org,565981
+football,bundesliga,2026-27,2027-02-27 00:00:00+00:00,Borussia Dortmund,1. FC Union Berlin,,,scheduled,football_data_org,565982
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,Eintracht Frankfurt,Borussia Dortmund,,,scheduled,football_data_org,565983
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,FC Schalke 04,1. FC Köln,,,scheduled,football_data_org,565984
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,Bayer 04 Leverkusen,TSG 1899 Hoffenheim,,,scheduled,football_data_org,565985
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,FC Bayern München,SC Freiburg,,,scheduled,football_data_org,565986
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,SV Werder Bremen,1. FSV Mainz 05,,,scheduled,football_data_org,565987
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,1. FC Union Berlin,FC Augsburg,,,scheduled,football_data_org,565988
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,SV 07 Elversberg,RB Leipzig,,,scheduled,football_data_org,565989
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,Borussia Mönchengladbach,VfB Stuttgart,,,scheduled,football_data_org,565990
+football,bundesliga,2026-27,2027-03-03 00:00:00+00:00,Hamburger SV,SC Paderborn 07,,,scheduled,football_data_org,565991
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,Borussia Dortmund,FC Bayern München,,,scheduled,football_data_org,565992
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,SC Freiburg,FC Augsburg,,,scheduled,football_data_org,565993
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,1. FSV Mainz 05,SV 07 Elversberg,,,scheduled,football_data_org,565994
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,Hamburger SV,Eintracht Frankfurt,,,scheduled,football_data_org,565995
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,VfB Stuttgart,Bayer 04 Leverkusen,,,scheduled,football_data_org,565996
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,RB Leipzig,FC Schalke 04,,,scheduled,football_data_org,565997
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,SC Paderborn 07,Borussia Mönchengladbach,,,scheduled,football_data_org,565998
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,1. FC Köln,1. FC Union Berlin,,,scheduled,football_data_org,565999
+football,bundesliga,2026-27,2027-03-06 00:00:00+00:00,TSG 1899 Hoffenheim,SV Werder Bremen,,,scheduled,football_data_org,566000
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,1. FC Union Berlin,SC Freiburg,,,scheduled,football_data_org,566001
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,SV 07 Elversberg,Borussia Dortmund,,,scheduled,football_data_org,566002
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,Eintracht Frankfurt,SC Paderborn 07,,,scheduled,football_data_org,566003
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,FC Augsburg,RB Leipzig,,,scheduled,football_data_org,566004
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,Borussia Mönchengladbach,Hamburger SV,,,scheduled,football_data_org,566005
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,SV Werder Bremen,VfB Stuttgart,,,scheduled,football_data_org,566006
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,FC Schalke 04,TSG 1899 Hoffenheim,,,scheduled,football_data_org,566007
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,FC Bayern München,1. FSV Mainz 05,,,scheduled,football_data_org,566008
+football,bundesliga,2026-27,2027-03-13 00:00:00+00:00,Bayer 04 Leverkusen,1. FC Köln,,,scheduled,football_data_org,566009
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,1. FC Köln,FC Bayern München,,,scheduled,football_data_org,566016
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,TSG 1899 Hoffenheim,Eintracht Frankfurt,,,scheduled,football_data_org,566017
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,Borussia Dortmund,Borussia Mönchengladbach,,,scheduled,football_data_org,566018
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,1. FSV Mainz 05,FC Augsburg,,,scheduled,football_data_org,566010
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,VfB Stuttgart,FC Schalke 04,,,scheduled,football_data_org,566011
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,RB Leipzig,1. FC Union Berlin,,,scheduled,football_data_org,566012
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,SC Freiburg,SV 07 Elversberg,,,scheduled,football_data_org,566013
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,Hamburger SV,SV Werder Bremen,,,scheduled,football_data_org,566014
+football,bundesliga,2026-27,2027-03-20 00:00:00+00:00,SC Paderborn 07,Bayer 04 Leverkusen,,,scheduled,football_data_org,566015
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,RB Leipzig,SC Freiburg,,,scheduled,football_data_org,566019
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,SV 07 Elversberg,1. FC Köln,,,scheduled,football_data_org,566020
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,FC Bayern München,Hamburger SV,,,scheduled,football_data_org,566021
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,FC Augsburg,TSG 1899 Hoffenheim,,,scheduled,football_data_org,566022
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,Borussia Mönchengladbach,SV Werder Bremen,,,scheduled,football_data_org,566023
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,Eintracht Frankfurt,VfB Stuttgart,,,scheduled,football_data_org,566024
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,1. FC Union Berlin,1. FSV Mainz 05,,,scheduled,football_data_org,566025
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,Bayer 04 Leverkusen,Borussia Dortmund,,,scheduled,football_data_org,566026
+football,bundesliga,2026-27,2027-04-03 00:00:00+00:00,FC Schalke 04,SC Paderborn 07,,,scheduled,football_data_org,566027
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,VfB Stuttgart,SV 07 Elversberg,,,scheduled,football_data_org,566028
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,SC Paderborn 07,FC Bayern München,,,scheduled,football_data_org,566029
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,TSG 1899 Hoffenheim,SC Freiburg,,,scheduled,football_data_org,566030
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,1. FSV Mainz 05,RB Leipzig,,,scheduled,football_data_org,566031
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,SV Werder Bremen,Eintracht Frankfurt,,,scheduled,football_data_org,566032
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,Borussia Dortmund,FC Schalke 04,,,scheduled,football_data_org,566033
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,Hamburger SV,1. FC Union Berlin,,,scheduled,football_data_org,566034
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,Borussia Mönchengladbach,Bayer 04 Leverkusen,,,scheduled,football_data_org,566035
+football,bundesliga,2026-27,2027-04-10 00:00:00+00:00,1. FC Köln,FC Augsburg,,,scheduled,football_data_org,566036
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,Bayer 04 Leverkusen,SV Werder Bremen,,,scheduled,football_data_org,566037
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,Eintracht Frankfurt,Borussia Mönchengladbach,,,scheduled,football_data_org,566038
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,1. FC Union Berlin,VfB Stuttgart,,,scheduled,football_data_org,566039
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,FC Bayern München,TSG 1899 Hoffenheim,,,scheduled,football_data_org,566040
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,FC Schalke 04,Hamburger SV,,,scheduled,football_data_org,566041
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,SV 07 Elversberg,SC Paderborn 07,,,scheduled,football_data_org,566042
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,FC Augsburg,Borussia Dortmund,,,scheduled,football_data_org,566043
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,SC Freiburg,1. FSV Mainz 05,,,scheduled,football_data_org,566044
+football,bundesliga,2026-27,2027-04-17 00:00:00+00:00,RB Leipzig,1. FC Köln,,,scheduled,football_data_org,566045
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,SV Werder Bremen,FC Bayern München,,,scheduled,football_data_org,566046
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,1. FC Köln,1. FSV Mainz 05,,,scheduled,football_data_org,566047
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,Hamburger SV,SV 07 Elversberg,,,scheduled,football_data_org,566048
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,Borussia Dortmund,RB Leipzig,,,scheduled,football_data_org,566049
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,TSG 1899 Hoffenheim,1. FC Union Berlin,,,scheduled,football_data_org,566050
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,SC Paderborn 07,FC Augsburg,,,scheduled,football_data_org,566051
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,VfB Stuttgart,SC Freiburg,,,scheduled,football_data_org,566052
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,Borussia Mönchengladbach,FC Schalke 04,,,scheduled,football_data_org,566053
+football,bundesliga,2026-27,2027-04-24 00:00:00+00:00,Eintracht Frankfurt,Bayer 04 Leverkusen,,,scheduled,football_data_org,566054
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,FC Schalke 04,Eintracht Frankfurt,,,scheduled,football_data_org,566055
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,RB Leipzig,SC Paderborn 07,,,scheduled,football_data_org,566056
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,SC Freiburg,1. FC Köln,,,scheduled,football_data_org,566057
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,1. FSV Mainz 05,Borussia Dortmund,,,scheduled,football_data_org,566058
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,FC Augsburg,VfB Stuttgart,,,scheduled,football_data_org,566059
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,1. FC Union Berlin,SV Werder Bremen,,,scheduled,football_data_org,566060
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,SV 07 Elversberg,TSG 1899 Hoffenheim,,,scheduled,football_data_org,566061
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,Bayer 04 Leverkusen,Hamburger SV,,,scheduled,football_data_org,566062
+football,bundesliga,2026-27,2027-05-08 00:00:00+00:00,FC Bayern München,Borussia Mönchengladbach,,,scheduled,football_data_org,566063
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,Eintracht Frankfurt,SV 07 Elversberg,,,scheduled,football_data_org,566064
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,SC Paderborn 07,1. FC Union Berlin,,,scheduled,football_data_org,566065
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,VfB Stuttgart,RB Leipzig,,,scheduled,football_data_org,566066
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,Borussia Dortmund,1. FC Köln,,,scheduled,football_data_org,566067
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,Hamburger SV,SC Freiburg,,,scheduled,football_data_org,566068
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,Bayer 04 Leverkusen,FC Bayern München,,,scheduled,football_data_org,566069
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,SV Werder Bremen,FC Schalke 04,,,scheduled,football_data_org,566070
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,Borussia Mönchengladbach,FC Augsburg,,,scheduled,football_data_org,566071
+football,bundesliga,2026-27,2027-05-15 00:00:00+00:00,TSG 1899 Hoffenheim,1. FSV Mainz 05,,,scheduled,football_data_org,566072
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,RB Leipzig,TSG 1899 Hoffenheim,,,scheduled,football_data_org,566073
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,1. FC Union Berlin,Borussia Mönchengladbach,,,scheduled,football_data_org,566074
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,1. FSV Mainz 05,VfB Stuttgart,,,scheduled,football_data_org,566075
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,FC Schalke 04,Bayer 04 Leverkusen,,,scheduled,football_data_org,566076
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,SV 07 Elversberg,SV Werder Bremen,,,scheduled,football_data_org,566077
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,FC Bayern München,Eintracht Frankfurt,,,scheduled,football_data_org,566078
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,FC Augsburg,Hamburger SV,,,scheduled,football_data_org,566079
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,SC Freiburg,Borussia Dortmund,,,scheduled,football_data_org,566080
+football,bundesliga,2026-27,2027-05-22 13:30:00+00:00,1. FC Köln,SC Paderborn 07,,,scheduled,football_data_org,566081

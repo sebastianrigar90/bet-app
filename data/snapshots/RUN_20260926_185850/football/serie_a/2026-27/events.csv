@@ -1,0 +1,381 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,serie_a,2026-27,2026-08-22 16:30:00+00:00,Udinese Calcio,Como 1907,1.0,1.0,finished,football_data_org,558629
+football,serie_a,2026-27,2026-08-22 16:30:00+00:00,FC Internazionale Milano,AC Monza,4.0,1.0,finished,football_data_org,558632
+football,serie_a,2026-27,2026-08-22 18:45:00+00:00,Genoa CFC,SSC Napoli,0.0,2.0,finished,football_data_org,558631
+football,serie_a,2026-27,2026-08-22 18:45:00+00:00,Parma Calcio 1913,Cagliari Calcio,0.0,1.0,finished,football_data_org,558636
+football,serie_a,2026-27,2026-08-23 16:30:00+00:00,Frosinone Calcio,Juventus FC,0.0,1.0,finished,football_data_org,558635
+football,serie_a,2026-27,2026-08-23 16:30:00+00:00,Venezia FC,US Lecce,0.0,2.0,finished,football_data_org,558637
+football,serie_a,2026-27,2026-08-23 18:45:00+00:00,Atalanta BC,US Sassuolo Calcio,2.0,1.0,finished,football_data_org,558633
+football,serie_a,2026-27,2026-08-23 18:45:00+00:00,Torino FC,AC Milan,1.0,2.0,finished,football_data_org,558634
+football,serie_a,2026-27,2026-08-24 16:30:00+00:00,Bologna FC 1909,SS Lazio,0.0,1.0,finished,football_data_org,558630
+football,serie_a,2026-27,2026-08-24 18:45:00+00:00,AS Roma,ACF Fiorentina,4.0,0.0,finished,football_data_org,558638
+football,serie_a,2026-27,2026-08-28 18:45:00+00:00,AC Milan,Venezia FC,2.0,0.0,finished,football_data_org,558625
+football,serie_a,2026-27,2026-08-29 16:30:00+00:00,US Sassuolo Calcio,Torino FC,2.0,1.0,finished,football_data_org,558620
+football,serie_a,2026-27,2026-08-29 16:30:00+00:00,AC Monza,Udinese Calcio,2.0,3.0,finished,football_data_org,558624
+football,serie_a,2026-27,2026-08-29 16:30:00+00:00,ACF Fiorentina,Frosinone Calcio,0.0,3.0,finished,football_data_org,558627
+football,serie_a,2026-27,2026-08-29 18:45:00+00:00,Juventus FC,Parma Calcio 1913,2.0,0.0,finished,football_data_org,558619
+football,serie_a,2026-27,2026-08-30 16:30:00+00:00,SSC Napoli,Como 1907,1.0,2.0,finished,football_data_org,558626
+football,serie_a,2026-27,2026-08-30 18:45:00+00:00,SS Lazio,Genoa CFC,1.0,0.0,finished,football_data_org,558622
+football,serie_a,2026-27,2026-08-30 18:45:00+00:00,Cagliari Calcio,FC Internazionale Milano,0.0,1.0,finished,football_data_org,558623
+football,serie_a,2026-27,2026-08-31 16:30:00+00:00,US Lecce,AS Roma,0.0,4.0,finished,football_data_org,558621
+football,serie_a,2026-27,2026-08-31 18:45:00+00:00,Atalanta BC,Bologna FC 1909,1.0,0.0,finished,football_data_org,558628
+football,serie_a,2026-27,2026-09-04 18:45:00+00:00,Genoa CFC,Como 1907,1.0,4.0,finished,football_data_org,558609
+football,serie_a,2026-27,2026-09-05 13:00:00+00:00,ACF Fiorentina,Torino FC,1.0,2.0,finished,football_data_org,558616
+football,serie_a,2026-27,2026-09-05 16:00:00+00:00,FC Internazionale Milano,SSC Napoli,3.0,2.0,finished,football_data_org,558614
+football,serie_a,2026-27,2026-09-05 18:45:00+00:00,AS Roma,Atalanta BC,2.0,1.0,finished,football_data_org,558611
+football,serie_a,2026-27,2026-09-06 13:00:00+00:00,Parma Calcio 1913,AC Monza,1.0,1.0,finished,football_data_org,558612
+football,serie_a,2026-27,2026-09-06 13:00:00+00:00,Frosinone Calcio,Venezia FC,3.0,2.0,finished,football_data_org,558615
+football,serie_a,2026-27,2026-09-06 16:00:00+00:00,Bologna FC 1909,US Sassuolo Calcio,2.0,2.0,finished,football_data_org,558613
+football,serie_a,2026-27,2026-09-06 18:45:00+00:00,Juventus FC,AC Milan,1.0,1.0,finished,football_data_org,558618
+football,serie_a,2026-27,2026-09-07 16:30:00+00:00,Cagliari Calcio,US Lecce,1.0,0.0,finished,football_data_org,558610
+football,serie_a,2026-27,2026-09-07 18:45:00+00:00,Udinese Calcio,SS Lazio,1.0,2.0,finished,football_data_org,558617
+football,serie_a,2026-27,2026-09-11 18:45:00+00:00,Venezia FC,ACF Fiorentina,2.0,4.0,finished,football_data_org,558606
+football,serie_a,2026-27,2026-09-12 13:00:00+00:00,Genoa CFC,Frosinone Calcio,1.0,1.0,finished,football_data_org,558604
+football,serie_a,2026-27,2026-09-12 16:00:00+00:00,SS Lazio,AC Milan,2.0,2.0,finished,football_data_org,558600
+football,serie_a,2026-27,2026-09-12 18:45:00+00:00,Atalanta BC,Cagliari Calcio,1.0,2.0,finished,football_data_org,558607
+football,serie_a,2026-27,2026-09-13 13:00:00+00:00,US Lecce,AC Monza,3.0,2.0,finished,football_data_org,558605
+football,serie_a,2026-27,2026-09-13 16:00:00+00:00,SSC Napoli,Bologna FC 1909,1.0,0.0,finished,football_data_org,558599
+football,serie_a,2026-27,2026-09-13 18:45:00+00:00,US Sassuolo Calcio,Juventus FC,3.0,2.0,finished,football_data_org,558608
+football,serie_a,2026-27,2026-09-14 16:30:00+00:00,Como 1907,Parma Calcio 1913,2.0,1.0,finished,football_data_org,558602
+football,serie_a,2026-27,2026-09-14 16:30:00+00:00,Torino FC,AS Roma,0.0,2.0,finished,football_data_org,558603
+football,serie_a,2026-27,2026-09-14 18:45:00+00:00,FC Internazionale Milano,Udinese Calcio,5.0,3.0,finished,football_data_org,558601
+football,serie_a,2026-27,2026-09-18 18:45:00+00:00,AC Monza,US Sassuolo Calcio,2.0,1.0,finished,football_data_org,558596
+football,serie_a,2026-27,2026-09-19 13:00:00+00:00,Bologna FC 1909,Torino FC,1.0,1.0,finished,football_data_org,558598
+football,serie_a,2026-27,2026-09-19 13:00:00+00:00,Udinese Calcio,Cagliari Calcio,0.0,1.0,finished,football_data_org,558589
+football,serie_a,2026-27,2026-09-19 16:00:00+00:00,AS Roma,FC Internazionale Milano,2.0,2.0,finished,football_data_org,558593
+football,serie_a,2026-27,2026-09-19 18:45:00+00:00,Venezia FC,SS Lazio,0.0,2.0,finished,football_data_org,558594
+football,serie_a,2026-27,2026-09-20 10:30:00+00:00,ACF Fiorentina,SSC Napoli,1.0,1.0,finished,football_data_org,558591
+football,serie_a,2026-27,2026-09-20 13:00:00+00:00,Frosinone Calcio,Como 1907,2.0,0.0,finished,football_data_org,558592
+football,serie_a,2026-27,2026-09-20 13:00:00+00:00,Parma Calcio 1913,Genoa CFC,2.0,1.0,finished,football_data_org,558590
+football,serie_a,2026-27,2026-09-20 16:00:00+00:00,Juventus FC,Atalanta BC,2.0,0.0,finished,football_data_org,558595
+football,serie_a,2026-27,2026-09-20 18:45:00+00:00,AC Milan,US Lecce,3.0,0.0,finished,football_data_org,558597
+football,serie_a,2026-27,2026-10-10 13:00:00+00:00,Genoa CFC,ACF Fiorentina,,,scheduled,football_data_org,558588
+football,serie_a,2026-27,2026-10-10 16:00:00+00:00,FC Internazionale Milano,Parma Calcio 1913,,,scheduled,football_data_org,558582
+football,serie_a,2026-27,2026-10-10 18:45:00+00:00,SSC Napoli,Frosinone Calcio,,,scheduled,football_data_org,558586
+football,serie_a,2026-27,2026-10-11 10:30:00+00:00,Como 1907,AS Roma,,,scheduled,football_data_org,558585
+football,serie_a,2026-27,2026-10-11 13:00:00+00:00,US Lecce,Bologna FC 1909,,,scheduled,football_data_org,558581
+football,serie_a,2026-27,2026-10-11 13:00:00+00:00,SS Lazio,AC Monza,,,scheduled,football_data_org,558583
+football,serie_a,2026-27,2026-10-11 16:00:00+00:00,US Sassuolo Calcio,AC Milan,,,scheduled,football_data_org,558580
+football,serie_a,2026-27,2026-10-11 18:45:00+00:00,Cagliari Calcio,Juventus FC,,,scheduled,football_data_org,558584
+football,serie_a,2026-27,2026-10-12 16:30:00+00:00,Atalanta BC,Venezia FC,,,scheduled,football_data_org,558579
+football,serie_a,2026-27,2026-10-12 18:45:00+00:00,Torino FC,Udinese Calcio,,,scheduled,football_data_org,558587
+football,serie_a,2026-27,2026-10-16 18:45:00+00:00,Frosinone Calcio,US Sassuolo Calcio,,,scheduled,football_data_org,558573
+football,serie_a,2026-27,2026-10-17 13:00:00+00:00,Venezia FC,SSC Napoli,,,scheduled,football_data_org,558575
+football,serie_a,2026-27,2026-10-17 16:00:00+00:00,Bologna FC 1909,FC Internazionale Milano,,,scheduled,football_data_org,558571
+football,serie_a,2026-27,2026-10-17 18:45:00+00:00,AS Roma,Genoa CFC,,,scheduled,football_data_org,558572
+football,serie_a,2026-27,2026-10-18 10:30:00+00:00,Udinese Calcio,US Lecce,,,scheduled,football_data_org,558574
+football,serie_a,2026-27,2026-10-18 13:00:00+00:00,ACF Fiorentina,Como 1907,,,scheduled,football_data_org,558577
+football,serie_a,2026-27,2026-10-18 16:00:00+00:00,AC Milan,Atalanta BC,,,scheduled,football_data_org,558569
+football,serie_a,2026-27,2026-10-18 18:45:00+00:00,Juventus FC,SS Lazio,,,scheduled,football_data_org,558570
+football,serie_a,2026-27,2026-10-19 16:30:00+00:00,AC Monza,Cagliari Calcio,,,scheduled,football_data_org,558576
+football,serie_a,2026-27,2026-10-19 18:45:00+00:00,Parma Calcio 1913,Torino FC,,,scheduled,football_data_org,558578
+football,serie_a,2026-27,2026-10-23 18:45:00+00:00,Torino FC,AC Monza,,,scheduled,football_data_org,558567
+football,serie_a,2026-27,2026-10-24 13:00:00+00:00,Cagliari Calcio,Bologna FC 1909,,,scheduled,football_data_org,558560
+football,serie_a,2026-27,2026-10-24 13:00:00+00:00,Como 1907,US Sassuolo Calcio,,,scheduled,football_data_org,558561
+football,serie_a,2026-27,2026-10-24 16:00:00+00:00,SSC Napoli,AS Roma,,,scheduled,football_data_org,558564
+football,serie_a,2026-27,2026-10-24 18:45:00+00:00,SS Lazio,Parma Calcio 1913,,,scheduled,football_data_org,558565
+football,serie_a,2026-27,2026-10-25 11:30:00+00:00,FC Internazionale Milano,ACF Fiorentina,,,scheduled,football_data_org,558563
+football,serie_a,2026-27,2026-10-25 14:00:00+00:00,Atalanta BC,Frosinone Calcio,,,scheduled,football_data_org,558562
+football,serie_a,2026-27,2026-10-25 14:00:00+00:00,Genoa CFC,Venezia FC,,,scheduled,football_data_org,558568
+football,serie_a,2026-27,2026-10-25 17:00:00+00:00,US Lecce,Juventus FC,,,scheduled,football_data_org,558566
+football,serie_a,2026-27,2026-10-25 19:45:00+00:00,Udinese Calcio,AC Milan,,,scheduled,football_data_org,558559
+football,serie_a,2026-27,2026-10-27 17:30:00+00:00,US Sassuolo Calcio,SS Lazio,,,scheduled,football_data_org,558556
+football,serie_a,2026-27,2026-10-27 19:45:00+00:00,AS Roma,Cagliari Calcio,,,scheduled,football_data_org,558555
+football,serie_a,2026-27,2026-10-27 19:45:00+00:00,Torino FC,Como 1907,,,scheduled,football_data_org,558557
+football,serie_a,2026-27,2026-10-28 17:30:00+00:00,AC Milan,Bologna FC 1909,,,scheduled,football_data_org,558549
+football,serie_a,2026-27,2026-10-28 17:30:00+00:00,Venezia FC,FC Internazionale Milano,,,scheduled,football_data_org,558550
+football,serie_a,2026-27,2026-10-28 17:30:00+00:00,Parma Calcio 1913,Udinese Calcio,,,scheduled,football_data_org,558553
+football,serie_a,2026-27,2026-10-28 19:45:00+00:00,Genoa CFC,Juventus FC,,,scheduled,football_data_org,558552
+football,serie_a,2026-27,2026-10-28 19:45:00+00:00,AC Monza,SSC Napoli,,,scheduled,football_data_org,558554
+football,serie_a,2026-27,2026-10-29 17:30:00+00:00,Frosinone Calcio,US Lecce,,,scheduled,football_data_org,558558
+football,serie_a,2026-27,2026-10-29 19:45:00+00:00,ACF Fiorentina,Atalanta BC,,,scheduled,football_data_org,558551
+football,serie_a,2026-27,2026-10-31 14:00:00+00:00,Bologna FC 1909,AC Monza,,,scheduled,football_data_org,558539
+football,serie_a,2026-27,2026-10-31 17:00:00+00:00,Udinese Calcio,AS Roma,,,scheduled,football_data_org,558542
+football,serie_a,2026-27,2026-10-31 19:45:00+00:00,AC Milan,FC Internazionale Milano,,,scheduled,football_data_org,558548
+football,serie_a,2026-27,2026-11-01 11:30:00+00:00,Como 1907,Venezia FC,,,scheduled,football_data_org,558543
+football,serie_a,2026-27,2026-11-01 14:00:00+00:00,Frosinone Calcio,Torino FC,,,scheduled,football_data_org,558544
+football,serie_a,2026-27,2026-11-01 14:00:00+00:00,SS Lazio,Cagliari Calcio,,,scheduled,football_data_org,558546
+football,serie_a,2026-27,2026-11-01 17:00:00+00:00,US Lecce,Genoa CFC,,,scheduled,football_data_org,558540
+football,serie_a,2026-27,2026-11-01 19:45:00+00:00,Juventus FC,SSC Napoli,,,scheduled,football_data_org,558547
+football,serie_a,2026-27,2026-11-02 17:30:00+00:00,US Sassuolo Calcio,ACF Fiorentina,,,scheduled,football_data_org,558541
+football,serie_a,2026-27,2026-11-02 19:45:00+00:00,Atalanta BC,Parma Calcio 1913,,,scheduled,football_data_org,558545
+football,serie_a,2026-27,2026-11-06 19:45:00+00:00,Venezia FC,Udinese Calcio,,,scheduled,football_data_org,558537
+football,serie_a,2026-27,2026-11-07 14:00:00+00:00,Torino FC,US Lecce,,,scheduled,football_data_org,558532
+football,serie_a,2026-27,2026-11-07 14:00:00+00:00,Cagliari Calcio,Frosinone Calcio,,,scheduled,football_data_org,558534
+football,serie_a,2026-27,2026-11-07 17:00:00+00:00,Parma Calcio 1913,Bologna FC 1909,,,scheduled,football_data_org,558535
+football,serie_a,2026-27,2026-11-07 19:45:00+00:00,AS Roma,US Sassuolo Calcio,,,scheduled,football_data_org,558531
+football,serie_a,2026-27,2026-11-08 11:30:00+00:00,SSC Napoli,SS Lazio,,,scheduled,football_data_org,558533
+football,serie_a,2026-27,2026-11-08 14:00:00+00:00,Genoa CFC,AC Milan,,,scheduled,football_data_org,558536
+football,serie_a,2026-27,2026-11-08 14:00:00+00:00,AC Monza,Atalanta BC,,,scheduled,football_data_org,558538
+football,serie_a,2026-27,2026-11-08 17:00:00+00:00,FC Internazionale Milano,Como 1907,,,scheduled,football_data_org,558530
+football,serie_a,2026-27,2026-11-08 19:45:00+00:00,ACF Fiorentina,Juventus FC,,,scheduled,football_data_org,558529
+football,serie_a,2026-27,2026-11-21 14:00:00+00:00,Como 1907,Cagliari Calcio,,,scheduled,football_data_org,558525
+football,serie_a,2026-27,2026-11-21 14:00:00+00:00,SS Lazio,US Lecce,,,scheduled,football_data_org,558528
+football,serie_a,2026-27,2026-11-21 17:00:00+00:00,Parma Calcio 1913,AS Roma,,,scheduled,football_data_org,558526
+football,serie_a,2026-27,2026-11-21 19:45:00+00:00,SSC Napoli,Torino FC,,,scheduled,football_data_org,558527
+football,serie_a,2026-27,2026-11-22 11:30:00+00:00,Juventus FC,Venezia FC,,,scheduled,football_data_org,558521
+football,serie_a,2026-27,2026-11-22 14:00:00+00:00,Bologna FC 1909,Udinese Calcio,,,scheduled,football_data_org,558522
+football,serie_a,2026-27,2026-11-22 14:00:00+00:00,US Sassuolo Calcio,Genoa CFC,,,scheduled,football_data_org,558524
+football,serie_a,2026-27,2026-11-22 17:00:00+00:00,AC Milan,Frosinone Calcio,,,scheduled,football_data_org,558523
+football,serie_a,2026-27,2026-11-22 19:45:00+00:00,Atalanta BC,FC Internazionale Milano,,,scheduled,football_data_org,558520
+football,serie_a,2026-27,2026-11-23 19:45:00+00:00,AC Monza,ACF Fiorentina,,,scheduled,football_data_org,558519
+football,serie_a,2026-27,2026-11-27 19:45:00+00:00,Venezia FC,Bologna FC 1909,,,scheduled,football_data_org,558515
+football,serie_a,2026-27,2026-11-28 14:00:00+00:00,Frosinone Calcio,Parma Calcio 1913,,,scheduled,football_data_org,558513
+football,serie_a,2026-27,2026-11-28 17:00:00+00:00,Torino FC,SS Lazio,,,scheduled,football_data_org,558514
+football,serie_a,2026-27,2026-11-28 19:45:00+00:00,FC Internazionale Milano,Genoa CFC,,,scheduled,football_data_org,558518
+football,serie_a,2026-27,2026-11-29 11:30:00+00:00,Udinese Calcio,ACF Fiorentina,,,scheduled,football_data_org,558517
+football,serie_a,2026-27,2026-11-29 14:00:00+00:00,US Sassuolo Calcio,SSC Napoli,,,scheduled,football_data_org,558509
+football,serie_a,2026-27,2026-11-29 17:00:00+00:00,AS Roma,AC Monza,,,scheduled,football_data_org,558512
+football,serie_a,2026-27,2026-11-29 19:45:00+00:00,Como 1907,Juventus FC,,,scheduled,football_data_org,558511
+football,serie_a,2026-27,2026-11-30 17:30:00+00:00,US Lecce,Atalanta BC,,,scheduled,football_data_org,558516
+football,serie_a,2026-27,2026-11-30 19:45:00+00:00,Cagliari Calcio,AC Milan,,,scheduled,football_data_org,558510
+football,serie_a,2026-27,2026-12-04 19:45:00+00:00,Bologna FC 1909,AS Roma,,,scheduled,football_data_org,558502
+football,serie_a,2026-27,2026-12-05 14:00:00+00:00,AC Monza,Como 1907,,,scheduled,football_data_org,558507
+football,serie_a,2026-27,2026-12-05 17:00:00+00:00,Frosinone Calcio,FC Internazionale Milano,,,scheduled,football_data_org,558501
+football,serie_a,2026-27,2026-12-05 19:45:00+00:00,SSC Napoli,US Lecce,,,scheduled,football_data_org,558508
+football,serie_a,2026-27,2026-12-06 11:30:00+00:00,Genoa CFC,Torino FC,,,scheduled,football_data_org,558499
+football,serie_a,2026-27,2026-12-06 14:00:00+00:00,SS Lazio,Atalanta BC,,,scheduled,football_data_org,558504
+football,serie_a,2026-27,2026-12-06 17:00:00+00:00,Juventus FC,Udinese Calcio,,,scheduled,football_data_org,558500
+football,serie_a,2026-27,2026-12-06 19:45:00+00:00,AC Milan,Parma Calcio 1913,,,scheduled,football_data_org,558505
+football,serie_a,2026-27,2026-12-07 17:30:00+00:00,Venezia FC,US Sassuolo Calcio,,,scheduled,football_data_org,558506
+football,serie_a,2026-27,2026-12-07 19:45:00+00:00,ACF Fiorentina,Cagliari Calcio,,,scheduled,football_data_org,558503
+football,serie_a,2026-27,2026-12-11 19:45:00+00:00,Udinese Calcio,Frosinone Calcio,,,scheduled,football_data_org,558491
+football,serie_a,2026-27,2026-12-12 14:00:00+00:00,Cagliari Calcio,Venezia FC,,,scheduled,football_data_org,558494
+football,serie_a,2026-27,2026-12-12 17:00:00+00:00,US Lecce,US Sassuolo Calcio,,,scheduled,football_data_org,558492
+football,serie_a,2026-27,2026-12-12 19:45:00+00:00,Como 1907,Bologna FC 1909,,,scheduled,football_data_org,558490
+football,serie_a,2026-27,2026-12-13 11:30:00+00:00,SS Lazio,AS Roma,,,scheduled,football_data_org,558498
+football,serie_a,2026-27,2026-12-13 14:00:00+00:00,FC Internazionale Milano,Torino FC,,,scheduled,football_data_org,558495
+football,serie_a,2026-27,2026-12-13 17:00:00+00:00,Parma Calcio 1913,ACF Fiorentina,,,scheduled,football_data_org,558493
+football,serie_a,2026-27,2026-12-13 19:45:00+00:00,SSC Napoli,AC Milan,,,scheduled,football_data_org,558489
+football,serie_a,2026-27,2026-12-14 17:30:00+00:00,Atalanta BC,Genoa CFC,,,scheduled,football_data_org,558497
+football,serie_a,2026-27,2026-12-14 19:45:00+00:00,Juventus FC,AC Monza,,,scheduled,football_data_org,558496
+football,serie_a,2026-27,2026-12-18 17:30:00+00:00,Frosinone Calcio,SS Lazio,,,scheduled,football_data_org,558482
+football,serie_a,2026-27,2026-12-18 19:45:00+00:00,US Lecce,FC Internazionale Milano,,,scheduled,football_data_org,558486
+football,serie_a,2026-27,2026-12-19 14:00:00+00:00,US Sassuolo Calcio,Parma Calcio 1913,,,scheduled,football_data_org,558480
+football,serie_a,2026-27,2026-12-19 17:00:00+00:00,AC Milan,Como 1907,,,scheduled,football_data_org,558479
+football,serie_a,2026-27,2026-12-19 19:45:00+00:00,AS Roma,Juventus FC,,,scheduled,football_data_org,558481
+football,serie_a,2026-27,2026-12-20 11:30:00+00:00,ACF Fiorentina,Bologna FC 1909,,,scheduled,football_data_org,558484
+football,serie_a,2026-27,2026-12-20 14:00:00+00:00,Torino FC,Cagliari Calcio,,,scheduled,football_data_org,558487
+football,serie_a,2026-27,2026-12-20 14:00:00+00:00,Venezia FC,AC Monza,,,scheduled,football_data_org,558488
+football,serie_a,2026-27,2026-12-20 17:00:00+00:00,Genoa CFC,Udinese Calcio,,,scheduled,football_data_org,558485
+football,serie_a,2026-27,2026-12-20 19:45:00+00:00,Atalanta BC,SSC Napoli,,,scheduled,football_data_org,558483
+football,serie_a,2026-27,2027-01-02 11:30:00+00:00,Cagliari Calcio,Genoa CFC,,,scheduled,football_data_org,558473
+football,serie_a,2026-27,2027-01-02 14:00:00+00:00,Torino FC,Venezia FC,,,scheduled,football_data_org,558474
+football,serie_a,2026-27,2027-01-02 14:00:00+00:00,ACF Fiorentina,SS Lazio,,,scheduled,football_data_org,558478
+football,serie_a,2026-27,2027-01-02 17:00:00+00:00,AS Roma,Frosinone Calcio,,,scheduled,football_data_org,558471
+football,serie_a,2026-27,2027-01-02 19:45:00+00:00,AC Monza,AC Milan,,,scheduled,football_data_org,558475
+football,serie_a,2026-27,2027-01-03 11:30:00+00:00,FC Internazionale Milano,US Sassuolo Calcio,,,scheduled,football_data_org,558476
+football,serie_a,2026-27,2027-01-03 14:00:00+00:00,Udinese Calcio,Atalanta BC,,,scheduled,football_data_org,558469
+football,serie_a,2026-27,2027-01-03 14:00:00+00:00,Como 1907,US Lecce,,,scheduled,football_data_org,558470
+football,serie_a,2026-27,2027-01-03 17:00:00+00:00,Parma Calcio 1913,SSC Napoli,,,scheduled,football_data_org,558472
+football,serie_a,2026-27,2027-01-03 19:45:00+00:00,Bologna FC 1909,Juventus FC,,,scheduled,football_data_org,558477
+football,serie_a,2026-27,2027-01-05 17:30:00+00:00,Genoa CFC,AC Monza,,,scheduled,football_data_org,558461
+football,serie_a,2026-27,2027-01-05 17:30:00+00:00,Venezia FC,AS Roma,,,scheduled,football_data_org,558462
+football,serie_a,2026-27,2027-01-05 19:45:00+00:00,AC Milan,ACF Fiorentina,,,scheduled,football_data_org,558464
+football,serie_a,2026-27,2027-01-06 11:30:00+00:00,Juventus FC,Torino FC,,,scheduled,football_data_org,558465
+football,serie_a,2026-27,2027-01-06 14:00:00+00:00,Frosinone Calcio,Bologna FC 1909,,,scheduled,football_data_org,558459
+football,serie_a,2026-27,2027-01-06 14:00:00+00:00,US Lecce,Parma Calcio 1913,,,scheduled,football_data_org,558468
+football,serie_a,2026-27,2027-01-06 17:00:00+00:00,Atalanta BC,Como 1907,,,scheduled,football_data_org,558466
+football,serie_a,2026-27,2027-01-06 19:45:00+00:00,SS Lazio,FC Internazionale Milano,,,scheduled,football_data_org,558467
+football,serie_a,2026-27,2027-01-07 17:30:00+00:00,US Sassuolo Calcio,Udinese Calcio,,,scheduled,football_data_org,558460
+football,serie_a,2026-27,2027-01-07 19:45:00+00:00,SSC Napoli,Cagliari Calcio,,,scheduled,football_data_org,558463
+football,serie_a,2026-27,2027-01-09 14:00:00+00:00,AC Monza,Frosinone Calcio,,,scheduled,football_data_org,558452
+football,serie_a,2026-27,2027-01-09 17:00:00+00:00,AS Roma,AC Milan,,,scheduled,football_data_org,558458
+football,serie_a,2026-27,2027-01-09 19:45:00+00:00,Bologna FC 1909,Genoa CFC,,,scheduled,football_data_org,558455
+football,serie_a,2026-27,2027-01-10 11:30:00+00:00,Como 1907,SS Lazio,,,scheduled,football_data_org,558457
+football,serie_a,2026-27,2027-01-10 14:00:00+00:00,ACF Fiorentina,US Lecce,,,scheduled,football_data_org,558449
+football,serie_a,2026-27,2027-01-10 14:00:00+00:00,Parma Calcio 1913,Venezia FC,,,scheduled,football_data_org,558454
+football,serie_a,2026-27,2027-01-10 17:00:00+00:00,Torino FC,Atalanta BC,,,scheduled,football_data_org,558451
+football,serie_a,2026-27,2027-01-10 19:45:00+00:00,FC Internazionale Milano,Juventus FC,,,scheduled,football_data_org,558453
+football,serie_a,2026-27,2027-01-11 17:30:00+00:00,Cagliari Calcio,US Sassuolo Calcio,,,scheduled,football_data_org,558456
+football,serie_a,2026-27,2027-01-11 19:45:00+00:00,Udinese Calcio,SSC Napoli,,,scheduled,football_data_org,558450
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,AC Milan,Torino FC,,,scheduled,football_data_org,558439
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,Parma Calcio 1913,FC Internazionale Milano,,,scheduled,football_data_org,558440
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,Juventus FC,Genoa CFC,,,scheduled,football_data_org,558441
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,US Lecce,Udinese Calcio,,,scheduled,football_data_org,558442
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,Cagliari Calcio,Como 1907,,,scheduled,football_data_org,558443
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,US Sassuolo Calcio,AC Monza,,,scheduled,football_data_org,558444
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,SSC Napoli,ACF Fiorentina,,,scheduled,football_data_org,558445
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,SS Lazio,Bologna FC 1909,,,scheduled,football_data_org,558446
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,Venezia FC,Frosinone Calcio,,,scheduled,football_data_org,558447
+football,serie_a,2026-27,2027-01-17 00:00:00+00:00,Atalanta BC,AS Roma,,,scheduled,football_data_org,558448
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,US Lecce,Torino FC,,,scheduled,football_data_org,558429
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,Juventus FC,Cagliari Calcio,,,scheduled,football_data_org,558430
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,FC Internazionale Milano,Venezia FC,,,scheduled,football_data_org,558431
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,ACF Fiorentina,US Sassuolo Calcio,,,scheduled,football_data_org,558432
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,Frosinone Calcio,AC Milan,,,scheduled,football_data_org,558433
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,AS Roma,Udinese Calcio,,,scheduled,football_data_org,558434
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,Bologna FC 1909,Atalanta BC,,,scheduled,football_data_org,558435
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,Genoa CFC,Parma Calcio 1913,,,scheduled,football_data_org,558436
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,Como 1907,SSC Napoli,,,scheduled,football_data_org,558437
+football,serie_a,2026-27,2027-01-24 00:00:00+00:00,AC Monza,SS Lazio,,,scheduled,football_data_org,558438
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,AC Milan,Juventus FC,,,scheduled,football_data_org,558419
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,AC Monza,AS Roma,,,scheduled,football_data_org,558420
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,Torino FC,Frosinone Calcio,,,scheduled,football_data_org,558421
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,Udinese Calcio,Bologna FC 1909,,,scheduled,football_data_org,558422
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,US Sassuolo Calcio,Como 1907,,,scheduled,football_data_org,558423
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,Genoa CFC,US Lecce,,,scheduled,football_data_org,558424
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,Cagliari Calcio,Parma Calcio 1913,,,scheduled,football_data_org,558425
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,Atalanta BC,ACF Fiorentina,,,scheduled,football_data_org,558426
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,SS Lazio,Venezia FC,,,scheduled,football_data_org,558427
+football,serie_a,2026-27,2027-01-31 00:00:00+00:00,SSC Napoli,FC Internazionale Milano,,,scheduled,football_data_org,558428
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,Juventus FC,US Sassuolo Calcio,,,scheduled,football_data_org,558409
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,FC Internazionale Milano,Cagliari Calcio,,,scheduled,football_data_org,558410
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,Como 1907,AC Monza,,,scheduled,football_data_org,558411
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,US Lecce,SSC Napoli,,,scheduled,football_data_org,558412
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,Venezia FC,Genoa CFC,,,scheduled,football_data_org,558413
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,AS Roma,Torino FC,,,scheduled,football_data_org,558414
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,Atalanta BC,SS Lazio,,,scheduled,football_data_org,558415
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,Parma Calcio 1913,Frosinone Calcio,,,scheduled,football_data_org,558416
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,Bologna FC 1909,AC Milan,,,scheduled,football_data_org,558417
+football,serie_a,2026-27,2027-02-07 00:00:00+00:00,ACF Fiorentina,Udinese Calcio,,,scheduled,football_data_org,558418
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,SSC Napoli,Juventus FC,,,scheduled,football_data_org,558399
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,AC Monza,US Lecce,,,scheduled,football_data_org,558400
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,Torino FC,US Sassuolo Calcio,,,scheduled,football_data_org,558401
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,Frosinone Calcio,ACF Fiorentina,,,scheduled,football_data_org,558402
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,Bologna FC 1909,Como 1907,,,scheduled,football_data_org,558403
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,AS Roma,Parma Calcio 1913,,,scheduled,football_data_org,558404
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,Udinese Calcio,Venezia FC,,,scheduled,football_data_org,558405
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,Genoa CFC,Atalanta BC,,,scheduled,football_data_org,558406
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,Cagliari Calcio,SS Lazio,,,scheduled,football_data_org,558407
+football,serie_a,2026-27,2027-02-14 00:00:00+00:00,FC Internazionale Milano,AC Milan,,,scheduled,football_data_org,558408
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,Como 1907,Torino FC,,,scheduled,football_data_org,558389
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,Atalanta BC,AC Monza,,,scheduled,football_data_org,558390
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,Udinese Calcio,Parma Calcio 1913,,,scheduled,football_data_org,558391
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,Juventus FC,Bologna FC 1909,,,scheduled,football_data_org,558392
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,ACF Fiorentina,FC Internazionale Milano,,,scheduled,football_data_org,558393
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,US Sassuolo Calcio,AS Roma,,,scheduled,football_data_org,558394
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,AC Milan,Genoa CFC,,,scheduled,football_data_org,558395
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,Venezia FC,Cagliari Calcio,,,scheduled,football_data_org,558396
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,US Lecce,Frosinone Calcio,,,scheduled,football_data_org,558397
+football,serie_a,2026-27,2027-02-21 00:00:00+00:00,SS Lazio,SSC Napoli,,,scheduled,football_data_org,558398
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,FC Internazionale Milano,Atalanta BC,,,scheduled,football_data_org,558379
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Cagliari Calcio,Udinese Calcio,,,scheduled,football_data_org,558380
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Parma Calcio 1913,US Sassuolo Calcio,,,scheduled,football_data_org,558381
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Genoa CFC,SS Lazio,,,scheduled,football_data_org,558382
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,AS Roma,Venezia FC,,,scheduled,football_data_org,558383
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Como 1907,AC Milan,,,scheduled,football_data_org,558384
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Torino FC,ACF Fiorentina,,,scheduled,football_data_org,558385
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Bologna FC 1909,US Lecce,,,scheduled,football_data_org,558386
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,AC Monza,Juventus FC,,,scheduled,football_data_org,558387
+football,serie_a,2026-27,2027-02-28 00:00:00+00:00,Frosinone Calcio,SSC Napoli,,,scheduled,football_data_org,558388
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,Udinese Calcio,FC Internazionale Milano,,,scheduled,football_data_org,558369
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,Atalanta BC,Torino FC,,,scheduled,football_data_org,558370
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,SSC Napoli,Parma Calcio 1913,,,scheduled,football_data_org,558371
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,US Lecce,Como 1907,,,scheduled,football_data_org,558372
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,SS Lazio,Frosinone Calcio,,,scheduled,football_data_org,558373
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,US Sassuolo Calcio,Bologna FC 1909,,,scheduled,football_data_org,558374
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,AC Monza,Genoa CFC,,,scheduled,football_data_org,558375
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,ACF Fiorentina,Venezia FC,,,scheduled,football_data_org,558376
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,AC Milan,Cagliari Calcio,,,scheduled,football_data_org,558377
+football,serie_a,2026-27,2027-03-07 00:00:00+00:00,Juventus FC,AS Roma,,,scheduled,football_data_org,558378
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Bologna FC 1909,SSC Napoli,,,scheduled,football_data_org,558359
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Cagliari Calcio,ACF Fiorentina,,,scheduled,football_data_org,558360
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,AC Milan,US Sassuolo Calcio,,,scheduled,football_data_org,558361
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Genoa CFC,AS Roma,,,scheduled,football_data_org,558362
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Parma Calcio 1913,US Lecce,,,scheduled,football_data_org,558363
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Torino FC,FC Internazionale Milano,,,scheduled,football_data_org,558364
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Frosinone Calcio,AC Monza,,,scheduled,football_data_org,558365
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Como 1907,Udinese Calcio,,,scheduled,football_data_org,558366
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,SS Lazio,Juventus FC,,,scheduled,football_data_org,558367
+football,serie_a,2026-27,2027-03-14 00:00:00+00:00,Venezia FC,Atalanta BC,,,scheduled,football_data_org,558368
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,SSC Napoli,Venezia FC,,,scheduled,football_data_org,558349
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,Udinese Calcio,Torino FC,,,scheduled,football_data_org,558350
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,Juventus FC,Como 1907,,,scheduled,football_data_org,558351
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,ACF Fiorentina,Genoa CFC,,,scheduled,football_data_org,558352
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,Parma Calcio 1913,SS Lazio,,,scheduled,football_data_org,558353
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,US Sassuolo Calcio,Cagliari Calcio,,,scheduled,football_data_org,558354
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,AC Monza,Bologna FC 1909,,,scheduled,football_data_org,558355
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,FC Internazionale Milano,Frosinone Calcio,,,scheduled,football_data_org,558356
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,AS Roma,US Lecce,,,scheduled,football_data_org,558357
+football,serie_a,2026-27,2027-03-21 00:00:00+00:00,Atalanta BC,AC Milan,,,scheduled,football_data_org,558358
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,US Lecce,SS Lazio,,,scheduled,football_data_org,558339
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,Cagliari Calcio,SSC Napoli,,,scheduled,football_data_org,558340
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,Como 1907,ACF Fiorentina,,,scheduled,football_data_org,558341
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,US Sassuolo Calcio,Atalanta BC,,,scheduled,football_data_org,558342
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,AS Roma,Bologna FC 1909,,,scheduled,football_data_org,558343
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,AC Milan,AC Monza,,,scheduled,football_data_org,558344
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,Genoa CFC,FC Internazionale Milano,,,scheduled,football_data_org,558345
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,Torino FC,Juventus FC,,,scheduled,football_data_org,558346
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,Venezia FC,Parma Calcio 1913,,,scheduled,football_data_org,558347
+football,serie_a,2026-27,2027-04-04 00:00:00+00:00,Frosinone Calcio,Udinese Calcio,,,scheduled,football_data_org,558348
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,Juventus FC,US Lecce,,,scheduled,football_data_org,558336
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,SSC Napoli,US Sassuolo Calcio,,,scheduled,football_data_org,558337
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,ACF Fiorentina,AC Milan,,,scheduled,football_data_org,558338
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,SS Lazio,Torino FC,,,scheduled,football_data_org,558329
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,Cagliari Calcio,Atalanta BC,,,scheduled,football_data_org,558330
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,Parma Calcio 1913,Como 1907,,,scheduled,football_data_org,558331
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,Bologna FC 1909,Venezia FC,,,scheduled,football_data_org,558332
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,Frosinone Calcio,Genoa CFC,,,scheduled,football_data_org,558333
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,FC Internazionale Milano,AS Roma,,,scheduled,football_data_org,558334
+football,serie_a,2026-27,2027-04-11 00:00:00+00:00,Udinese Calcio,AC Monza,,,scheduled,football_data_org,558335
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,AC Monza,FC Internazionale Milano,,,scheduled,football_data_org,558319
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,ACF Fiorentina,Parma Calcio 1913,,,scheduled,football_data_org,558320
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,AS Roma,SS Lazio,,,scheduled,football_data_org,558321
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,Como 1907,Frosinone Calcio,,,scheduled,football_data_org,558322
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,US Sassuolo Calcio,US Lecce,,,scheduled,football_data_org,558323
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,Bologna FC 1909,Cagliari Calcio,,,scheduled,football_data_org,558324
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,Atalanta BC,Udinese Calcio,,,scheduled,football_data_org,558325
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,Venezia FC,Juventus FC,,,scheduled,football_data_org,558326
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,AC Milan,SSC Napoli,,,scheduled,football_data_org,558327
+football,serie_a,2026-27,2027-04-18 00:00:00+00:00,Torino FC,Genoa CFC,,,scheduled,football_data_org,558328
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,Frosinone Calcio,AS Roma,,,scheduled,football_data_org,558309
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,Cagliari Calcio,AC Monza,,,scheduled,football_data_org,558310
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,SSC Napoli,Udinese Calcio,,,scheduled,football_data_org,558311
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,Parma Calcio 1913,Atalanta BC,,,scheduled,football_data_org,558312
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,SS Lazio,Como 1907,,,scheduled,football_data_org,558313
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,Juventus FC,ACF Fiorentina,,,scheduled,football_data_org,558314
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,Genoa CFC,US Sassuolo Calcio,,,scheduled,football_data_org,558315
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,US Lecce,AC Milan,,,scheduled,football_data_org,558316
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,Venezia FC,Torino FC,,,scheduled,football_data_org,558317
+football,serie_a,2026-27,2027-04-25 00:00:00+00:00,FC Internazionale Milano,Bologna FC 1909,,,scheduled,football_data_org,558318
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,Atalanta BC,Juventus FC,,,scheduled,football_data_org,558299
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,Torino FC,Parma Calcio 1913,,,scheduled,football_data_org,558300
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,AC Milan,SS Lazio,,,scheduled,football_data_org,558301
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,Udinese Calcio,Genoa CFC,,,scheduled,football_data_org,558302
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,US Sassuolo Calcio,Frosinone Calcio,,,scheduled,football_data_org,558303
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,Bologna FC 1909,ACF Fiorentina,,,scheduled,football_data_org,558304
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,Como 1907,FC Internazionale Milano,,,scheduled,football_data_org,558305
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,AC Monza,Venezia FC,,,scheduled,football_data_org,558306
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,US Lecce,Cagliari Calcio,,,scheduled,football_data_org,558307
+football,serie_a,2026-27,2027-05-02 00:00:00+00:00,AS Roma,SSC Napoli,,,scheduled,football_data_org,558308
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,Parma Calcio 1913,AC Milan,,,scheduled,football_data_org,558289
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,Genoa CFC,Cagliari Calcio,,,scheduled,football_data_org,558290
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,SS Lazio,US Sassuolo Calcio,,,scheduled,football_data_org,558291
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,SSC Napoli,AC Monza,,,scheduled,football_data_org,558292
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,FC Internazionale Milano,US Lecce,,,scheduled,football_data_org,558293
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,Venezia FC,Como 1907,,,scheduled,football_data_org,558294
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,Udinese Calcio,Juventus FC,,,scheduled,football_data_org,558295
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,Torino FC,Bologna FC 1909,,,scheduled,football_data_org,558296
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,Frosinone Calcio,Atalanta BC,,,scheduled,football_data_org,558297
+football,serie_a,2026-27,2027-05-09 00:00:00+00:00,ACF Fiorentina,AS Roma,,,scheduled,football_data_org,558298
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,SSC Napoli,Genoa CFC,,,scheduled,football_data_org,558279
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,US Lecce,ACF Fiorentina,,,scheduled,football_data_org,558280
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,SS Lazio,Udinese Calcio,,,scheduled,football_data_org,558281
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,Bologna FC 1909,Frosinone Calcio,,,scheduled,football_data_org,558282
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,Como 1907,Atalanta BC,,,scheduled,football_data_org,558283
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,Juventus FC,FC Internazionale Milano,,,scheduled,football_data_org,558284
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,US Sassuolo Calcio,Venezia FC,,,scheduled,football_data_org,558285
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,AC Monza,Parma Calcio 1913,,,scheduled,football_data_org,558286
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,AC Milan,AS Roma,,,scheduled,football_data_org,558287
+football,serie_a,2026-27,2027-05-16 00:00:00+00:00,Cagliari Calcio,Torino FC,,,scheduled,football_data_org,558288
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,AS Roma,Como 1907,,,scheduled,football_data_org,558269
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Parma Calcio 1913,Juventus FC,,,scheduled,football_data_org,558270
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Torino FC,SSC Napoli,,,scheduled,football_data_org,558271
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Atalanta BC,US Lecce,,,scheduled,football_data_org,558272
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,FC Internazionale Milano,SS Lazio,,,scheduled,football_data_org,558273
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Udinese Calcio,US Sassuolo Calcio,,,scheduled,football_data_org,558274
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Frosinone Calcio,Cagliari Calcio,,,scheduled,football_data_org,558275
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,ACF Fiorentina,AC Monza,,,scheduled,football_data_org,558276
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Venezia FC,AC Milan,,,scheduled,football_data_org,558277
+football,serie_a,2026-27,2027-05-23 00:00:00+00:00,Genoa CFC,Bologna FC 1909,,,scheduled,football_data_org,558278
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,AC Milan,Udinese Calcio,,,scheduled,football_data_org,558259
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,Juventus FC,Frosinone Calcio,,,scheduled,football_data_org,558260
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,AC Monza,Torino FC,,,scheduled,football_data_org,558261
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,US Sassuolo Calcio,FC Internazionale Milano,,,scheduled,football_data_org,558262
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,Cagliari Calcio,AS Roma,,,scheduled,football_data_org,558263
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,SS Lazio,ACF Fiorentina,,,scheduled,football_data_org,558264
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,Como 1907,Genoa CFC,,,scheduled,football_data_org,558265
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,SSC Napoli,Atalanta BC,,,scheduled,football_data_org,558266
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,US Lecce,Venezia FC,,,scheduled,football_data_org,558267
+football,serie_a,2026-27,2027-05-30 00:00:00+00:00,Bologna FC 1909,Parma Calcio 1913,,,scheduled,football_data_org,558268

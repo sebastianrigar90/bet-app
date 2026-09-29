@@ -1,0 +1,2 @@
+﻿model_id,created_at,sport,competition,season,data_hash,training_rows,validation_rows,log_loss,accuracy,status,model_file
+model_20260925_142840_918132,2026-09-25T14:28:40.953778,football,brasileirao,2026,ef5e1d652725337e435bc9367152a1547c52f441755721dbb7895e6d6e9a299c,221,56,1.010803511350481,0.5178571428571429,active,data\models\football\brasileirao\2026\versions\model_20260925_142840_918132.pkl

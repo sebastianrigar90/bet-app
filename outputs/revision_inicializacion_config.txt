@@ -1,0 +1,1205 @@
+
+
+
+==================================================
+ARCHIVO: src\modeling\__init__.py
+==================================================
+NO EXISTE
+
+
+
+==================================================
+ARCHIVO: src\modeling\__init___.py
+==================================================
+# Motor de modelos deportivos.
+
+
+
+==================================================
+ARCHIVO: src\tracking\__init__.py
+==================================================
+NO EXISTE
+
+
+
+==================================================
+ARCHIVO: src\tracking\_init__.py
+==================================================
+# Tracking de ejecuciones e histórico del sistema.
+
+
+
+==================================================
+ARCHIVO: config\models.yaml
+==================================================
+football:
+
+  premier_league:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  primera_a_clausura:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  serie_a:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  ligue_1:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  la_liga:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  bundesliga:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+  brasileirao:
+    model: poisson
+    recent_matches: 10
+    random_starts: 20
+    max_goals: 10
+
+
+
+==================================================
+ARCHIVO: src\modeling\trainer.py
+==================================================
+
+from __future__ import annotations
+
+import hashlib
+from pathlib import Path
+from typing import Optional
+
+import pandas as pd
+import yaml
+
+from .evaluation import ModelEvaluator
+from .poisson_model import PoissonModel
+from .registry import ModelRegistry
+
+
+class ModelTrainer:
+    """
+    Gestión central de modelos deportivos.
+
+    Responsabilidades:
+    - Cargar datos procesados.
+    - Preparar datos de entrenamiento.
+    - Detectar si el dataset cambió.
+    - Reutilizar el modelo activo cuando no hay datos nuevos.
+    - Entrenar una nueva versión cuando hay datos nuevos.
+    - Evaluar el modelo con métricas estandarizadas.
+    - Guardar reportes de evaluación.
+    - Registrar cada versión del modelo.
+    - Mantener un modelo activo.
+    """
+
+    def __init__(
+        self,
+        config_path: str = "config/models.yaml",
+        registry_path: str = "data/models",
+        evaluation_path: str = "outputs/model_evaluation",
+    ):
+        self.config_path = Path(config_path)
+        self.config = self._load_config()
+
+        self.registry = ModelRegistry(
+            base_path=registry_path
+        )
+
+        self.evaluator = ModelEvaluator()
+        self.evaluation_path = Path(evaluation_path)
+
+    # ---------------------------------------------------------
+    # CONFIGURACIÓN
+    # ---------------------------------------------------------
+
+    def _load_config(self) -> dict:
+        if not self.config_path.exists():
+            raise FileNotFoundError(
+                f"No existe el archivo: {self.config_path}"
+            )
+
+        with open(
+            self.config_path,
+            "r",
+            encoding="utf-8",
+        ) as file:
+            return yaml.safe_load(file) or {}
+
+    def get_config(
+        self,
+        sport: str,
+        competition: str,
+    ) -> dict:
+        try:
+            config = self.config[sport][competition]
+
+        except KeyError as exc:
+            raise ValueError(
+                f"No existe configuración para "
+                f"{sport}/{competition}"
+            ) from exc
+
+        return config
+
+    # ---------------------------------------------------------
+    # CARGA DE DATOS
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def load_processed_data(
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> pd.DataFrame:
+
+        path = (
+            Path("data")
+            / "processed"
+            / sport
+            / competition
+            / season
+            / "events.csv"
+        )
+
+        if not path.exists():
+            raise FileNotFoundError(
+                f"No existe histórico procesado:\n{path}"
+            )
+
+        df = pd.read_csv(path)
+
+        if df.empty:
+            raise ValueError(
+                f"El histórico está vacío:\n{path}"
+            )
+
+        return df
+
+    @staticmethod
+    def prepare_data(
+        df: pd.DataFrame,
+    ) -> pd.DataFrame:
+
+        required = {
+            "date",
+            "home",
+            "away",
+            "home_score",
+            "away_score",
+        }
+
+        missing = required - set(df.columns)
+
+        if missing:
+            raise ValueError(
+                f"Faltan columnas requeridas: {sorted(missing)}"
+            )
+
+        data = df[
+            [
+                "date",
+                "home",
+                "away",
+                "home_score",
+                "away_score",
+            ]
+        ].copy()
+
+        data["date"] = pd.to_datetime(
+            data["date"],
+            errors="coerce",
+        )
+
+        data["home_score"] = pd.to_numeric(
+            data["home_score"],
+            errors="coerce",
+        )
+
+        data["away_score"] = pd.to_numeric(
+            data["away_score"],
+            errors="coerce",
+        )
+
+        data = data.dropna(
+            subset=[
+                "date",
+                "home",
+                "away",
+                "home_score",
+                "away_score",
+            ]
+        )
+
+        # Los marcadores deben ser valores válidos
+        # y no negativos.
+        data = data[
+            (data["home_score"] >= 0)
+            & (data["away_score"] >= 0)
+        ].copy()
+
+        data = data.sort_values(
+            "date"
+        ).reset_index(drop=True)
+
+        if data.empty:
+            raise ValueError(
+                "No existen partidos finalizados disponibles "
+                "para entrenar."
+            )
+
+        return data
+
+    # ---------------------------------------------------------
+    # HUELLA DEL DATASET
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _data_hash(
+        data: pd.DataFrame,
+    ) -> str:
+        """
+        Genera una huella estable del dataset
+        utilizado para entrenamiento.
+        """
+
+        columns = [
+            "date",
+            "home",
+            "away",
+            "home_score",
+            "away_score",
+        ]
+
+        available = [
+            column
+            for column in columns
+            if column in data.columns
+        ]
+
+        normalized = (
+            data[available]
+            .sort_values(available)
+            .reset_index(drop=True)
+        )
+
+        content = normalized.to_csv(
+            index=False
+        ).encode("utf-8")
+
+        return hashlib.sha256(
+            content
+        ).hexdigest()
+
+    # ---------------------------------------------------------
+    # SEPARACIÓN TEMPORAL
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _split_train_validation(
+        data: pd.DataFrame,
+        validation_fraction: float = 0.20,
+        min_train_rows: int = 10,
+        min_validation_rows: int = 1,
+    ) -> tuple[pd.DataFrame, pd.DataFrame]:
+        """
+        Separa cronológicamente los datos.
+
+        Si no existe un volumen mínimo para entrenar
+        y validar de forma independiente, devuelve
+        una validación vacía.
+
+        Nunca utiliza los mismos partidos para
+        entrenamiento y evaluación.
+        """
+
+        if not 0 < validation_fraction < 1:
+            raise ValueError(
+                "validation_fraction debe estar entre 0 y 1."
+            )
+
+        if len(data) < (
+            min_train_rows + min_validation_rows
+        ):
+            return data.copy(), data.iloc[0:0].copy()
+
+        split = int(
+            len(data) * (1 - validation_fraction)
+        )
+
+        split = max(
+            min_train_rows,
+            min(
+                split,
+                len(data) - min_validation_rows,
+            ),
+        )
+
+        train = data.iloc[:split].copy()
+        validation = data.iloc[split:].copy()
+
+        return train, validation
+
+    # ---------------------------------------------------------
+    # CONSTRUCCIÓN DE RESULTADOS REALES
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _actual_result(
+        home_score: int,
+        away_score: int,
+    ) -> int:
+        """
+        Codificación de resultados:
+        0 = victoria local
+        1 = empate
+        2 = victoria visitante
+        """
+
+        if home_score > away_score:
+            return 0
+
+        if home_score == away_score:
+            return 1
+
+        return 2
+
+    # ---------------------------------------------------------
+    # PREDICCIONES DE VALIDACIÓN
+    # ---------------------------------------------------------
+
+    @classmethod
+    def _collect_predictions(
+        cls,
+        model: PoissonModel,
+        validation: pd.DataFrame,
+    ) -> tuple[list[int], list[list[float]], int]:
+        """
+        Genera probabilidades y resultados reales.
+
+        Los partidos con equipos desconocidos o
+        predicciones inválidas se excluyen del cálculo.
+        """
+
+        y_true = []
+        probabilities = []
+
+        skipped = 0
+
+        for _, row in validation.iterrows():
+
+            try:
+                prediction = model.predict_match(
+                    row["home"],
+                    row["away"],
+                )
+
+                probs = [
+                    float(prediction["prob_home"]),
+                    float(prediction["prob_draw"]),
+                    float(prediction["prob_away"]),
+                ]
+
+            except (ValueError, KeyError, TypeError):
+                skipped += 1
+                continue
+
+            # Validar que las probabilidades sean utilizables.
+            if (
+                len(probs) != 3
+                or any(
+                    not pd.notna(p)
+                    or p < 0
+                    or p > 1
+                    for p in probs
+                )
+            ):
+                skipped += 1
+                continue
+
+            probability_sum = sum(probs)
+
+            if (
+                probability_sum <= 0
+                or abs(probability_sum - 1.0) > 1e-6
+            ):
+                skipped += 1
+                continue
+
+            actual = cls._actual_result(
+                int(row["home_score"]),
+                int(row["away_score"]),
+            )
+
+            y_true.append(actual)
+            probabilities.append(probs)
+
+        return y_true, probabilities, skipped
+
+    # ---------------------------------------------------------
+    # EVALUACIÓN ESTANDARIZADA
+    # ---------------------------------------------------------
+
+    def _evaluate_model(
+        self,
+        model: PoissonModel,
+        validation: pd.DataFrame,
+        sport: str = "football",
+        competition: str = "unknown",
+        season: str = "unknown",
+        model_name: str = "poisson",
+        model_version: str = "candidate",
+    ) -> dict:
+        """
+        Evalúa el modelo y devuelve métricas estándar.
+
+        Si no hay suficientes observaciones válidas,
+        la evaluación se marca como INSUFFICIENT_DATA.
+        """
+
+        y_true, probabilities, skipped = (
+            self._collect_predictions(
+                model=model,
+                validation=validation,
+            )
+        )
+
+        evaluation_rows = len(y_true)
+
+        if evaluation_rows == 0:
+            return {
+                "metrics": {
+                    "model_name": model_name,
+                    "model_version": model_version,
+                    "sport": sport,
+                    "competition": competition,
+                    "season": season,
+                    "evaluation_rows": 0,
+                    "skipped_rows": skipped,
+                    "accuracy": None,
+                    "log_loss": None,
+                    "brier_score": None,
+                    "mean_calibration_error": None,
+                    "evaluation_status": "INSUFFICIENT_DATA",
+                },
+                "calibration": pd.DataFrame(),
+            }
+
+        result = self.evaluator.evaluate(
+            y_true=y_true,
+            probabilities=probabilities,
+            model_name=model_name,
+            model_version=model_version,
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        metrics = result["metrics"].copy()
+
+        metrics["evaluation_rows"] = evaluation_rows
+        metrics["skipped_rows"] = skipped
+
+        if evaluation_rows < 10:
+            metrics["evaluation_status"] = (
+                "LOW_SAMPLE_SIZE"
+            )
+
+        return {
+            "metrics": metrics,
+            "calibration": result["calibration"],
+        }
+
+    # ---------------------------------------------------------
+    # ENTRENAMIENTO
+    # ---------------------------------------------------------
+
+    def train(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+        data: Optional[pd.DataFrame] = None,
+    ) -> PoissonModel:
+
+        config = self.get_config(
+            sport=sport,
+            competition=competition,
+        )
+
+        model_name = config.get(
+            "model",
+            "poisson",
+        )
+
+        if model_name != "poisson":
+            raise ValueError(
+                f"Modelo no soportado: {model_name}"
+            )
+
+        if data is None:
+            data = self.load_processed_data(
+                sport=sport,
+                competition=competition,
+                season=season,
+            )
+
+        prepared = self.prepare_data(data)
+
+        model = PoissonModel(
+            random_starts=config.get(
+                "random_starts",
+                20,
+            ),
+            max_goals=config.get(
+                "max_goals",
+                10,
+            ),
+        )
+
+        model.fit(prepared)
+
+        return model
+
+    # ---------------------------------------------------------
+    # ENTRENAMIENTO O REUTILIZACIÓN
+    # ---------------------------------------------------------
+
+    def get_or_train(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> tuple[PoissonModel, bool]:
+
+        data = self.load_processed_data(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        prepared = self.prepare_data(data)
+
+        data_hash = self._data_hash(prepared)
+
+        # -----------------------------------------------------
+        # 1. ¿YA TENEMOS MODELO CON ESTE DATASET?
+        # -----------------------------------------------------
+
+        if self.registry.has_same_data(
+            sport=sport,
+            competition=competition,
+            season=season,
+            data_hash=data_hash,
+        ):
+
+            active = self.registry.load_active(
+                sport=sport,
+                competition=competition,
+                season=season,
+            )
+
+            if active is not None:
+                return active, False
+
+        # -----------------------------------------------------
+        # 2. HAY DATOS NUEVOS → ENTRENAR
+        # -----------------------------------------------------
+
+        train_data, validation_data = (
+            self._split_train_validation(prepared)
+        )
+
+        model = self.train(
+            sport=sport,
+            competition=competition,
+            season=season,
+            data=train_data,
+        )
+
+        evaluation = self._evaluate_model(
+            model=model,
+            validation=validation_data,
+            sport=sport,
+            competition=competition,
+            season=season,
+            model_name="poisson",
+        )
+
+        metrics = evaluation["metrics"]
+
+        # Guardar reportes cuando existan observaciones evaluables.
+        if metrics["evaluation_rows"] > 0:
+            self.evaluator.save_report(
+                result=evaluation,
+                output_dir=self.evaluation_path,
+            )
+
+        # -----------------------------------------------------
+        # 3. COMPARAR CONTRA MODELO ACTIVO
+        # -----------------------------------------------------
+
+        active_record = self.registry.get_active_record(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        activate = active_record is None
+
+        # Conservamos temporalmente el criterio anterior:
+        # menor log-loss que el modelo activo.
+        #
+        # La selección multicriterio se implementará
+        # después de validar el historial de métricas.
+
+        if (
+            active_record is not None
+            and metrics["log_loss"] is not None
+            and pd.notna(active_record.get("log_loss"))
+        ):
+
+            activate = (
+                metrics["log_loss"]
+                < float(active_record["log_loss"])
+            )
+
+        # -----------------------------------------------------
+        # 4. REGISTRAR NUEVA VERSIÓN
+        # -----------------------------------------------------
+
+        self.registry.register(
+            model=model,
+            sport=sport,
+            competition=competition,
+            season=season,
+            data_hash=data_hash,
+            training_rows=len(train_data),
+            validation_rows=metrics["evaluation_rows"],
+            log_loss=metrics["log_loss"],
+            accuracy=metrics["accuracy"],
+            activate=activate,
+        )
+
+        # -----------------------------------------------------
+        # 5. DEVOLVER MODELO ACTIVO
+        # -----------------------------------------------------
+
+        if activate:
+            return model, True
+
+        active = self.registry.load_active(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        if active is None:
+            raise RuntimeError(
+                "No existe un modelo activo "
+                "después del entrenamiento."
+            )
+
+        return active, False
+
+    # ---------------------------------------------------------
+    # CARGAR MODELO ACTIVO
+    # ---------------------------------------------------------
+
+    def load_active_model(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> PoissonModel:
+
+        model = self.registry.load_active(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        if model is None:
+            raise FileNotFoundError(
+                "No existe un modelo activo para "
+                f"{sport}/{competition}/{season}. "
+                "Ejecute get_or_train() primero."
+            )
+
+        return model
+
+
+
+==================================================
+ARCHIVO: src\modeling\registry.py
+==================================================
+from __future__ import annotations
+
+import pickle
+from datetime import datetime
+from pathlib import Path
+from typing import Any, Optional
+
+import pandas as pd
+
+
+class ModelRegistry:
+    """
+    Registro central de modelos deportivos.
+
+    Mantiene:
+
+    - versiones históricas de modelos
+    - modelo activo
+    - métricas de cada versión
+    - hash del dataset utilizado
+    - modelo con mejor performance
+    """
+
+    def __init__(
+        self,
+        base_path: str = "data/models",
+    ):
+        self.base_path = Path(base_path)
+
+        self.base_path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+    def _competition_path(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        path = (
+            self.base_path
+            / sport
+            / competition
+            / season
+        )
+
+        path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        return path
+
+    def _registry_file(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        return (
+            self._competition_path(
+                sport,
+                competition,
+                season,
+            )
+            / "registry.csv"
+        )
+
+    def _active_file(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        active_dir = (
+            self._competition_path(
+                sport,
+                competition,
+                season,
+            )
+            / "active"
+        )
+
+        active_dir.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        return active_dir / "model.pkl"
+
+    def _versions_dir(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        path = (
+            self._competition_path(
+                sport,
+                competition,
+                season,
+            )
+            / "versions"
+        )
+
+        path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        return path
+
+    def register(
+        self,
+        model: Any,
+        sport: str,
+        competition: str,
+        season: str,
+        data_hash: str,
+        training_rows: int,
+        validation_rows: int,
+        log_loss: Optional[float],
+        accuracy: Optional[float],
+        activate: bool = False,
+    ) -> str:
+
+        timestamp = datetime.now().strftime(
+            "%Y%m%d_%H%M%S_%f"
+        )
+
+        model_id = (
+            f"model_{timestamp}"
+        )
+
+        model_file = (
+            self._versions_dir(
+                sport,
+                competition,
+                season,
+            )
+            / f"{model_id}.pkl"
+        )
+
+        # -------------------------------------------------
+        # GUARDAR MODELO
+        # -------------------------------------------------
+
+        with open(
+            model_file,
+            "wb",
+        ) as file:
+
+            pickle.dump(
+                model,
+                file,
+            )
+
+        # -------------------------------------------------
+        # REGISTRO
+        # -------------------------------------------------
+
+        row = {
+            "model_id": model_id,
+            "created_at": datetime.now().isoformat(),
+            "sport": sport,
+            "competition": competition,
+            "season": season,
+            "data_hash": data_hash,
+            "training_rows": training_rows,
+            "validation_rows": validation_rows,
+            "log_loss": log_loss,
+            "accuracy": accuracy,
+            "status": (
+                "active"
+                if activate
+                else "archived"
+            ),
+            "model_file": str(
+                model_file
+            ),
+        }
+
+        registry_file = self._registry_file(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry_file.exists():
+
+            registry = pd.read_csv(
+                registry_file
+            )
+
+        else:
+
+            registry = pd.DataFrame()
+
+        # Si este modelo se convierte en activo,
+        # todos los anteriores pasan a archived.
+
+        if activate and not registry.empty:
+
+            registry["status"] = "archived"
+
+        registry = pd.concat(
+            [
+                registry,
+                pd.DataFrame([row]),
+            ],
+            ignore_index=True,
+        )
+
+        registry.to_csv(
+            registry_file,
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        # -------------------------------------------------
+        # COPIAR COMO MODELO ACTIVO
+        # -------------------------------------------------
+
+        if activate:
+
+            active_file = self._active_file(
+                sport,
+                competition,
+                season,
+            )
+
+            with open(
+                model_file,
+                "rb",
+            ) as source:
+
+                model_bytes = source.read()
+
+            with open(
+                active_file,
+                "wb",
+            ) as target:
+
+                target.write(
+                    model_bytes
+                )
+
+        return model_id
+
+    def load_active(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[Any]:
+
+        active_file = self._active_file(
+            sport,
+            competition,
+            season,
+        )
+
+        if not active_file.exists():
+
+            return None
+
+        with open(
+            active_file,
+            "rb",
+        ) as file:
+
+            return pickle.load(file)
+
+    def get_registry(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> pd.DataFrame:
+
+        registry_file = self._registry_file(
+            sport,
+            competition,
+            season,
+        )
+
+        if not registry_file.exists():
+
+            return pd.DataFrame()
+
+        return pd.read_csv(
+            registry_file
+        )
+
+    def list_models(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> pd.DataFrame:
+        """
+        Devuelve todas las versiones registradas,
+        ordenadas desde la más reciente.
+        """
+
+        registry = self.get_registry(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return registry
+
+        if "created_at" in registry.columns:
+
+            registry = registry.sort_values(
+                "created_at",
+                ascending=False,
+            )
+
+        return registry.reset_index(
+            drop=True
+        )
+
+    def get_active_record(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[dict]:
+
+        registry = self.get_registry(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return None
+
+        active = registry[
+            registry["status"] == "active"
+        ]
+
+        if active.empty:
+
+            return None
+
+        return active.iloc[-1].to_dict()
+
+    def get_latest_record(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[dict]:
+        """
+        Devuelve la versión más reciente registrada.
+        """
+
+        registry = self.list_models(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return None
+
+        return registry.iloc[0].to_dict()
+
+    def get_best_record(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[dict]:
+        """
+        Devuelve el modelo con menor log_loss.
+
+        Menor log_loss = mejor desempeño
+        en la validación registrada.
+        """
+
+        registry = self.get_registry(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return None
+
+        if "log_loss" not in registry.columns:
+
+            return None
+
+        candidates = registry.copy()
+
+        candidates["log_loss"] = pd.to_numeric(
+            candidates["log_loss"],
+            errors="coerce",
+        )
+
+        candidates = candidates.dropna(
+            subset=["log_loss"]
+        )
+
+        if candidates.empty:
+
+            return None
+
+        best = candidates.sort_values(
+            "log_loss",
+            ascending=True,
+        ).iloc[0]
+
+        return best.to_dict()
+
+    def has_same_data(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+        data_hash: str,
+    ) -> bool:
+
+        record = self.get_active_record(
+            sport,
+            competition,
+            season,
+        )
+
+        if record is None:
+
+            return False
+
+        return (
+            str(record["data_hash"])
+            == str(data_hash)
+        )

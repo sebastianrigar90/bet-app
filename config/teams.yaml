@@ -1,0 +1,744 @@
+football:
+
+  # ==========================================================
+  # INGLATERRA
+  # ==========================================================
+
+  england:
+
+    premier_league:
+
+      arsenal:
+        canonical: "Arsenal"
+        aliases:
+          - "Arsenal"
+          - "Arsenal FC"
+
+      manchester_united:
+        canonical: "Manchester United"
+        aliases:
+          - "Manchester United"
+          - "Manchester Utd"
+          - "Man Utd"
+          - "Man United"
+
+      manchester_city:
+        canonical: "Manchester City"
+        aliases:
+          - "Manchester City"
+          - "Man City"
+
+
+  # ==========================================================
+  # ITALIA - SERIE A
+  # ==========================================================
+
+  italy:
+
+    serie_a:
+
+      ac_milan:
+        canonical: "AC Milan"
+        aliases:
+          - "AC Milan"
+          - "AC Milán"
+
+      monza:
+        canonical: "AC Monza"
+        aliases:
+          - "AC Monza"
+          - "Monza"
+
+      fiorentina:
+        canonical: "ACF Fiorentina"
+        aliases:
+          - "ACF Fiorentina"
+          - "Fiorentina"
+
+      roma:
+        canonical: "AS Roma"
+        aliases:
+          - "AS Roma"
+          - "Roma"
+
+      atalanta:
+        canonical: "Atalanta BC"
+        aliases:
+          - "Atalanta BC"
+          - "Atalanta"
+
+      bologna:
+        canonical: "Bologna FC 1909"
+        aliases:
+          - "Bologna FC 1909"
+          - "Bologna"
+
+      cagliari:
+        canonical: "Cagliari Calcio"
+        aliases:
+          - "Cagliari Calcio"
+          - "Cagliari"
+
+      como:
+        canonical: "Como 1907"
+        aliases:
+          - "Como 1907"
+          - "Como"
+
+      inter:
+        canonical: "FC Internazionale Milano"
+        aliases:
+          - "FC Internazionale Milano"
+          - "Inter"
+          - "Inter Milan"
+          - "Internazionale"
+
+      frosinone:
+        canonical: "Frosinone Calcio"
+        aliases:
+          - "Frosinone Calcio"
+          - "Frosinone"
+
+      genoa:
+        canonical: "Genoa CFC"
+        aliases:
+          - "Genoa CFC"
+          - "Génova"
+          - "Genoa"
+
+      juventus:
+        canonical: "Juventus FC"
+        aliases:
+          - "Juventus FC"
+          - "Juventus"
+
+      parma:
+        canonical: "Parma Calcio 1913"
+        aliases:
+          - "Parma Calcio 1913"
+          - "Parma"
+
+      lazio:
+        canonical: "SS Lazio"
+        aliases:
+          - "SS Lazio"
+          - "Lazio"
+
+      napoli:
+        canonical: "SSC Napoli"
+        aliases:
+          - "SSC Napoli"
+          - "Napoles"
+          - "Nápoles"
+          - "Napoli"
+
+      torino:
+        canonical: "Torino FC"
+        aliases:
+          - "Torino FC"
+          - "Torino"
+
+      lecce:
+        canonical: "US Lecce"
+        aliases:
+          - "US Lecce"
+          - "Lecce"
+
+      sassuolo:
+        canonical: "US Sassuolo Calcio"
+        aliases:
+          - "US Sassuolo Calcio"
+          - "Sassuolo"
+
+      udinese:
+        canonical: "Udinese Calcio"
+        aliases:
+          - "Udinese Calcio"
+          - "Udinese"
+
+      venezia:
+        canonical: "Venezia FC"
+        aliases:
+          - "Venezia FC"
+          - "Venezia"
+
+
+  # ==========================================================
+  # FRANCIA - LIGUE 1
+  # ==========================================================
+
+  france:
+
+    ligue_1:
+
+      auxerre:
+        canonical: "AJ Auxerre"
+        aliases:
+          - "AJ Auxerre"
+
+      monaco:
+        canonical: "AS Monaco FC"
+        aliases:
+          - "AS Monaco FC"
+          - "AS Monaco"
+
+      angers:
+        canonical: "Angers SCO"
+        aliases:
+          - "Angers SCO"
+
+      troyes:
+        canonical: "ES Troyes AC"
+        aliases:
+          - "ES Troyes AC"
+          - "Troyes"
+
+      lorient:
+        canonical: "FC Lorient"
+        aliases:
+          - "FC Lorient"
+          - "Lorient"
+
+      le_havre:
+        canonical: "Le Havre AC"
+        aliases:
+          - "Le Havre AC"
+          - "AC Le Havre"
+
+      le_mans:
+        canonical: "Le Mans FC"
+        aliases:
+          - "Le Mans FC"
+          - "Le Mans"
+
+      lille:
+        canonical: "Lille OSC"
+        aliases:
+          - "Lille OSC"
+          - "Lille"
+
+      nice:
+        canonical: "OGC Nice"
+        aliases:
+          - "OGC Nice"
+          - "Niza"
+          - "Nice"
+
+      lyon:
+        canonical: "Olympique Lyonnais"
+        aliases:
+          - "Olympique Lyonnais"
+          - "Lyon"
+
+      marseille:
+        canonical: "Olympique de Marseille"
+        aliases:
+          - "Olympique de Marseille"
+          - "Marseille"
+
+      paris_fc:
+        canonical: "Paris FC"
+        aliases:
+          - "Paris FC"
+
+      psg:
+        canonical: "Paris Saint-Germain FC"
+        aliases:
+          - "Paris Saint-Germain FC"
+          - "Paris Saint-Germain"
+          - "PSG"
+
+      strasbourg:
+        canonical: "RC Strasbourg Alsace"
+        aliases:
+          - "RC Strasbourg Alsace"
+          - "Strasbourg"
+
+      lens:
+        canonical: "Racing Club de Lens"
+        aliases:
+          - "Racing Club de Lens"
+          - "RC Lens"
+
+      brest:
+        canonical: "Stade Brestois 29"
+        aliases:
+          - "Stade Brestois 29"
+          - "Brest"
+
+      rennes:
+        canonical: "Stade Rennais FC 1901"
+        aliases:
+          - "Stade Rennais FC 1901"
+          - "Rennes"
+
+      toulouse:
+        canonical: "Toulouse FC"
+        aliases:
+          - "Toulouse FC"
+          - "Toulouse"
+
+
+  # ==========================================================
+  # ESPAÑA - LA LIGA
+  # ==========================================================
+
+  spain:
+
+    la_liga:
+
+      athletic_club:
+        canonical: "Athletic Club"
+        aliases:
+          - "Athletic Club"
+          - "Athletic Bilbao"
+
+      osasuna:
+        canonical: "CA Osasuna"
+        aliases:
+          - "CA Osasuna"
+          - "Osasuna"
+
+      atletico_madrid:
+        canonical: "Club Atlético de Madrid"
+        aliases:
+          - "Club Atlético de Madrid"
+          - "Atlético Madrid"
+          - "Atletico Madrid"
+
+      alaves:
+        canonical: "Deportivo Alavés"
+        aliases:
+          - "Deportivo Alavés"
+          - "CD Alaves"
+          - "CD Alavés"
+
+      elche:
+        canonical: "Elche CF"
+        aliases:
+          - "Elche CF"
+          - "Elche"
+
+      barcelona:
+        canonical: "FC Barcelona"
+        aliases:
+          - "FC Barcelona"
+          - "Barcelona"
+
+      getafe:
+        canonical: "Getafe CF"
+        aliases:
+          - "Getafe CF"
+          - "Getafe"
+
+      levante:
+        canonical: "Levante UD"
+        aliases:
+          - "Levante UD"
+          - "Levante"
+
+      malaga:
+        canonical: "Málaga CF"
+        aliases:
+          - "Málaga CF"
+          - "Malaga"
+          - "Málaga"
+          - "Streaming Malaga"
+
+      celta_vigo:
+        canonical: "RC Celta de Vigo"
+        aliases:
+          - "RC Celta de Vigo"
+          - "Celta de Vigo"
+
+      deportivo_la_coruna:
+        canonical: "RC Deportivo La Coruña"
+        aliases:
+          - "RC Deportivo La Coruña"
+          - "Deportivo La Coruna"
+          - "Deportivo La Coruña"
+
+      espanyol:
+        canonical: "RCD Espanyol de Barcelona"
+        aliases:
+          - "RCD Espanyol de Barcelona"
+          - "Espanyol"
+
+      rayo_vallecano:
+        canonical: "Rayo Vallecano de Madrid"
+        aliases:
+          - "Rayo Vallecano de Madrid"
+          - "Rayo Vallecano"
+
+      real_betis:
+        canonical: "Real Betis Balompié"
+        aliases:
+          - "Real Betis Balompié"
+          - "Real Betis"
+
+      real_madrid:
+        canonical: "Real Madrid CF"
+        aliases:
+          - "Real Madrid CF"
+          - "Real Madrid"
+
+      racing_santander:
+        canonical: "Real Racing Club de Santander"
+        aliases:
+          - "Real Racing Club de Santander"
+          - "Racing Santander"
+
+      real_sociedad:
+        canonical: "Real Sociedad de Fútbol"
+        aliases:
+          - "Real Sociedad de Fútbol"
+          - "Real Sociedad"
+
+      sevilla:
+        canonical: "Sevilla FC"
+        aliases:
+          - "Sevilla FC"
+          - "Sevilla"
+
+      valencia:
+        canonical: "Valencia CF"
+        aliases:
+          - "Valencia CF"
+          - "Valencia"
+
+      villarreal:
+        canonical: "Villarreal CF"
+        aliases:
+          - "Villarreal CF"
+          - "Villarreal"
+
+
+  # ==========================================================
+  # COLOMBIA
+  # ==========================================================
+
+  colombia:
+
+    primera_a:
+
+      atletico_nacional:
+        canonical: "Atletico Nacional"
+        aliases:
+          - "Atletico Nacional"
+          - "Atlético Nacional"
+          - "Nacional"
+          - "Atl Nacional"
+
+      america_de_cali:
+        canonical: "America de Cali"
+        aliases:
+          - "America de Cali"
+          - "América de Cali"
+          - "America"
+          - "América"
+
+      independiente_santa_fe:
+        canonical: "Independiente Santa Fe"
+        aliases:
+          - "Independiente Santa Fe"
+          - "Santa Fe"
+          - "Independiente Santa Fé"
+
+      millonarios:
+        canonical: "Millonarios"
+        aliases:
+          - "Millonarios"
+          - "Millonarios FC"
+
+      deportivo_pereira:
+        canonical: "Pereira"
+        aliases:
+          - "Pereira"
+          - "Deportivo Pereira"
+
+      once_caldas:
+        canonical: "O. Caldas"
+        aliases:
+          - "O. Caldas"
+          - "Once Caldas"
+          - "Once Caldas FC"
+
+      atletico_bucaramanga:
+        canonical: "Bucaramanga"
+        aliases:
+          - "Bucaramanga"
+          - "Atlético Bucaramanga"
+          - "Atletico Bucaramanga"
+          - "Bucaramanga FC"
+
+      boyaca_chico:
+        canonical: "Chicó"
+        aliases:
+          - "Chicó"
+          - "Boyaca Chico"
+          - "Boyaca Chico FC"
+          - "Boyacá Chicó"
+          - "Boyacá Chicó FC"
+
+      deportivo_cali:
+        canonical: "Cali"
+        aliases:
+          - "Cali"
+          - "Deportivo Cali"
+          - "Deportivo Cali FC"
+
+      junior:
+        canonical: "Junior"
+        aliases:
+          - "Junior"
+          - "CD Junior"
+          - "Junior FC"
+          - "Junior de Barranquilla"
+          - "Junior de Barranquilla FC"
+
+      independiente_medellin:
+        canonical: "Medellín"
+        aliases:
+          - "Medellín"
+          - "Independiente Medellin"
+          - "Independiente Medellín"
+          - "Independiente Medellin FC"
+          - "DIM"
+
+      cucuta_deportivo:
+        canonical: "Cúcuta"
+        aliases:
+          - "Cúcuta"
+          - "Cucuta"
+          - "Cúcuta Deportivo"
+          - "Cucuta Deportivo"
+          - "Cúcuta Deportivo FC"
+
+      jaguares:
+        canonical: "Jaguares"
+        aliases:
+          - "Jaguares"
+          - "Jaguares FC"
+          - "Jaguares de Córdoba"
+          - "Jaguares De Córdoba"
+          - "Jaguares de Cordoba"
+          - "Jaguares de Cordoba FC"
+
+      fortaleza:
+        canonical: "Fortaleza"
+        aliases:
+          - "Fortaleza"
+          - "Fortaleza FC"
+
+      tolima:
+        canonical: "Tolima"
+        aliases:
+          - "Tolima"
+          - "Deportes Tolima"
+          - "Deportes Tolima FC"
+
+      deportivo_pasto:
+        canonical: "Pasto"
+        aliases:
+          - "Pasto"
+          - "Deportivo Pasto"
+          - "Deportivo Pasto FC"
+
+      llaneros:
+        canonical: "Llaneros"
+        aliases:
+          - "Llaneros"
+          - "Llaneros FC"
+
+      alianza:
+        canonical: "Alianza"
+        aliases:
+          - "Alianza"
+          - "Alianza FC"
+          - "Alianza Petrolera"
+          - "Alianza Petrolera FC"
+
+      aguilas_doradas:
+        canonical: "Águilas D."
+        aliases:
+          - "Águilas D."
+          - "Aguilas D."
+          - "Águilas Doradas"
+          - "Aguilas Doradas"
+          - "Águilas Doradas Rionegro"
+          - "Aguilas Doradas Rionegro"
+          - "Águilas Doradas Rionegro FC"
+          - "Aguilas Doradas Rionegro FC"
+
+      internacional_de_bogota:
+        canonical: "Inter Bogotá"
+        aliases:
+          - "Inter Bogotá"
+          - "Inter Bogota"
+          - "Internacional de Bogotá"
+          - "Internacional de Bogota"
+          - "Internacional de Bogotá FC"
+          - "Internacional de Bogota FC"
+# ==========================================================
+  # BRASIL - BRASILEIRÃO
+  # ==========================================================
+
+  brazil:
+
+    brasileirao:
+
+      botafogo:
+        canonical: "Botafogo FR"
+        aliases:
+          - "Botafogo FR"
+          - "Botafogo RJ"
+          - "Botafogo"
+
+      atletico_mg:
+        canonical: "CA Mineiro"
+        aliases:
+          - "CA Mineiro"
+          - "Atletico MG"
+          - "Atlético MG"
+          - "Atlético Mineiro"
+          - "Atletico Mineiro"
+
+      athletico_pr:
+        canonical: "CA Paranaense"
+        aliases:
+          - "CA Paranaense"
+          - "Athletico Paranaense"
+          - "Athletico-PR"
+          - "Atletico PR"
+
+      flamengo:
+        canonical: "CR Flamengo"
+        aliases:
+          - "CR Flamengo"
+          - "Flamengo"
+          - "Flamengo RJ"
+
+      vasco:
+        canonical: "CR Vasco da Gama"
+        aliases:
+          - "CR Vasco da Gama"
+          - "Vasco da Gama RJ"
+          - "Vasco da Gama"
+          - "Vasco"
+
+      chapecoense:
+        canonical: "Chapecoense AF"
+        aliases:
+          - "Chapecoense AF"
+          - "Chapecoense SC"
+          - "Chapecoense"
+          - "Chapecoense-SC"
+
+      remo:
+        canonical: "Clube do Remo"
+        aliases:
+          - "Clube do Remo"
+          - "Remo PA"
+          - "Remo"
+          - "Clube do Remo PA"
+
+      coritiba:
+        canonical: "Coritiba FBC"
+        aliases:
+          - "Coritiba FBC"
+          - "Coritiba"
+          - "Coritiba FC"
+
+      cruzeiro:
+        canonical: "Cruzeiro EC"
+        aliases:
+          - "Cruzeiro EC"
+          - "Cruzeiro MG"
+          - "Cruzeiro"
+
+      bahia:
+        canonical: "EC Bahia"
+        aliases:
+          - "EC Bahia"
+          - "Bahia"
+          - "Bahia BA"
+
+      vitoria:
+        canonical: "EC Vitória"
+        aliases:
+          - "EC Vitória"
+          - "EC Vitoria"
+          - "Vitória"
+          - "Vitoria"
+          - "Vitoria BA"
+
+      fluminense:
+        canonical: "Fluminense FC"
+        aliases:
+          - "Fluminense FC"
+          - "Fluminense"
+          - "Fluminense RJ"
+
+      gremio:
+        canonical: "Grêmio FBPA"
+        aliases:
+          - "Grêmio FBPA"
+          - "Gremio RS"
+          - "Grêmio RS"
+          - "Grêmio"
+          - "Gremio"
+
+      mirassol:
+        canonical: "Mirassol FC"
+        aliases:
+          - "Mirassol FC"
+          - "Mirassol SP"
+          - "Mirassol"
+
+      bragantino:
+        canonical: "RB Bragantino"
+        aliases:
+          - "RB Bragantino"
+          - "Bragantino SP"
+          - "Bragantino"
+          - "Red Bull Bragantino"
+
+      corinthians:
+        canonical: "SC Corinthians Paulista"
+        aliases:
+          - "SC Corinthians Paulista"
+          - "Corinthians SP"
+          - "Corinthians"
+          - "Corinthians Paulista"
+
+      internacional:
+        canonical: "SC Internacional"
+        aliases:
+          - "SC Internacional"
+          - "Internacional RS"
+          - "Internacional"
+          - "Internacional de Porto Alegre"
+
+      palmeiras:
+        canonical: "SE Palmeiras"
+        aliases:
+          - "SE Palmeiras"
+          - "Palmeiras"
+          - "Palmeiras SP"
+
+      santos:
+        canonical: "Santos FC"
+        aliases:
+          - "Santos FC"
+          - "Santos SP"
+          - "Santos"
+
+      sao_paulo:
+        canonical: "São Paulo FC"
+        aliases:
+          - "São Paulo FC"
+          - "Sao Paulo FC"
+          - "Sao Paulo SP"
+          - "São Paulo SP"
+          - "São Paulo"
+          - "Sao Paulo"

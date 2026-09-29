@@ -1,0 +1,185 @@
+Estoy retomando un proyecto de arquitectura modular para ingestión de datos deportivos llamado:
+
+4.1_apuestas_deportivas
+
+Quiero continuar exactamente desde el punto donde quedó el desarrollo. NO quiero rehacer el proyecto ni cambiar la arquitectura.
+
+Arquitectura actual:
+
+NOTEBOOK
+   ↓
+DataManager
+   ↓
+SourceRouter
+   ↓
+API / CSV / SCRAPER
+   ↓
+Normalizer
+   ↓
+Validator
+   ↓
+Repository
+
+Estructura principal:
+
+4.1_apuestas_deportivas/
+├── config/
+│   ├── competitions.yaml
+│   ├── sources.yaml
+│   └── teams.yaml
+├── data/
+├── logs/
+├── notebooks/
+├── src/
+│   ├── manager.py
+│   ├── core/
+│   │   ├── models.py
+│   │   ├── interfaces.py
+│   │   ├── exceptions.py
+│   │   └── router.py
+│   ├── sources/
+│   │   ├── registry.py
+│   │   ├── api/
+│   │   │   ├── generic_api.py
+│   │   │   ├── pulselive.py
+│   │   │   └── [SIGUIENTE ARCHIVO]
+│   │   ├── csv/
+│   │   │   ├── generic_csv.py
+│   │   │   └── football_data.py
+│   │   └── scraper/
+│   │       └── colombia_com.py
+│   ├── normalization/
+│   │   ├── teams.py
+│   │   └── matches.py
+│   ├── validation/
+│   │   └── validator.py
+│   └── storage/
+│       └── repository.py
+└── tests/
+
+Ya están funcionando y probados:
+
+1. Event
+2. SportsDataSource
+3. SourceRouter
+4. SourceRegistry
+5. SourceFactory
+6. DataManager
+7. MatchNormalizer
+8. TeamNormalizer
+9. SportsDataValidator
+10. SportsRepository
+11. PulseLiveSource
+12. ColombiaComSource
+13. FootballDataSource
+
+Resultados comprobados:
+
+PulseLive:
+EVENTOS: 380
+FUENTE: pulselive
+
+Colombia.com:
+EVENTOS ORIGINALES: 190
+EVENTOS NORMALIZADOS: 190
+VALIDOS: 190
+ERRORES: 0
+
+Repository:
+guarda correctamente en data/processed/
+
+El Router también tiene trazabilidad mediante:
+get_last_source()
+get_last_errors()
+
+Y ya probamos:
+
+EVENTOS: 380
+FUENTE UTILIZADA: pulselive
+ERRORES: []
+
+Actualmente config/sources.yaml tiene Serie A configurada así:
+
+football:
+
+  premier_league:
+
+    - source: pulselive
+      priority: 1
+
+      config:
+        competition_id: 1
+        competition_season_id: 841
+
+  primera_a_clausura:
+
+    - source: colombia_com
+      priority: 1
+
+  serie_a:
+
+    - source: football_data
+      priority: 1
+
+      config:
+        league_code: I1
+        season_code: "2627"
+        competition: serie_a
+
+La prueba actual de Serie A devuelve:
+
+RuntimeError:
+No fue posible obtener datos para sport='football', competition='serie_a', season='2026-27'.
+- football_data: fuente no disponible
+
+Esto es esperado.
+
+SIGUIENTE PASO EXACTO:
+
+Crear:
+
+src/sources/api/football_data_org.py
+
+para implementar una segunda fuente real para Serie A usando football-data.org.
+
+Luego:
+
+1. actualizar src/sources/registry.py
+2. actualizar config/sources.yaml agregando football_data_org con priority 2
+3. probar SourceFactory
+4. probar Router fallback
+5. probar DataManager completo
+6. comprobar qué fuente fue utilizada mediante get_last_source()
+7. comprobar errores mediante get_last_errors()
+8. guardar los eventos procesados.
+
+IMPORTANTE:
+- Quiero pasos uno por uno.
+- Cuando haya que modificar un archivo, dame SIEMPRE el código COMPLETO del archivo, no fragmentos.
+- No quiero modificar el proyecto anterior de notebooks.
+- Estamos construyendo una arquitectura nueva, modular y orientada a objetos.
+- Quiero mantener fallback entre fuentes.
+- No avances varios pasos a la vez: primero hacemos el archivo, lo pruebo y después seguimos.
+- El proyecto está en Windows/PowerShell.
+- La ruta del proyecto es:
+
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas
+
+Para empezar, dime solamente cómo crear/reemplazar:
+
+src/sources/api/football_data_org.py
+
+y dame el código completo.
+
+
+
+
+
+
+
+
+
+
+
+
+python -m src.updater

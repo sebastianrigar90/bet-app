@@ -1,0 +1,190 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,primera_a_clausura,2026,2026-07-24,Llaneros,Pereira,0.0,0.0,finished,colombia_com,20260724_1_llaneros_deportivopereira
+football,primera_a_clausura,2026,2026-07-24,Cali,Jaguares,0.0,0.0,finished,colombia_com,20260724_1_cali_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-07-25,Medellín,Pasto,0.0,0.0,finished,colombia_com,20260725_1_medelln_deportivopasto
+football,primera_a_clausura,2026,2026-07-25,Millonarios,Bucaramanga,0.0,0.0,finished,colombia_com,20260725_1_millonarios_atlticobucaramanga
+football,primera_a_clausura,2026,2026-07-25,Tolima,Junior,0.0,0.0,finished,colombia_com,20260725_1_tolima_juniorfc
+football,primera_a_clausura,2026,2026-07-26,Inter Bogotá,America de Cali,0.0,0.0,finished,colombia_com,20260726_1_interbogot_amricadecali
+football,primera_a_clausura,2026,2026-07-26,Águilas D.,Independiente Santa Fe,0.0,0.0,finished,colombia_com,20260726_1_guilasd_independientesantafe
+football,primera_a_clausura,2026,2026-07-26,Alianza,Fortaleza,0.0,0.0,finished,colombia_com,20260726_1_alianza_fortalezafc
+football,primera_a_clausura,2026,2026-07-26,O. Caldas,Cúcuta,0.0,0.0,finished,colombia_com,20260726_1_ocaldas_ccutadeportivo
+football,primera_a_clausura,2026,2026-07-30,Atletico Nacional,Bucaramanga,,,postponed,colombia_com,20260730_1_atlticonacional_atlticobucaramanga
+football,primera_a_clausura,2026,2026-09-09,Bucaramanga,Llaneros,0.0,0.0,finished,colombia_com,20260909_1_bucaramanga_llanerosfc
+football,primera_a_clausura,2026,2026-07-31,Fortaleza,Pereira,0.0,0.0,finished,colombia_com,20260731_1_fortaleza_deportivopereira
+football,primera_a_clausura,2026,2026-08-01,Pasto,Águilas D.,0.0,0.0,finished,colombia_com,20260801_1_pasto_guilasdoradas
+football,primera_a_clausura,2026,2026-08-01,Alianza,Tolima,0.0,0.0,finished,colombia_com,20260801_1_alianza_deportestolima
+football,primera_a_clausura,2026,2026-08-01,Medellín,Cali,0.0,0.0,finished,colombia_com,20260801_1_medelln_deportivocali
+football,primera_a_clausura,2026,2026-08-01,Junior,Millonarios,0.0,0.0,finished,colombia_com,20260801_1_junior_millonarios
+football,primera_a_clausura,2026,2026-08-02,Jaguares,Atletico Nacional,0.0,0.0,finished,colombia_com,20260802_1_jaguares_atlticonacional
+football,primera_a_clausura,2026,2026-08-02,America de Cali,Chicó,0.0,0.0,finished,colombia_com,20260802_1_amrica_boyacchic
+football,primera_a_clausura,2026,2026-08-02,Independiente Santa Fe,O. Caldas,0.0,0.0,finished,colombia_com,20260802_1_santafe_oncecaldas
+football,primera_a_clausura,2026,2026-08-19,Cúcuta,Inter Bogotá,0.0,0.0,finished,colombia_com,20260819_1_ccuta_internacionaldebogot
+football,primera_a_clausura,2026,2026-08-03,Bucaramanga,Cúcuta,0.0,0.0,finished,colombia_com,20260803_3_bucaramanga_ccutadeportivo
+football,primera_a_clausura,2026,2026-08-04,Llaneros,Fortaleza,0.0,0.0,finished,colombia_com,20260804_3_llaneros_fortalezafc
+football,primera_a_clausura,2026,2026-08-04,Tolima,Medellín,0.0,0.0,finished,colombia_com,20260804_3_tolima_independientemedelln
+football,primera_a_clausura,2026,2026-08-04,Millonarios,Pasto,0.0,0.0,finished,colombia_com,20260804_3_millonarios_deportivopasto
+football,primera_a_clausura,2026,2026-08-05,Inter Bogotá,Jaguares,0.0,0.0,finished,colombia_com,20260805_3_interbogot_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-08-05,O. Caldas,America de Cali,0.0,0.0,finished,colombia_com,20260805_3_ocaldas_amricadecali
+football,primera_a_clausura,2026,2026-09-15,Chicó,Alianza Valledupar,0.0,0.0,finished,colombia_com,20260915_3_chic_alianzavalledupar
+football,primera_a_clausura,2026,2026-09-27,Cali,Águilas D.,,,scheduled,colombia_com,20260927_3_cali_guilasdoradas
+football,primera_a_clausura,2026,2026-09-29,Pereira,Independiente Santa Fe,,,scheduled,colombia_com,20260929_3_pereira_independientesantafe
+football,primera_a_clausura,2026,2026-09-30,Atletico Nacional,Junior,,,scheduled,colombia_com,20260930_3_nacional_juniorfc
+football,primera_a_clausura,2026,2026-08-08,Independiente Santa Fe,Chicó,0.0,0.0,finished,colombia_com,20260808_4_santafe_boyacchic
+football,primera_a_clausura,2026,2026-08-08,Fortaleza,Cúcuta,0.0,0.0,finished,colombia_com,20260808_4_fortaleza_ccutadeportivo
+football,primera_a_clausura,2026,2026-08-08,Tolima,Inter Bogotá,0.0,0.0,finished,colombia_com,20260808_4_tolima_internacionaldebogot
+football,primera_a_clausura,2026,2026-08-08,Pasto,Cali,0.0,0.0,finished,colombia_com,20260808_4_pasto_deportivocali
+football,primera_a_clausura,2026,2026-08-09,Alianza,Bucaramanga,0.0,0.0,finished,colombia_com,20260809_4_alianza_atlticobucaramanga
+football,primera_a_clausura,2026,2026-08-09,Jaguares,O. Caldas,0.0,0.0,finished,colombia_com,20260809_4_jaguares_oncecaldas
+football,primera_a_clausura,2026,2026-08-09,America de Cali,Atletico Nacional,0.0,0.0,finished,colombia_com,20260809_4_amrica_atlticonacional
+football,primera_a_clausura,2026,2026-08-19,Pereira,Águilas D.,,,postponed,colombia_com,20260819_4_deportivopereira_guilasdoradas
+football,primera_a_clausura,2026,2026-08-10,Águilas D.,Llaneros,0.0,0.0,finished,colombia_com,20260810_4_guilasd_llanerosfc
+football,primera_a_clausura,2026,2026-09-29,Medellín,Millonarios,,,scheduled,colombia_com,20260929_4_medelln_millonarios
+football,primera_a_clausura,2026,2026-08-15,Atletico Nacional,Independiente Santa Fe,,,postponed,colombia_com,20260815_5_nacional_independientesantafe
+football,primera_a_clausura,2026,2026-08-15,Chicó,Junior,,,postponed,colombia_com,20260815_5_chic_juniorfc
+football,primera_a_clausura,2026,2026-08-16,Águilas D.,Pereira,,,postponed,colombia_com,20260816_5_guilasdoradas_deportivopereira
+football,primera_a_clausura,2026,2026-08-15,Pereira,Jaguares,,,postponed,colombia_com,20260815_5_pereira_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-08-15,America de Cali,Fortaleza,,,postponed,colombia_com,20260815_5_amrica_fortalezafc
+football,primera_a_clausura,2026,2026-08-15,Inter Bogotá,Medellín,,,postponed,colombia_com,20260815_5_interbogot_independientemedelln
+football,primera_a_clausura,2026,2026-08-17,Alianza Valledupar,Bucaramanga,,,postponed,colombia_com,20260817_5_alianzavalledupar_atlticobucaramanga
+football,primera_a_clausura,2026,2026-09-07,Pasto,Llaneros,,,postponed,colombia_com,20260907_5_deportivopasto_llanerosfc
+football,primera_a_clausura,2026,2026-08-15,Llaneros,Tolima,0.0,0.0,finished,colombia_com,20260815_5_llaneros_deportestolima
+football,primera_a_clausura,2026,2026-09-10,Millonarios,Cali,0.0,0.0,finished,colombia_com,20260910_5_millonarios_deportivocali
+football,primera_a_clausura,2026,2026-08-21,Jaguares,Chicó,0.0,0.0,finished,colombia_com,20260821_6_jaguares_boyacchic
+football,primera_a_clausura,2026,2026-08-21,Alianza,Pereira,0.0,0.0,finished,colombia_com,20260821_6_alianza_deportivopereira
+football,primera_a_clausura,2026,2026-08-22,Águilas D.,Millonarios,0.0,0.0,finished,colombia_com,20260822_6_guilasd_millonarios
+football,primera_a_clausura,2026,2026-08-22,Tolima,Bucaramanga,0.0,0.0,finished,colombia_com,20260822_6_tolima_atlticobucaramanga
+football,primera_a_clausura,2026,2026-08-22,Independiente Santa Fe,America de Cali,0.0,0.0,finished,colombia_com,20260822_6_santafe_amricadecali
+football,primera_a_clausura,2026,2026-08-22,Medellín,Cúcuta,0.0,0.0,finished,colombia_com,20260822_6_medelln_ccutadeportivo
+football,primera_a_clausura,2026,2026-08-23,Fortaleza,Atletico Nacional,0.0,0.0,finished,colombia_com,20260823_6_fortaleza_atlticonacional
+football,primera_a_clausura,2026,2026-08-23,Pasto,Llaneros,0.0,0.0,finished,colombia_com,20260823_6_pasto_llanerosfc
+football,primera_a_clausura,2026,2026-08-23,Cali,Inter Bogotá,0.0,0.0,finished,colombia_com,20260823_6_cali_internacionaldebogot
+football,primera_a_clausura,2026,2026-08-23,Junior,O. Caldas,0.0,0.0,finished,colombia_com,20260823_6_junior_oncecaldas
+football,primera_a_clausura,2026,2026-08-25,Cúcuta,Alianza Valledupar,0.0,0.0,finished,colombia_com,20260825_7_ccuta_alianzavalledupar
+football,primera_a_clausura,2026,2026-08-26,Jaguares,Chicó,,,postponed,colombia_com,20260826_7_jaguaresdecrdoba_boyacchic
+football,primera_a_clausura,2026,2026-08-25,Chicó,Fortaleza,0.0,0.0,finished,colombia_com,20260825_7_chic_fortalezafc
+football,primera_a_clausura,2026,2026-08-25,America de Cali,Junior,0.0,0.0,finished,colombia_com,20260825_7_amrica_juniorfc
+football,primera_a_clausura,2026,2026-08-25,Atletico Nacional,Cali,0.0,0.0,finished,colombia_com,20260825_7_nacional_deportivocali
+football,primera_a_clausura,2026,2026-08-27,Llaneros,Millonarios,0.0,0.0,finished,colombia_com,20260827_7_llaneros_millonarios
+football,primera_a_clausura,2026,2026-08-27,Inter Bogotá,Pasto,0.0,0.0,finished,colombia_com,20260827_7_interbogot_deportivopasto
+football,primera_a_clausura,2026,2026-09-03,Pereira,Medellín,0.0,0.0,finished,colombia_com,20260903_7_pereira_independientemedelln
+football,primera_a_clausura,2026,2026-09-16,O. Caldas,Tolima,0.0,0.0,finished,colombia_com,20260916_7_ocaldas_deportestolima
+football,primera_a_clausura,2026,2026-08-29,Águilas D.,Jaguares,,,postponed,colombia_com,20260829_7_guilasdoradas_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-09-17,Jaguares,America de Cali,0.0,0.0,finished,colombia_com,20260917_7_jaguares_amricadecali
+football,primera_a_clausura,2026,2026-09-17,Junior,Independiente Santa Fe,0.0,0.0,finished,colombia_com,20260917_7_junior_independientesantafe
+football,primera_a_clausura,2026,2026-09-17,Alianza,Atletico Nacional,0.0,0.0,finished,colombia_com,20260917_7_alianza_atlticonacional
+football,primera_a_clausura,2026,2026-08-30,Águilas D.,Chicó,0.0,0.0,finished,colombia_com,20260830_7_guilasd_boyacchic
+football,primera_a_clausura,2026,2026-08-30,Medellín,Llaneros,0.0,0.0,finished,colombia_com,20260830_7_medelln_llanerosfc
+football,primera_a_clausura,2026,2026-08-30,Millonarios,Inter Bogotá,0.0,0.0,finished,colombia_com,20260830_7_millonarios_internacionaldebogot
+football,primera_a_clausura,2026,2026-08-30,Cali,Bucaramanga,0.0,0.0,finished,colombia_com,20260830_7_cali_atlticobucaramanga
+football,primera_a_clausura,2026,2026-08-31,Pasto,Pereira,0.0,0.0,finished,colombia_com,20260831_7_pasto_deportivopereira
+football,primera_a_clausura,2026,2026-08-31,Tolima,Cúcuta,0.0,0.0,finished,colombia_com,20260831_7_tolima_ccutadeportivo
+football,primera_a_clausura,2026,2026-09-01,Fortaleza,O. Caldas,0.0,0.0,finished,colombia_com,20260901_7_fortaleza_oncecaldas
+football,primera_a_clausura,2026,2026-09-03,America de Cali,Alianza Valledupar,0.0,0.0,finished,colombia_com,20260903_9_amrica_alianzavalledupar
+football,primera_a_clausura,2026,2026-09-05,Chicó,O. Caldas,0.0,0.0,finished,colombia_com,20260905_9_chic_oncecaldas
+football,primera_a_clausura,2026,2026-09-05,Cúcuta,Pasto,0.0,0.0,finished,colombia_com,20260905_9_ccuta_deportivopasto
+football,primera_a_clausura,2026,2026-09-05,Independiente Santa Fe,Fortaleza,0.0,0.0,finished,colombia_com,20260905_9_santafe_fortalezafc
+football,primera_a_clausura,2026,2026-09-05,Junior,Jaguares,0.0,0.0,finished,colombia_com,20260905_9_junior_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-09-06,Inter Bogotá,Águilas D.,0.0,0.0,finished,colombia_com,20260906_9_interbogot_guilasdoradas
+football,primera_a_clausura,2026,2026-09-06,Pereira,Millonarios,0.0,0.0,finished,colombia_com,20260906_9_pereira_millonarios
+football,primera_a_clausura,2026,2026-09-17,Cali,Bucaramanga,,,postponed,colombia_com,20260917_9_deportivocali_atlticobucaramanga
+football,primera_a_clausura,2026,2026-09-07,Bucaramanga,Medellín,0.0,0.0,finished,colombia_com,20260907_9_bucaramanga_independientemedelln
+football,primera_a_clausura,2026,2026-10-07,Atletico Nacional,Tolima,,,scheduled,colombia_com,20261007_9_nacional_deportestolima
+football,primera_a_clausura,2026,2026-09-11,Jaguares,Fortaleza,0.0,0.0,finished,colombia_com,20260911_10_jaguares_fortalezafc
+football,primera_a_clausura,2026,2026-09-11,Independiente Santa Fe,Tolima,0.0,0.0,finished,colombia_com,20260911_10_santafe_deportestolima
+football,primera_a_clausura,2026,2026-09-12,Inter Bogotá,Llaneros,0.0,0.0,finished,colombia_com,20260912_10_interbogot_llanerosfc
+football,primera_a_clausura,2026,2026-09-12,Chicó,Medellín,0.0,0.0,finished,colombia_com,20260912_10_chic_independientemedelln
+football,primera_a_clausura,2026,2026-09-12,Alianza,Junior,0.0,0.0,finished,colombia_com,20260912_10_alianza_juniorfc
+football,primera_a_clausura,2026,2026-09-13,Pereira,Bucaramanga,0.0,0.0,finished,colombia_com,20260913_10_pereira_atlticobucaramanga
+football,primera_a_clausura,2026,2026-09-13,Atletico Nacional,Águilas D.,0.0,0.0,finished,colombia_com,20260913_10_nacional_guilasdoradas
+football,primera_a_clausura,2026,2026-09-13,O. Caldas,Cali,0.0,0.0,finished,colombia_com,20260913_10_ocaldas_deportivocali
+football,primera_a_clausura,2026,2026-09-13,Cúcuta,Millonarios,0.0,0.0,finished,colombia_com,20260913_10_ccuta_millonarios
+football,primera_a_clausura,2026,2026-09-14,America de Cali,Pasto,0.0,0.0,finished,colombia_com,20260914_10_amrica_deportivopasto
+football,primera_a_clausura,2026,2026-09-18,Águilas D.,Pereira,0.0,0.0,finished,colombia_com,20260918_11_guilasd_deportivopereira
+football,primera_a_clausura,2026,2026-09-19,Millonarios,Chicó,0.0,0.0,finished,colombia_com,20260919_11_millonarios_boyacchic
+football,primera_a_clausura,2026,2026-09-19,Alianza,Independiente Santa Fe,0.0,0.0,finished,colombia_com,20260919_11_alianza_independientesantafe
+football,primera_a_clausura,2026,2026-09-19,Cali,Cúcuta,0.0,0.0,finished,colombia_com,20260919_11_cali_ccutadeportivo
+football,primera_a_clausura,2026,2026-09-19,Pasto,O. Caldas,0.0,0.0,finished,colombia_com,20260919_11_pasto_oncecaldas
+football,primera_a_clausura,2026,2026-09-20,Fortaleza,Junior,0.0,0.0,finished,colombia_com,20260920_11_fortaleza_juniorfc
+football,primera_a_clausura,2026,2026-09-20,Bucaramanga,Inter Bogotá,0.0,0.0,finished,colombia_com,20260920_11_bucaramanga_internacionaldebogot
+football,primera_a_clausura,2026,2026-09-20,Tolima,America de Cali,0.0,0.0,finished,colombia_com,20260920_11_tolima_amricadecali
+football,primera_a_clausura,2026,2026-09-20,Llaneros,Atletico Nacional,0.0,0.0,finished,colombia_com,20260920_11_llaneros_atlticonacional
+football,primera_a_clausura,2026,2026-09-22,Medellín,Jaguares,0.0,0.0,finished,colombia_com,20260922_11_medelln_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-09-22,Independiente Santa Fe,Cali,0.0,0.0,finished,colombia_com,20260922_12_santafe_deportivocali
+football,primera_a_clausura,2026,2026-09-23,America de Cali,Águilas D.,0.0,0.0,finished,colombia_com,20260923_12_amrica_guilasdoradas
+football,primera_a_clausura,2026,2026-09-24,Atletico Nacional,Millonarios,0.0,0.0,finished,colombia_com,20260924_12_nacional_millonarios
+football,primera_a_clausura,2026,2026-09-25,Chicó,Pasto,0.0,0.0,finished,colombia_com,20260925_12_chic_deportivopasto
+football,primera_a_clausura,2026,2026-09-25,O. Caldas,Bucaramanga,0.0,0.0,finished,colombia_com,20260925_12_ocaldas_atlticobucaramanga
+football,primera_a_clausura,2026,2026-09-26,Pereira,Inter Bogotá,0.0,0.0,finished,colombia_com,20260926_12_pereira_internacionaldebogot
+football,primera_a_clausura,2026,2026-09-26,Junior,Medellín,,,scheduled,colombia_com,20260926_12_junior_independientemedelln
+football,primera_a_clausura,2026,2026-09-27,Jaguares,Alianza Valledupar,,,scheduled,colombia_com,20260927_12_jaguares_alianzavalledupar
+football,primera_a_clausura,2026,2026-09-27,Fortaleza,Tolima,,,scheduled,colombia_com,20260927_12_fortaleza_deportestolima
+football,primera_a_clausura,2026,2026-09-16,Inter Bogotá,Atletico Nacional,0.0,0.0,finished,colombia_com,20260916_13_interbogot_atlticonacional
+football,primera_a_clausura,2026,2026-10-03,Águilas D.,Jaguares,,,scheduled,colombia_com,20261003_13_guilasd_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-10-03,Cali,Alianza Valledupar,,,scheduled,colombia_com,20261003_13_cali_alianzavalledupar
+football,primera_a_clausura,2026,2026-10-03,Tolima,Chicó,,,scheduled,colombia_com,20261003_13_tolima_boyacchic
+football,primera_a_clausura,2026,2026-10-03,Medellín,Independiente Santa Fe,,,scheduled,colombia_com,20261003_13_medelln_independientesantafe
+football,primera_a_clausura,2026,2026-10-04,Pasto,Fortaleza,,,scheduled,colombia_com,20261004_13_pasto_fortalezafc
+football,primera_a_clausura,2026,2026-10-04,Cúcuta,Pereira,,,scheduled,colombia_com,20261004_13_ccuta_deportivopereira
+football,primera_a_clausura,2026,2026-10-04,Bucaramanga,Junior,,,scheduled,colombia_com,20261004_13_bucaramanga_juniorfc
+football,primera_a_clausura,2026,2026-10-04,Llaneros,America de Cali,,,scheduled,colombia_com,20261004_13_llaneros_amricadecali
+football,primera_a_clausura,2026,2026-10-13,Millonarios,O. Caldas,,,scheduled,colombia_com,20261013_13_millonarios_oncecaldas
+football,primera_a_clausura,2026,2026-10-08,Fortaleza,Millonarios,,,scheduled,colombia_com,20261008_14_fortaleza_millonarios
+football,primera_a_clausura,2026,2026-10-10,O. Caldas,Llaneros,,,scheduled,colombia_com,20261010_14_ocaldas_llanerosfc
+football,primera_a_clausura,2026,2026-10-10,Junior,Inter Bogotá,,,scheduled,colombia_com,20261010_14_junior_internacionaldebogot
+football,primera_a_clausura,2026,2026-10-11,Pereira,Cali,,,scheduled,colombia_com,20261011_14_pereira_deportivocali
+football,primera_a_clausura,2026,2026-10-11,Atletico Nacional,Pasto,,,scheduled,colombia_com,20261011_14_nacional_deportivopasto
+football,primera_a_clausura,2026,2026-10-11,Jaguares,Tolima,,,scheduled,colombia_com,20261011_14_jaguares_deportestolima
+football,primera_a_clausura,2026,2026-10-11,America de Cali,Medellín,,,scheduled,colombia_com,20261011_14_amrica_independientemedelln
+football,primera_a_clausura,2026,2026-10-12,Alianza,Águilas D.,,,scheduled,colombia_com,20261012_14_alianza_guilasdoradas
+football,primera_a_clausura,2026,2026-10-12,Chicó,Cúcuta,,,scheduled,colombia_com,20261012_14_chic_ccutadeportivo
+football,primera_a_clausura,2026,2026-10-14,Independiente Santa Fe,Bucaramanga,,,scheduled,colombia_com,20261014_14_santafe_atlticobucaramanga
+football,primera_a_clausura,2026,2026-10-17,Millonarios,Jaguares,,,scheduled,colombia_com,20261017_15_millonarios_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-10-17,Águilas D.,Tolima,,,scheduled,colombia_com,20261017_15_guilasd_deportestolima
+football,primera_a_clausura,2026,2026-10-17,Bucaramanga,America de Cali,,,scheduled,colombia_com,20261017_15_bucaramanga_amricadecali
+football,primera_a_clausura,2026,2026-10-17,Medellín,O. Caldas,,,scheduled,colombia_com,20261017_15_medelln_oncecaldas
+football,primera_a_clausura,2026,2026-10-18,Llaneros,Independiente Santa Fe,,,scheduled,colombia_com,20261018_15_llaneros_independientesantafe
+football,primera_a_clausura,2026,2026-10-18,Cali,Junior,,,scheduled,colombia_com,20261018_15_cali_juniorfc
+football,primera_a_clausura,2026,2026-10-19,Pereira,Chicó,,,scheduled,colombia_com,20261019_15_pereira_boyacchic
+football,primera_a_clausura,2026,2026-10-19,Pasto,Alianza Valledupar,,,scheduled,colombia_com,20261019_15_pasto_alianzavalledupar
+football,primera_a_clausura,2026,2026-10-20,Inter Bogotá,Fortaleza,,,scheduled,colombia_com,20261020_15_interbogot_fortalezafc
+football,primera_a_clausura,2026,2026-10-20,Cúcuta,Atletico Nacional,,,scheduled,colombia_com,20261020_15_ccuta_atlticonacional
+football,primera_a_clausura,2026,2026-09-02,Independiente Santa Fe,Millonarios,0.0,0.0,finished,colombia_com,20260902_16_santafe_millonarios
+football,primera_a_clausura,2026,2026-10-23,America de Cali,Cúcuta,,,scheduled,colombia_com,20261023_16_amrica_ccutadeportivo
+football,primera_a_clausura,2026,2026-10-24,Chicó,Bucaramanga,,,scheduled,colombia_com,20261024_16_chic_atlticobucaramanga
+football,primera_a_clausura,2026,2026-10-24,Alianza,Inter Bogotá,,,scheduled,colombia_com,20261024_16_alianza_internacionaldebogot
+football,primera_a_clausura,2026,2026-10-24,Junior,Águilas D.,,,scheduled,colombia_com,20261024_16_junior_guilasdoradas
+football,primera_a_clausura,2026,2026-10-24,O. Caldas,Pereira,,,scheduled,colombia_com,20261024_16_ocaldas_deportivopereira
+football,primera_a_clausura,2026,2026-10-25,Fortaleza,Cali,,,scheduled,colombia_com,20261025_16_fortaleza_deportivocali
+football,primera_a_clausura,2026,2026-10-25,Jaguares,Llaneros,,,scheduled,colombia_com,20261025_16_jaguares_llanerosfc
+football,primera_a_clausura,2026,2026-10-25,Atletico Nacional,Medellín,,,scheduled,colombia_com,20261025_16_nacional_independientemedelln
+football,primera_a_clausura,2026,2026-10-25,Tolima,Pasto,,,scheduled,colombia_com,20261025_16_tolima_deportivopasto
+football,primera_a_clausura,2026,2026-10-26,Millonarios,America de Cali,,,scheduled,colombia_com,20261026_17_millonarios_amricadecali
+football,primera_a_clausura,2026,2026-10-29,Águilas D.,Fortaleza,,,scheduled,colombia_com,20261029_17_guilasd_fortalezafc
+football,primera_a_clausura,2026,2026-10-29,Pereira,Tolima,,,scheduled,colombia_com,20261029_17_pereira_deportestolima
+football,primera_a_clausura,2026,2026-10-29,Inter Bogotá,O. Caldas,,,scheduled,colombia_com,20261029_17_interbogot_oncecaldas
+football,primera_a_clausura,2026,2026-10-30,Medellín,Alianza Valledupar,,,scheduled,colombia_com,20261030_17_medelln_alianzavalledupar
+football,primera_a_clausura,2026,2026-10-30,Cali,Chicó,,,scheduled,colombia_com,20261030_17_cali_boyacchic
+football,primera_a_clausura,2026,2026-10-31,Cúcuta,Independiente Santa Fe,,,scheduled,colombia_com,20261031_17_ccuta_independientesantafe
+football,primera_a_clausura,2026,2026-10-31,Llaneros,Junior,,,scheduled,colombia_com,20261031_17_llaneros_juniorfc
+football,primera_a_clausura,2026,2026-10-31,Pasto,Jaguares,,,scheduled,colombia_com,20261031_17_pasto_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-11-01,Bucaramanga,Atletico Nacional,,,scheduled,colombia_com,20261101_17_bucaramanga_atlticonacional
+football,primera_a_clausura,2026,2026-11-02,Fortaleza,Medellín,,,scheduled,colombia_com,20261102_18_fortaleza_independientemedelln
+football,primera_a_clausura,2026,2026-11-02,O. Caldas,Águilas D.,,,scheduled,colombia_com,20261102_18_ocaldas_guilasdoradas
+football,primera_a_clausura,2026,2026-11-02,Tolima,Millonarios,,,scheduled,colombia_com,20261102_18_tolima_millonarios
+football,primera_a_clausura,2026,2026-11-03,Alianza,Llaneros,,,scheduled,colombia_com,20261103_18_alianza_llanerosfc
+football,primera_a_clausura,2026,2026-11-03,Independiente Santa Fe,Pasto,,,scheduled,colombia_com,20261103_18_santafe_deportivopasto
+football,primera_a_clausura,2026,2026-11-03,America de Cali,Cali,,,scheduled,colombia_com,20261103_18_amrica_deportivocali
+football,primera_a_clausura,2026,2026-11-04,Chicó,Inter Bogotá,,,scheduled,colombia_com,20261104_18_chic_internacionaldebogot
+football,primera_a_clausura,2026,2026-11-04,Jaguares,Bucaramanga,,,scheduled,colombia_com,20261104_18_jaguares_atlticobucaramanga
+football,primera_a_clausura,2026,2026-11-04,Junior,Cúcuta,,,scheduled,colombia_com,20261104_18_junior_ccutadeportivo
+football,primera_a_clausura,2026,2026-11-04,Atletico Nacional,Pereira,,,scheduled,colombia_com,20261104_18_nacional_deportivopereira
+football,primera_a_clausura,2026,2026-11-08,Cali,Tolima,,,scheduled,colombia_com,20261108_19_cali_deportestolima
+football,primera_a_clausura,2026,2026-11-08,Llaneros,Chicó,,,scheduled,colombia_com,20261108_19_llaneros_boyacchic
+football,primera_a_clausura,2026,2026-11-08,Pereira,America de Cali,,,scheduled,colombia_com,20261108_19_pereira_amricadecali
+football,primera_a_clausura,2026,2026-11-08,Bucaramanga,Fortaleza,,,scheduled,colombia_com,20261108_19_bucaramanga_fortalezafc
+football,primera_a_clausura,2026,2026-11-08,Millonarios,Alianza Valledupar,,,scheduled,colombia_com,20261108_19_millonarios_alianzavalledupar
+football,primera_a_clausura,2026,2026-11-08,Cúcuta,Jaguares,,,scheduled,colombia_com,20261108_19_ccuta_jaguaresdecrdoba
+football,primera_a_clausura,2026,2026-11-08,Pasto,Junior,,,scheduled,colombia_com,20261108_19_pasto_juniorfc
+football,primera_a_clausura,2026,2026-11-08,Inter Bogotá,Independiente Santa Fe,,,scheduled,colombia_com,20261108_19_interbogot_independientesantafe
+football,primera_a_clausura,2026,2026-11-08,Atletico Nacional,O. Caldas,,,scheduled,colombia_com,20261108_19_nacional_oncecaldas
+football,primera_a_clausura,2026,2026-11-08,Águilas D.,Medellín,,,scheduled,colombia_com,20261108_19_guilasd_independientemedelln

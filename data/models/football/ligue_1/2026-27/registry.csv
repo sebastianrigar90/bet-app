@@ -1,0 +1,2 @@
+﻿model_id,created_at,sport,competition,season,data_hash,training_rows,validation_rows,log_loss,accuracy,status,model_file
+model_20260925_142341_663932,2026-09-25T14:23:41.679199,football,ligue_1,2026-27,429e971d96debbc7a9b8c76aab536bbcc2b6754751f463cdd76a0a6b509bb490,36,9,1.3967174760536354,0.5555555555555556,active,data\models\football\ligue_1\2026-27\versions\model_20260925_142341_663932.pkl

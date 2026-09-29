@@ -1,0 +1,2 @@
+﻿model_id,created_at,sport,competition,season,data_hash,training_rows,validation_rows,log_loss,accuracy,status,model_file
+model_20260925_142238_361184,2026-09-25T14:22:38.388365,football,serie_a,2026-27,65ac707cac61a3f3ae690524888e419500b5bb80dc837e537181518cca18195c,40,10,1.249247298089521,0.5,active,data\models\football\serie_a\2026-27\versions\model_20260925_142238_361184.pkl

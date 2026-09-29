@@ -1,0 +1,381 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,brasileirao,2026,2026-01-28 22:00:00+00:00,CA Mineiro,SE Palmeiras,2.0,2.0,finished,football_data_org,554740
+football,brasileirao,2026,2026-01-28 22:00:00+00:00,Coritiba FBC,RB Bragantino,0.0,1.0,finished,football_data_org,554744
+football,brasileirao,2026,2026-01-28 22:00:00+00:00,SC Internacional,CA Paranaense,0.0,1.0,finished,football_data_org,554746
+football,brasileirao,2026,2026-01-28 22:00:00+00:00,EC Vitória,Clube do Remo,2.0,0.0,finished,football_data_org,554749
+football,brasileirao,2026,2026-01-28 22:30:00+00:00,Fluminense FC,Grêmio FBPA,2.0,1.0,finished,football_data_org,554745
+football,brasileirao,2026,2026-01-28 23:00:00+00:00,Chapecoense AF,Santos FC,4.0,2.0,finished,football_data_org,554742
+football,brasileirao,2026,2026-01-28 23:00:00+00:00,SC Corinthians Paulista,EC Bahia,1.0,2.0,finished,football_data_org,554743
+football,brasileirao,2026,2026-01-29 00:30:00+00:00,São Paulo FC,CR Flamengo,2.0,1.0,finished,football_data_org,554748
+football,brasileirao,2026,2026-01-29 23:00:00+00:00,Mirassol FC,CR Vasco da Gama,2.0,1.0,finished,football_data_org,554747
+football,brasileirao,2026,2026-01-30 00:30:00+00:00,Botafogo FR,Cruzeiro EC,4.0,0.0,finished,football_data_org,554741
+football,brasileirao,2026,2026-02-04 22:00:00+00:00,RB Bragantino,CA Mineiro,1.0,0.0,finished,football_data_org,554752
+football,brasileirao,2026,2026-02-04 22:00:00+00:00,CR Flamengo,SC Internacional,1.0,1.0,finished,football_data_org,554754
+football,brasileirao,2026,2026-02-04 23:00:00+00:00,Clube do Remo,Mirassol FC,2.0,2.0,finished,football_data_org,554757
+football,brasileirao,2026,2026-02-04 23:00:00+00:00,Santos FC,São Paulo FC,1.0,1.0,finished,football_data_org,554758
+football,brasileirao,2026,2026-02-05 00:30:00+00:00,Grêmio FBPA,Botafogo FR,5.0,3.0,finished,football_data_org,554755
+football,brasileirao,2026,2026-02-05 00:30:00+00:00,SE Palmeiras,EC Vitória,5.0,1.0,finished,football_data_org,554756
+football,brasileirao,2026,2026-02-05 22:00:00+00:00,EC Bahia,Fluminense FC,1.0,1.0,finished,football_data_org,554751
+football,brasileirao,2026,2026-02-05 23:00:00+00:00,CR Vasco da Gama,Chapecoense AF,1.0,1.0,finished,football_data_org,554759
+football,brasileirao,2026,2026-02-06 00:30:00+00:00,Cruzeiro EC,Coritiba FBC,1.0,2.0,finished,football_data_org,554753
+football,brasileirao,2026,2026-02-11 00:30:00+00:00,EC Vitória,CR Flamengo,1.0,2.0,finished,football_data_org,554769
+football,brasileirao,2026,2026-02-11 22:00:00+00:00,Chapecoense AF,Coritiba FBC,3.0,3.0,finished,football_data_org,554762
+football,brasileirao,2026,2026-02-11 22:00:00+00:00,Mirassol FC,Cruzeiro EC,2.0,2.0,finished,football_data_org,554766
+football,brasileirao,2026,2026-02-11 23:00:00+00:00,CA Mineiro,Clube do Remo,3.0,3.0,finished,football_data_org,554761
+football,brasileirao,2026,2026-02-12 00:30:00+00:00,São Paulo FC,Grêmio FBPA,2.0,0.0,finished,football_data_org,554767
+football,brasileirao,2026,2026-02-12 00:30:00+00:00,CR Vasco da Gama,EC Bahia,0.0,1.0,finished,football_data_org,554768
+football,brasileirao,2026,2026-02-12 22:00:00+00:00,CA Paranaense,Santos FC,2.0,1.0,finished,football_data_org,554760
+football,brasileirao,2026,2026-02-12 22:30:00+00:00,Fluminense FC,Botafogo FR,1.0,0.0,finished,football_data_org,554764
+football,brasileirao,2026,2026-02-12 23:00:00+00:00,SC Corinthians Paulista,RB Bragantino,2.0,0.0,finished,football_data_org,554763
+football,brasileirao,2026,2026-02-13 00:30:00+00:00,SC Internacional,SE Palmeiras,1.0,3.0,finished,football_data_org,554765
+football,brasileirao,2026,2026-02-19 22:30:00+00:00,CA Paranaense,SC Corinthians Paulista,0.0,1.0,finished,football_data_org,554750
+football,brasileirao,2026,2026-02-25 22:00:00+00:00,RB Bragantino,CA Paranaense,1.0,1.0,finished,football_data_org,554772
+football,brasileirao,2026,2026-02-25 22:00:00+00:00,Clube do Remo,SC Internacional,1.0,1.0,finished,football_data_org,554778
+football,brasileirao,2026,2026-02-25 22:30:00+00:00,Coritiba FBC,São Paulo FC,0.0,1.0,finished,football_data_org,554773
+football,brasileirao,2026,2026-02-25 23:00:00+00:00,Cruzeiro EC,SC Corinthians Paulista,1.0,1.0,finished,football_data_org,554774
+football,brasileirao,2026,2026-02-26 00:30:00+00:00,Grêmio FBPA,CA Mineiro,2.0,1.0,finished,football_data_org,554776
+football,brasileirao,2026,2026-02-26 00:30:00+00:00,SE Palmeiras,Fluminense FC,2.0,1.0,finished,football_data_org,554777
+football,brasileirao,2026,2026-02-26 22:00:00+00:00,Santos FC,CR Vasco da Gama,2.0,1.0,finished,football_data_org,554779
+football,brasileirao,2026,2026-03-11 00:30:00+00:00,Mirassol FC,Santos FC,2.0,2.0,finished,football_data_org,554786
+football,brasileirao,2026,2026-03-11 22:00:00+00:00,CA Mineiro,SC Internacional,1.0,0.0,finished,football_data_org,554781
+football,brasileirao,2026,2026-03-11 23:00:00+00:00,EC Bahia,EC Vitória,1.0,1.0,finished,football_data_org,554782
+football,brasileirao,2026,2026-03-12 00:30:00+00:00,SC Corinthians Paulista,Coritiba FBC,0.0,2.0,finished,football_data_org,554783
+football,brasileirao,2026,2026-03-12 00:30:00+00:00,CR Flamengo,Cruzeiro EC,2.0,0.0,finished,football_data_org,554784
+football,brasileirao,2026,2026-03-12 22:00:00+00:00,Clube do Remo,Fluminense FC,0.0,2.0,finished,football_data_org,554787
+football,brasileirao,2026,2026-03-12 22:30:00+00:00,CR Vasco da Gama,SE Palmeiras,2.0,1.0,finished,football_data_org,554789
+football,brasileirao,2026,2026-03-12 23:00:00+00:00,São Paulo FC,Chapecoense AF,2.0,0.0,finished,football_data_org,554788
+football,brasileirao,2026,2026-03-13 00:30:00+00:00,Grêmio FBPA,RB Bragantino,1.0,1.0,finished,football_data_org,554785
+football,brasileirao,2026,2026-03-14 21:30:00+00:00,EC Vitória,CA Mineiro,2.0,0.0,finished,football_data_org,554799
+football,brasileirao,2026,2026-03-14 23:30:00+00:00,Botafogo FR,CR Flamengo,0.0,3.0,finished,football_data_org,554790
+football,brasileirao,2026,2026-03-15 19:00:00+00:00,Fluminense FC,CA Paranaense,3.0,2.0,finished,football_data_org,554795
+football,brasileirao,2026,2026-03-15 19:00:00+00:00,SC Internacional,EC Bahia,0.0,1.0,finished,football_data_org,554796
+football,brasileirao,2026,2026-03-15 19:00:00+00:00,Santos FC,SC Corinthians Paulista,1.0,1.0,finished,football_data_org,554798
+football,brasileirao,2026,2026-03-15 21:30:00+00:00,Coritiba FBC,Clube do Remo,1.0,0.0,finished,football_data_org,554793
+football,brasileirao,2026,2026-03-15 21:30:00+00:00,SE Palmeiras,Mirassol FC,1.0,0.0,finished,football_data_org,554797
+football,brasileirao,2026,2026-03-15 23:30:00+00:00,RB Bragantino,São Paulo FC,1.0,2.0,finished,football_data_org,554791
+football,brasileirao,2026,2026-03-15 23:30:00+00:00,Cruzeiro EC,CR Vasco da Gama,3.0,3.0,finished,football_data_org,554794
+football,brasileirao,2026,2026-03-16 23:00:00+00:00,Chapecoense AF,Grêmio FBPA,1.0,1.0,finished,football_data_org,554792
+football,brasileirao,2026,2026-03-18 22:00:00+00:00,EC Bahia,RB Bragantino,2.0,0.0,finished,football_data_org,554802
+football,brasileirao,2026,2026-03-18 22:00:00+00:00,SE Palmeiras,Botafogo FR,2.0,1.0,finished,football_data_org,554807
+football,brasileirao,2026,2026-03-18 22:30:00+00:00,CA Paranaense,Cruzeiro EC,2.0,1.0,finished,football_data_org,554800
+football,brasileirao,2026,2026-03-18 23:00:00+00:00,CA Mineiro,São Paulo FC,1.0,0.0,finished,football_data_org,554801
+football,brasileirao,2026,2026-03-18 23:00:00+00:00,Mirassol FC,Coritiba FBC,0.0,1.0,finished,football_data_org,554806
+football,brasileirao,2026,2026-03-19 00:30:00+00:00,Santos FC,SC Internacional,1.0,2.0,finished,football_data_org,554808
+football,brasileirao,2026,2026-03-19 00:30:00+00:00,CR Vasco da Gama,Fluminense FC,3.0,2.0,finished,football_data_org,554809
+football,brasileirao,2026,2026-03-19 22:00:00+00:00,Grêmio FBPA,EC Vitória,2.0,0.0,finished,football_data_org,554805
+football,brasileirao,2026,2026-03-19 23:00:00+00:00,CR Flamengo,Clube do Remo,3.0,0.0,finished,football_data_org,554804
+football,brasileirao,2026,2026-03-20 00:30:00+00:00,Chapecoense AF,SC Corinthians Paulista,0.0,0.0,finished,football_data_org,554803
+football,brasileirao,2026,2026-03-21 19:00:00+00:00,RB Bragantino,Botafogo FR,1.0,2.0,finished,football_data_org,554811
+football,brasileirao,2026,2026-03-21 21:30:00+00:00,Fluminense FC,CA Mineiro,1.0,0.0,finished,football_data_org,554814
+football,brasileirao,2026,2026-03-22 00:00:00+00:00,São Paulo FC,SE Palmeiras,0.0,1.0,finished,football_data_org,554817
+football,brasileirao,2026,2026-03-22 19:00:00+00:00,CA Paranaense,Coritiba FBC,2.0,0.0,finished,football_data_org,554810
+football,brasileirao,2026,2026-03-22 19:00:00+00:00,Cruzeiro EC,Santos FC,0.0,0.0,finished,football_data_org,554813
+football,brasileirao,2026,2026-03-22 19:00:00+00:00,Clube do Remo,EC Bahia,4.0,1.0,finished,football_data_org,554816
+football,brasileirao,2026,2026-03-22 19:00:00+00:00,CR Vasco da Gama,Grêmio FBPA,2.0,1.0,finished,football_data_org,554818
+football,brasileirao,2026,2026-03-22 21:30:00+00:00,SC Internacional,Chapecoense AF,2.0,0.0,finished,football_data_org,554815
+football,brasileirao,2026,2026-03-22 21:30:00+00:00,EC Vitória,Mirassol FC,1.0,0.0,finished,football_data_org,554819
+football,brasileirao,2026,2026-03-22 23:30:00+00:00,SC Corinthians Paulista,CR Flamengo,1.0,1.0,finished,football_data_org,554812
+football,brasileirao,2026,2026-03-29 22:30:00+00:00,CA Paranaense,Botafogo FR,4.0,1.0,finished,football_data_org,554780
+football,brasileirao,2026,2026-04-01 22:30:00+00:00,Botafogo FR,Mirassol FC,3.0,2.0,finished,football_data_org,554821
+football,brasileirao,2026,2026-04-01 22:30:00+00:00,SC Internacional,São Paulo FC,1.0,1.0,finished,football_data_org,554827
+football,brasileirao,2026,2026-04-01 23:00:00+00:00,EC Bahia,CA Paranaense,3.0,0.0,finished,football_data_org,554820
+football,brasileirao,2026,2026-04-01 23:00:00+00:00,Cruzeiro EC,EC Vitória,3.0,0.0,finished,football_data_org,554825
+football,brasileirao,2026,2026-04-01 23:30:00+00:00,Coritiba FBC,CR Vasco da Gama,1.0,1.0,finished,football_data_org,554824
+football,brasileirao,2026,2026-04-02 00:30:00+00:00,Fluminense FC,SC Corinthians Paulista,3.0,1.0,finished,football_data_org,554826
+football,brasileirao,2026,2026-04-02 22:00:00+00:00,Chapecoense AF,CA Mineiro,0.0,4.0,finished,football_data_org,554823
+football,brasileirao,2026,2026-04-02 22:00:00+00:00,Santos FC,Clube do Remo,2.0,0.0,finished,football_data_org,554829
+football,brasileirao,2026,2026-04-03 00:30:00+00:00,RB Bragantino,CR Flamengo,3.0,0.0,finished,football_data_org,554822
+football,brasileirao,2026,2026-04-03 00:30:00+00:00,SE Palmeiras,Grêmio FBPA,2.0,1.0,finished,football_data_org,554828
+football,brasileirao,2026,2026-04-04 21:30:00+00:00,São Paulo FC,Cruzeiro EC,4.0,1.0,finished,football_data_org,554838
+football,brasileirao,2026,2026-04-04 23:30:00+00:00,Coritiba FBC,Fluminense FC,1.0,1.0,finished,football_data_org,554834
+football,brasileirao,2026,2026-04-05 00:00:00+00:00,CR Vasco da Gama,Botafogo FR,1.0,2.0,finished,football_data_org,554839
+football,brasileirao,2026,2026-04-05 19:00:00+00:00,Chapecoense AF,EC Vitória,1.0,1.0,finished,football_data_org,554832
+football,brasileirao,2026,2026-04-05 20:30:00+00:00,CA Mineiro,CA Paranaense,2.0,1.0,finished,football_data_org,554830
+football,brasileirao,2026,2026-04-05 20:30:00+00:00,CR Flamengo,Santos FC,3.0,1.0,finished,football_data_org,554835
+football,brasileirao,2026,2026-04-05 22:30:00+00:00,EC Bahia,SE Palmeiras,1.0,2.0,finished,football_data_org,554831
+football,brasileirao,2026,2026-04-05 22:30:00+00:00,SC Corinthians Paulista,SC Internacional,0.0,1.0,finished,football_data_org,554833
+football,brasileirao,2026,2026-04-05 23:00:00+00:00,Mirassol FC,RB Bragantino,0.0,1.0,finished,football_data_org,554837
+football,brasileirao,2026,2026-04-05 23:30:00+00:00,Grêmio FBPA,Clube do Remo,0.0,0.0,finished,football_data_org,554836
+football,brasileirao,2026,2026-04-11 19:30:00+00:00,Clube do Remo,CR Vasco da Gama,1.0,1.0,finished,football_data_org,554847
+football,brasileirao,2026,2026-04-11 19:30:00+00:00,EC Vitória,São Paulo FC,2.0,0.0,finished,football_data_org,554849
+football,brasileirao,2026,2026-04-11 21:30:00+00:00,Mirassol FC,EC Bahia,1.0,2.0,finished,football_data_org,554846
+football,brasileirao,2026,2026-04-11 23:00:00+00:00,Santos FC,CA Mineiro,1.0,0.0,finished,football_data_org,554848
+football,brasileirao,2026,2026-04-11 23:30:00+00:00,SC Internacional,Grêmio FBPA,0.0,0.0,finished,football_data_org,554845
+football,brasileirao,2026,2026-04-12 14:00:00+00:00,CA Paranaense,Chapecoense AF,2.0,0.0,finished,football_data_org,554840
+football,brasileirao,2026,2026-04-12 19:00:00+00:00,Botafogo FR,Coritiba FBC,2.0,2.0,finished,football_data_org,554841
+football,brasileirao,2026,2026-04-12 21:00:00+00:00,Fluminense FC,CR Flamengo,1.0,2.0,finished,football_data_org,554844
+football,brasileirao,2026,2026-04-12 21:30:00+00:00,SC Corinthians Paulista,SE Palmeiras,0.0,0.0,finished,football_data_org,554842
+football,brasileirao,2026,2026-04-12 21:30:00+00:00,Cruzeiro EC,RB Bragantino,2.0,1.0,finished,football_data_org,554843
+football,brasileirao,2026,2026-04-18 21:30:00+00:00,Chapecoense AF,Botafogo FR,1.0,4.0,finished,football_data_org,554851
+football,brasileirao,2026,2026-04-18 21:30:00+00:00,CR Vasco da Gama,São Paulo FC,2.0,1.0,finished,football_data_org,554858
+football,brasileirao,2026,2026-04-18 23:00:00+00:00,EC Vitória,SC Corinthians Paulista,0.0,0.0,finished,football_data_org,554859
+football,brasileirao,2026,2026-04-18 23:30:00+00:00,Cruzeiro EC,Grêmio FBPA,2.0,0.0,finished,football_data_org,554853
+football,brasileirao,2026,2026-04-19 14:00:00+00:00,SC Internacional,Mirassol FC,1.0,2.0,finished,football_data_org,554855
+football,brasileirao,2026,2026-04-19 19:00:00+00:00,Coritiba FBC,CA Mineiro,2.0,0.0,finished,football_data_org,554852
+football,brasileirao,2026,2026-04-19 19:00:00+00:00,Santos FC,Fluminense FC,2.0,3.0,finished,football_data_org,554857
+football,brasileirao,2026,2026-04-19 21:30:00+00:00,RB Bragantino,Clube do Remo,4.0,2.0,finished,football_data_org,554850
+football,brasileirao,2026,2026-04-19 21:30:00+00:00,SE Palmeiras,CA Paranaense,1.0,0.0,finished,football_data_org,554856
+football,brasileirao,2026,2026-04-19 22:30:00+00:00,CR Flamengo,EC Bahia,2.0,0.0,finished,football_data_org,554854
+football,brasileirao,2026,2026-04-25 21:30:00+00:00,EC Bahia,Santos FC,2.0,2.0,finished,football_data_org,554862
+football,brasileirao,2026,2026-04-25 21:30:00+00:00,Botafogo FR,SC Internacional,2.0,2.0,finished,football_data_org,554863
+football,brasileirao,2026,2026-04-25 21:30:00+00:00,Clube do Remo,Cruzeiro EC,0.0,1.0,finished,football_data_org,554868
+football,brasileirao,2026,2026-04-26 00:00:00+00:00,São Paulo FC,Mirassol FC,1.0,0.0,finished,football_data_org,554869
+football,brasileirao,2026,2026-04-26 19:00:00+00:00,SC Corinthians Paulista,CR Vasco da Gama,1.0,0.0,finished,football_data_org,554865
+football,brasileirao,2026,2026-04-26 19:00:00+00:00,Grêmio FBPA,Coritiba FBC,1.0,0.0,finished,football_data_org,554867
+football,brasileirao,2026,2026-04-26 21:30:00+00:00,CA Paranaense,EC Vitória,3.0,1.0,finished,football_data_org,554860
+football,brasileirao,2026,2026-04-26 21:30:00+00:00,RB Bragantino,SE Palmeiras,0.0,1.0,finished,football_data_org,554864
+football,brasileirao,2026,2026-04-26 23:30:00+00:00,CA Mineiro,CR Flamengo,0.0,4.0,finished,football_data_org,554861
+football,brasileirao,2026,2026-04-26 23:30:00+00:00,Fluminense FC,Chapecoense AF,2.0,1.0,finished,football_data_org,554866
+football,brasileirao,2026,2026-05-02 19:00:00+00:00,Botafogo FR,Clube do Remo,1.0,2.0,finished,football_data_org,554871
+football,brasileirao,2026,2026-05-02 21:30:00+00:00,SE Palmeiras,Santos FC,1.0,1.0,finished,football_data_org,554877
+football,brasileirao,2026,2026-05-02 21:30:00+00:00,EC Vitória,Coritiba FBC,4.0,1.0,finished,football_data_org,554879
+football,brasileirao,2026,2026-05-02 23:30:00+00:00,CA Paranaense,Grêmio FBPA,0.0,0.0,finished,football_data_org,554870
+football,brasileirao,2026,2026-05-03 00:00:00+00:00,Cruzeiro EC,CA Mineiro,1.0,3.0,finished,football_data_org,554873
+football,brasileirao,2026,2026-05-03 19:00:00+00:00,CR Flamengo,CR Vasco da Gama,2.0,2.0,finished,football_data_org,554874
+football,brasileirao,2026,2026-05-03 19:00:00+00:00,São Paulo FC,EC Bahia,2.0,2.0,finished,football_data_org,554878
+football,brasileirao,2026,2026-05-03 21:30:00+00:00,Chapecoense AF,RB Bragantino,1.0,2.0,finished,football_data_org,554872
+football,brasileirao,2026,2026-05-03 21:30:00+00:00,SC Internacional,Fluminense FC,2.0,0.0,finished,football_data_org,554875
+football,brasileirao,2026,2026-05-03 23:30:00+00:00,Mirassol FC,SC Corinthians Paulista,2.0,1.0,finished,football_data_org,554876
+football,brasileirao,2026,2026-05-09 19:00:00+00:00,Coritiba FBC,SC Internacional,2.0,2.0,finished,football_data_org,554883
+football,brasileirao,2026,2026-05-09 21:00:00+00:00,Fluminense FC,EC Vitória,2.0,2.0,finished,football_data_org,554884
+football,brasileirao,2026,2026-05-10 00:00:00+00:00,EC Bahia,Cruzeiro EC,1.0,2.0,finished,football_data_org,554881
+football,brasileirao,2026,2026-05-10 19:00:00+00:00,CA Mineiro,Botafogo FR,1.0,1.0,finished,football_data_org,554880
+football,brasileirao,2026,2026-05-10 20:40:00+00:00,Clube do Remo,SE Palmeiras,1.0,1.0,finished,football_data_org,554887
+football,brasileirao,2026,2026-05-10 21:30:00+00:00,SC Corinthians Paulista,São Paulo FC,3.0,2.0,finished,football_data_org,554882
+football,brasileirao,2026,2026-05-10 21:30:00+00:00,Mirassol FC,Chapecoense AF,1.0,1.0,finished,football_data_org,554886
+football,brasileirao,2026,2026-05-10 21:30:00+00:00,Santos FC,RB Bragantino,2.0,0.0,finished,football_data_org,554888
+football,brasileirao,2026,2026-05-10 22:30:00+00:00,Grêmio FBPA,CR Flamengo,0.0,1.0,finished,football_data_org,554885
+football,brasileirao,2026,2026-05-10 23:30:00+00:00,CR Vasco da Gama,CA Paranaense,1.0,0.0,finished,football_data_org,554889
+football,brasileirao,2026,2026-05-16 21:30:00+00:00,CA Mineiro,Mirassol FC,3.0,1.0,finished,football_data_org,554891
+football,brasileirao,2026,2026-05-16 21:30:00+00:00,SC Internacional,CR Vasco da Gama,4.0,1.0,finished,football_data_org,554897
+football,brasileirao,2026,2026-05-16 22:00:00+00:00,Fluminense FC,São Paulo FC,2.0,1.0,finished,football_data_org,554896
+football,brasileirao,2026,2026-05-17 00:00:00+00:00,SE Palmeiras,Cruzeiro EC,1.0,1.0,finished,football_data_org,554898
+football,brasileirao,2026,2026-05-17 14:00:00+00:00,Santos FC,Coritiba FBC,0.0,3.0,finished,football_data_org,554899
+football,brasileirao,2026,2026-05-17 19:00:00+00:00,EC Bahia,Grêmio FBPA,1.0,1.0,finished,football_data_org,554892
+football,brasileirao,2026,2026-05-17 19:00:00+00:00,Botafogo FR,SC Corinthians Paulista,3.0,1.0,finished,football_data_org,554893
+football,brasileirao,2026,2026-05-17 21:30:00+00:00,RB Bragantino,EC Vitória,2.0,0.0,finished,football_data_org,554894
+football,brasileirao,2026,2026-05-17 21:30:00+00:00,Chapecoense AF,Clube do Remo,2.0,3.0,finished,football_data_org,554895
+football,brasileirao,2026,2026-05-17 22:30:00+00:00,CA Paranaense,CR Flamengo,1.0,1.0,finished,football_data_org,554890
+football,brasileirao,2026,2026-05-23 20:00:00+00:00,São Paulo FC,Botafogo FR,1.0,1.0,finished,football_data_org,554907
+football,brasileirao,2026,2026-05-23 20:00:00+00:00,EC Vitória,SC Internacional,2.0,0.0,finished,football_data_org,554909
+football,brasileirao,2026,2026-05-23 22:00:00+00:00,Grêmio FBPA,Santos FC,3.0,2.0,finished,football_data_org,554904
+football,brasileirao,2026,2026-05-23 22:00:00+00:00,Mirassol FC,Fluminense FC,1.0,0.0,finished,football_data_org,554905
+football,brasileirao,2026,2026-05-24 00:00:00+00:00,CR Flamengo,SE Palmeiras,0.0,3.0,finished,football_data_org,554903
+football,brasileirao,2026,2026-05-24 19:00:00+00:00,Cruzeiro EC,Chapecoense AF,2.0,1.0,finished,football_data_org,554902
+football,brasileirao,2026,2026-05-24 19:00:00+00:00,Clube do Remo,CA Paranaense,1.0,2.0,finished,football_data_org,554906
+football,brasileirao,2026,2026-05-24 21:30:00+00:00,SC Corinthians Paulista,CA Mineiro,1.0,0.0,finished,football_data_org,554900
+football,brasileirao,2026,2026-05-24 23:30:00+00:00,CR Vasco da Gama,RB Bragantino,0.0,3.0,finished,football_data_org,554908
+football,brasileirao,2026,2026-05-25 23:00:00+00:00,Coritiba FBC,EC Bahia,3.0,2.0,finished,football_data_org,554901
+football,brasileirao,2026,2026-05-30 19:00:00+00:00,CA Paranaense,Mirassol FC,1.0,0.0,finished,football_data_org,554910
+football,brasileirao,2026,2026-05-30 19:00:00+00:00,CR Flamengo,Coritiba FBC,3.0,0.0,finished,football_data_org,554914
+football,brasileirao,2026,2026-05-30 20:30:00+00:00,EC Bahia,Botafogo FR,2.0,1.0,finished,football_data_org,554911
+football,brasileirao,2026,2026-05-30 20:30:00+00:00,Grêmio FBPA,SC Corinthians Paulista,1.0,3.0,finished,football_data_org,554915
+football,brasileirao,2026,2026-05-30 23:00:00+00:00,Santos FC,EC Vitória,3.0,1.0,finished,football_data_org,554918
+football,brasileirao,2026,2026-05-31 14:00:00+00:00,RB Bragantino,SC Internacional,3.0,1.0,finished,football_data_org,554912
+football,brasileirao,2026,2026-05-31 19:00:00+00:00,SE Palmeiras,Chapecoense AF,1.0,0.0,finished,football_data_org,554916
+football,brasileirao,2026,2026-05-31 19:00:00+00:00,CR Vasco da Gama,CA Mineiro,0.0,1.0,finished,football_data_org,554919
+football,brasileirao,2026,2026-05-31 23:30:00+00:00,Cruzeiro EC,Fluminense FC,1.0,1.0,finished,football_data_org,554913
+football,brasileirao,2026,2026-05-31 23:30:00+00:00,Clube do Remo,São Paulo FC,1.0,0.0,finished,football_data_org,554917
+football,brasileirao,2026,2026-07-16 22:30:00+00:00,Botafogo FR,Santos FC,2.0,1.0,finished,football_data_org,554921
+football,brasileirao,2026,2026-07-16 22:30:00+00:00,EC Vitória,CR Vasco da Gama,1.0,0.0,finished,football_data_org,554929
+football,brasileirao,2026,2026-07-17 22:30:00+00:00,EC Bahia,Chapecoense AF,2.0,0.0,finished,football_data_org,554770
+football,brasileirao,2026,2026-07-17 23:00:00+00:00,Fluminense FC,RB Bragantino,1.0,1.0,finished,football_data_org,554925
+football,brasileirao,2026,2026-07-17 23:00:00+00:00,Mirassol FC,Grêmio FBPA,2.0,1.0,finished,football_data_org,554927
+football,brasileirao,2026,2026-07-21 22:30:00+00:00,CA Mineiro,EC Bahia,1.0,1.0,finished,football_data_org,554920
+football,brasileirao,2026,2026-07-22 22:30:00+00:00,Coritiba FBC,SE Palmeiras,1.0,3.0,finished,football_data_org,554924
+football,brasileirao,2026,2026-07-23 00:30:00+00:00,Chapecoense AF,CR Flamengo,0.0,4.0,finished,football_data_org,554922
+football,brasileirao,2026,2026-07-23 00:30:00+00:00,SC Internacional,Cruzeiro EC,1.0,2.0,finished,football_data_org,554926
+football,brasileirao,2026,2026-07-23 00:30:00+00:00,São Paulo FC,CA Paranaense,1.0,2.0,finished,football_data_org,554928
+football,brasileirao,2026,2026-07-23 22:30:00+00:00,Botafogo FR,EC Vitória,0.0,0.0,finished,football_data_org,554771
+football,brasileirao,2026,2026-07-23 22:30:00+00:00,SC Corinthians Paulista,Clube do Remo,3.0,0.0,finished,football_data_org,554923
+football,brasileirao,2026,2026-07-25 21:30:00+00:00,CA Paranaense,SC Internacional,2.0,0.0,finished,football_data_org,554930
+football,brasileirao,2026,2026-07-25 21:30:00+00:00,Santos FC,Chapecoense AF,2.0,2.0,finished,football_data_org,554938
+football,brasileirao,2026,2026-07-25 23:30:00+00:00,CR Vasco da Gama,Mirassol FC,1.0,1.0,finished,football_data_org,554939
+football,brasileirao,2026,2026-07-26 19:00:00+00:00,EC Bahia,SC Corinthians Paulista,1.0,1.0,finished,football_data_org,554931
+football,brasileirao,2026,2026-07-26 19:00:00+00:00,Cruzeiro EC,Botafogo FR,0.0,1.0,finished,football_data_org,554933
+football,brasileirao,2026,2026-07-26 21:30:00+00:00,RB Bragantino,Coritiba FBC,0.0,0.0,finished,football_data_org,554932
+football,brasileirao,2026,2026-07-26 21:30:00+00:00,CR Flamengo,São Paulo FC,1.0,1.0,finished,football_data_org,554934
+football,brasileirao,2026,2026-07-26 21:30:00+00:00,Grêmio FBPA,Fluminense FC,1.0,1.0,finished,football_data_org,554935
+football,brasileirao,2026,2026-07-26 22:30:00+00:00,SE Palmeiras,CA Mineiro,1.0,2.0,finished,football_data_org,554936
+football,brasileirao,2026,2026-07-26 22:30:00+00:00,Clube do Remo,EC Vitória,2.0,0.0,finished,football_data_org,554937
+football,brasileirao,2026,2026-07-29 00:00:00+00:00,Chapecoense AF,CR Vasco da Gama,,,postponed,football_data_org,554942
+football,brasileirao,2026,2026-07-29 22:30:00+00:00,SC Internacional,CR Flamengo,1.0,1.0,finished,football_data_org,554946
+football,brasileirao,2026,2026-07-29 22:30:00+00:00,Mirassol FC,Clube do Remo,2.0,1.0,finished,football_data_org,554947
+football,brasileirao,2026,2026-07-30 00:30:00+00:00,Fluminense FC,EC Bahia,0.0,0.0,finished,football_data_org,554945
+football,brasileirao,2026,2026-07-30 00:30:00+00:00,EC Vitória,SE Palmeiras,0.0,4.0,finished,football_data_org,554949
+football,brasileirao,2026,2026-07-30 22:30:00+00:00,SC Corinthians Paulista,CA Paranaense,0.0,0.0,finished,football_data_org,554943
+football,brasileirao,2026,2026-07-31 00:30:00+00:00,Coritiba FBC,Cruzeiro EC,0.0,1.0,finished,football_data_org,554944
+football,brasileirao,2026,2026-08-08 19:00:00+00:00,Grêmio FBPA,São Paulo FC,2.0,1.0,finished,football_data_org,554956
+football,brasileirao,2026,2026-08-08 21:30:00+00:00,Clube do Remo,CA Mineiro,2.0,2.0,finished,football_data_org,554958
+football,brasileirao,2026,2026-08-08 23:30:00+00:00,Coritiba FBC,Chapecoense AF,2.0,1.0,finished,football_data_org,554953
+football,brasileirao,2026,2026-08-09 00:00:00+00:00,Botafogo FR,Fluminense FC,1.0,1.0,finished,football_data_org,554951
+football,brasileirao,2026,2026-08-09 14:00:00+00:00,Cruzeiro EC,Mirassol FC,3.0,1.0,finished,football_data_org,554954
+football,brasileirao,2026,2026-08-09 19:00:00+00:00,EC Bahia,CR Vasco da Gama,0.0,0.0,finished,football_data_org,554950
+football,brasileirao,2026,2026-08-09 19:00:00+00:00,SE Palmeiras,SC Internacional,0.0,0.0,finished,football_data_org,554957
+football,brasileirao,2026,2026-08-09 21:30:00+00:00,RB Bragantino,SC Corinthians Paulista,0.0,2.0,finished,football_data_org,554952
+football,brasileirao,2026,2026-08-09 21:30:00+00:00,Santos FC,CA Paranaense,0.0,2.0,finished,football_data_org,554959
+football,brasileirao,2026,2026-08-09 22:30:00+00:00,CR Flamengo,EC Vitória,2.0,0.0,finished,football_data_org,554955
+football,brasileirao,2026,2026-08-15 19:30:00+00:00,Fluminense FC,SE Palmeiras,3.0,2.0,finished,football_data_org,554964
+football,brasileirao,2026,2026-08-15 21:30:00+00:00,CA Paranaense,RB Bragantino,1.0,1.0,finished,football_data_org,554960
+football,brasileirao,2026,2026-08-16 00:00:00+00:00,São Paulo FC,Coritiba FBC,1.0,1.0,finished,football_data_org,554967
+football,brasileirao,2026,2026-08-16 14:00:00+00:00,Chapecoense AF,EC Bahia,3.0,3.0,finished,football_data_org,554962
+football,brasileirao,2026,2026-08-16 19:00:00+00:00,CA Mineiro,Grêmio FBPA,3.0,0.0,finished,football_data_org,554961
+football,brasileirao,2026,2026-08-16 19:00:00+00:00,CR Vasco da Gama,Santos FC,0.0,3.0,finished,football_data_org,554968
+football,brasileirao,2026,2026-08-16 21:30:00+00:00,Mirassol FC,CR Flamengo,1.0,5.0,finished,football_data_org,554966
+football,brasileirao,2026,2026-08-16 21:30:00+00:00,EC Vitória,Botafogo FR,1.0,0.0,finished,football_data_org,554969
+football,brasileirao,2026,2026-08-16 22:30:00+00:00,SC Corinthians Paulista,Cruzeiro EC,1.0,2.0,finished,football_data_org,554963
+football,brasileirao,2026,2026-08-17 23:00:00+00:00,SC Internacional,Clube do Remo,1.0,1.0,finished,football_data_org,554965
+football,brasileirao,2026,2026-08-22 19:00:00+00:00,Fluminense FC,Clube do Remo,2.0,1.0,finished,football_data_org,554975
+football,brasileirao,2026,2026-08-22 21:30:00+00:00,SC Internacional,CA Mineiro,0.0,0.0,finished,football_data_org,554976
+football,brasileirao,2026,2026-08-22 23:30:00+00:00,Cruzeiro EC,CR Flamengo,2.0,1.0,finished,football_data_org,554974
+football,brasileirao,2026,2026-08-23 19:00:00+00:00,RB Bragantino,Grêmio FBPA,1.0,0.0,finished,football_data_org,554971
+football,brasileirao,2026,2026-08-23 19:00:00+00:00,SE Palmeiras,CR Vasco da Gama,4.0,1.0,finished,football_data_org,554977
+football,brasileirao,2026,2026-08-23 19:00:00+00:00,EC Vitória,EC Bahia,0.0,2.0,finished,football_data_org,554979
+football,brasileirao,2026,2026-08-23 21:30:00+00:00,Chapecoense AF,São Paulo FC,1.0,0.0,finished,football_data_org,554972
+football,brasileirao,2026,2026-08-23 21:30:00+00:00,Santos FC,Mirassol FC,1.0,1.0,finished,football_data_org,554978
+football,brasileirao,2026,2026-08-23 22:30:00+00:00,Coritiba FBC,SC Corinthians Paulista,2.0,1.0,finished,football_data_org,554973
+football,brasileirao,2026,2026-08-24 23:00:00+00:00,Botafogo FR,CA Paranaense,2.0,3.0,finished,football_data_org,554970
+football,brasileirao,2026,2026-08-29 21:30:00+00:00,CA Mineiro,EC Vitória,2.0,1.0,finished,football_data_org,554981
+football,brasileirao,2026,2026-08-29 23:00:00+00:00,São Paulo FC,RB Bragantino,2.0,1.0,finished,football_data_org,554988
+football,brasileirao,2026,2026-08-30 00:20:00+00:00,CR Vasco da Gama,Cruzeiro EC,3.0,1.0,finished,football_data_org,554989
+football,brasileirao,2026,2026-08-30 14:00:00+00:00,CA Paranaense,Fluminense FC,3.0,3.0,finished,football_data_org,554980
+football,brasileirao,2026,2026-08-30 19:00:00+00:00,SC Corinthians Paulista,Santos FC,0.0,1.0,finished,football_data_org,554983
+football,brasileirao,2026,2026-08-30 19:00:00+00:00,CR Flamengo,Botafogo FR,3.0,0.0,finished,football_data_org,554984
+football,brasileirao,2026,2026-08-30 21:30:00+00:00,Grêmio FBPA,Chapecoense AF,3.0,1.0,finished,football_data_org,554985
+football,brasileirao,2026,2026-08-30 21:30:00+00:00,Mirassol FC,SE Palmeiras,1.0,1.0,finished,football_data_org,554986
+football,brasileirao,2026,2026-08-30 22:30:00+00:00,EC Bahia,SC Internacional,3.0,2.0,finished,football_data_org,554982
+football,brasileirao,2026,2026-08-31 23:00:00+00:00,Clube do Remo,Coritiba FBC,2.0,3.0,finished,football_data_org,554987
+football,brasileirao,2026,2026-09-02 22:30:00+00:00,CR Flamengo,Mirassol FC,2.0,0.0,finished,football_data_org,554775
+football,brasileirao,2026,2026-09-05 19:00:00+00:00,RB Bragantino,EC Bahia,2.0,3.0,finished,football_data_org,554991
+football,brasileirao,2026,2026-09-05 21:30:00+00:00,São Paulo FC,CA Mineiro,2.0,0.0,finished,football_data_org,554998
+football,brasileirao,2026,2026-09-06 00:00:00+00:00,Fluminense FC,CR Vasco da Gama,1.0,0.0,finished,football_data_org,554995
+football,brasileirao,2026,2026-09-06 14:00:00+00:00,Coritiba FBC,Mirassol FC,1.0,2.0,finished,football_data_org,554993
+football,brasileirao,2026,2026-09-06 19:00:00+00:00,Cruzeiro EC,CA Paranaense,3.0,1.0,finished,football_data_org,554994
+football,brasileirao,2026,2026-09-06 19:00:00+00:00,SC Internacional,Santos FC,2.0,3.0,finished,football_data_org,554996
+football,brasileirao,2026,2026-09-06 19:00:00+00:00,Clube do Remo,CR Flamengo,0.0,1.0,finished,football_data_org,554997
+football,brasileirao,2026,2026-09-06 21:30:00+00:00,Botafogo FR,SE Palmeiras,0.0,0.0,finished,football_data_org,554990
+football,brasileirao,2026,2026-09-06 22:30:00+00:00,SC Corinthians Paulista,Chapecoense AF,1.0,2.0,finished,football_data_org,554992
+football,brasileirao,2026,2026-09-07 23:00:00+00:00,EC Vitória,Grêmio FBPA,1.0,0.0,finished,football_data_org,554999
+football,brasileirao,2026,2026-09-12 00:00:00+00:00,Coritiba FBC,CA Paranaense,3.0,3.0,finished,football_data_org,555004
+football,brasileirao,2026,2026-09-12 19:00:00+00:00,CA Mineiro,Fluminense FC,3.0,1.0,finished,football_data_org,555000
+football,brasileirao,2026,2026-09-12 19:00:00+00:00,Grêmio FBPA,CR Vasco da Gama,1.0,2.0,finished,football_data_org,555006
+football,brasileirao,2026,2026-09-12 20:00:00+00:00,Chapecoense AF,SC Internacional,1.0,2.0,finished,football_data_org,555003
+football,brasileirao,2026,2026-09-12 21:30:00+00:00,SE Palmeiras,São Paulo FC,2.0,0.0,finished,football_data_org,555008
+football,brasileirao,2026,2026-09-12 23:30:00+00:00,Botafogo FR,RB Bragantino,1.0,1.0,finished,football_data_org,555002
+football,brasileirao,2026,2026-09-13 00:00:00+00:00,Santos FC,Cruzeiro EC,2.0,1.0,finished,football_data_org,555009
+football,brasileirao,2026,2026-09-13 19:00:00+00:00,Mirassol FC,EC Vitória,2.0,2.0,finished,football_data_org,555007
+football,brasileirao,2026,2026-09-13 20:30:00+00:00,CR Flamengo,SC Corinthians Paulista,2.0,1.0,finished,football_data_org,555005
+football,brasileirao,2026,2026-09-14 23:00:00+00:00,EC Bahia,Clube do Remo,2.0,1.0,finished,football_data_org,555001
+football,brasileirao,2026,2026-09-16 22:30:00+00:00,Botafogo FR,Grêmio FBPA,3.0,2.0,finished,football_data_org,554941
+football,brasileirao,2026,2026-09-19 19:00:00+00:00,CA Mineiro,Chapecoense AF,1.0,1.0,finished,football_data_org,555011
+football,brasileirao,2026,2026-09-19 20:00:00+00:00,Mirassol FC,Botafogo FR,2.0,0.0,finished,football_data_org,555015
+football,brasileirao,2026,2026-09-19 21:30:00+00:00,Clube do Remo,Santos FC,1.0,2.0,finished,football_data_org,555016
+football,brasileirao,2026,2026-09-19 23:30:00+00:00,CR Vasco da Gama,Coritiba FBC,5.0,0.0,finished,football_data_org,555018
+football,brasileirao,2026,2026-09-20 00:00:00+00:00,São Paulo FC,SC Internacional,1.0,0.0,finished,football_data_org,555017
+football,brasileirao,2026,2026-09-20 14:00:00+00:00,Grêmio FBPA,SE Palmeiras,0.0,0.0,finished,football_data_org,555014
+football,brasileirao,2026,2026-09-20 19:00:00+00:00,SC Corinthians Paulista,Fluminense FC,1.0,3.0,finished,football_data_org,555012
+football,brasileirao,2026,2026-09-20 19:00:00+00:00,EC Vitória,Cruzeiro EC,1.0,3.0,finished,football_data_org,555019
+football,brasileirao,2026,2026-09-20 21:30:00+00:00,CR Flamengo,RB Bragantino,2.0,1.0,finished,football_data_org,555013
+football,brasileirao,2026,2026-09-20 22:30:00+00:00,CA Paranaense,EC Bahia,2.0,1.0,finished,football_data_org,555010
+football,brasileirao,2026,2026-10-02 23:00:00+00:00,São Paulo FC,Santos FC,,,scheduled,football_data_org,554948
+football,brasileirao,2026,2026-10-03 21:30:00+00:00,CA Mineiro,RB Bragantino,,,scheduled,football_data_org,554940
+football,brasileirao,2026,2026-10-07 22:30:00+00:00,RB Bragantino,Mirassol FC,,,scheduled,football_data_org,555022
+football,brasileirao,2026,2026-10-07 22:30:00+00:00,SC Internacional,SC Corinthians Paulista,,,scheduled,football_data_org,555025
+football,brasileirao,2026,2026-10-07 22:30:00+00:00,Clube do Remo,Grêmio FBPA,,,scheduled,football_data_org,555027
+football,brasileirao,2026,2026-10-07 23:00:00+00:00,EC Vitória,Chapecoense AF,,,scheduled,football_data_org,555029
+football,brasileirao,2026,2026-10-07 23:30:00+00:00,Botafogo FR,CR Vasco da Gama,,,scheduled,football_data_org,555021
+football,brasileirao,2026,2026-10-08 00:30:00+00:00,Cruzeiro EC,São Paulo FC,,,scheduled,football_data_org,555023
+football,brasileirao,2026,2026-10-08 22:30:00+00:00,Santos FC,CR Flamengo,,,scheduled,football_data_org,555028
+football,brasileirao,2026,2026-10-08 23:00:00+00:00,CA Paranaense,CA Mineiro,,,scheduled,football_data_org,555020
+football,brasileirao,2026,2026-10-09 00:30:00+00:00,Fluminense FC,Coritiba FBC,,,scheduled,football_data_org,555024
+football,brasileirao,2026,2026-10-09 00:30:00+00:00,SE Palmeiras,EC Bahia,,,scheduled,football_data_org,555026
+football,brasileirao,2026,2026-10-10 20:00:00+00:00,CR Vasco da Gama,Clube do Remo,,,scheduled,football_data_org,555039
+football,brasileirao,2026,2026-10-11 00:00:00+00:00,São Paulo FC,EC Vitória,,,scheduled,football_data_org,555038
+football,brasileirao,2026,2026-10-11 19:00:00+00:00,CA Mineiro,Santos FC,,,scheduled,football_data_org,555030
+football,brasileirao,2026,2026-10-11 20:30:00+00:00,CR Flamengo,Fluminense FC,,,scheduled,football_data_org,555035
+football,brasileirao,2026,2026-10-11 20:30:00+00:00,Grêmio FBPA,SC Internacional,,,scheduled,football_data_org,555036
+football,brasileirao,2026,2026-10-11 20:30:00+00:00,SE Palmeiras,SC Corinthians Paulista,,,scheduled,football_data_org,555037
+football,brasileirao,2026,2026-10-11 22:30:00+00:00,EC Bahia,Mirassol FC,,,scheduled,football_data_org,555031
+football,brasileirao,2026,2026-10-12 19:00:00+00:00,Coritiba FBC,Botafogo FR,,,scheduled,football_data_org,555034
+football,brasileirao,2026,2026-10-12 22:30:00+00:00,Chapecoense AF,CA Paranaense,,,scheduled,football_data_org,555033
+football,brasileirao,2026,2026-10-13 00:00:00+00:00,RB Bragantino,Cruzeiro EC,,,scheduled,football_data_org,555032
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,CA Paranaense,SE Palmeiras,,,scheduled,football_data_org,555040
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,CA Mineiro,Coritiba FBC,,,scheduled,football_data_org,555041
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,EC Bahia,CR Flamengo,,,scheduled,football_data_org,555042
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,Botafogo FR,Chapecoense AF,,,scheduled,football_data_org,555043
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,SC Corinthians Paulista,EC Vitória,,,scheduled,football_data_org,555044
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,Fluminense FC,Santos FC,,,scheduled,football_data_org,555045
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,Grêmio FBPA,Cruzeiro EC,,,scheduled,football_data_org,555046
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,Mirassol FC,SC Internacional,,,scheduled,football_data_org,555047
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,Clube do Remo,RB Bragantino,,,scheduled,football_data_org,555048
+football,brasileirao,2026,2026-10-17 00:00:00+00:00,São Paulo FC,CR Vasco da Gama,,,scheduled,football_data_org,555049
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,Chapecoense AF,Fluminense FC,,,scheduled,football_data_org,555050
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,Coritiba FBC,Grêmio FBPA,,,scheduled,football_data_org,555051
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,Cruzeiro EC,Clube do Remo,,,scheduled,football_data_org,555052
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,CR Flamengo,CA Mineiro,,,scheduled,football_data_org,555053
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,SC Internacional,Botafogo FR,,,scheduled,football_data_org,555054
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,Mirassol FC,São Paulo FC,,,scheduled,football_data_org,555055
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,SE Palmeiras,RB Bragantino,,,scheduled,football_data_org,555056
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,Santos FC,EC Bahia,,,scheduled,football_data_org,555057
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,CR Vasco da Gama,SC Corinthians Paulista,,,scheduled,football_data_org,555058
+football,brasileirao,2026,2026-10-24 00:00:00+00:00,EC Vitória,CA Paranaense,,,scheduled,football_data_org,555059
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,CA Mineiro,Cruzeiro EC,,,scheduled,football_data_org,555060
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,EC Bahia,São Paulo FC,,,scheduled,football_data_org,555061
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,RB Bragantino,Chapecoense AF,,,scheduled,football_data_org,555062
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,SC Corinthians Paulista,Mirassol FC,,,scheduled,football_data_org,555063
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,Coritiba FBC,EC Vitória,,,scheduled,football_data_org,555064
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,Fluminense FC,SC Internacional,,,scheduled,football_data_org,555065
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,Grêmio FBPA,CA Paranaense,,,scheduled,football_data_org,555066
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,Clube do Remo,Botafogo FR,,,scheduled,football_data_org,555067
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,Santos FC,SE Palmeiras,,,scheduled,football_data_org,555068
+football,brasileirao,2026,2026-10-28 00:00:00+00:00,CR Vasco da Gama,CR Flamengo,,,scheduled,football_data_org,555069
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,CA Paranaense,CR Vasco da Gama,,,scheduled,football_data_org,555070
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,Botafogo FR,CA Mineiro,,,scheduled,football_data_org,555071
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,RB Bragantino,Santos FC,,,scheduled,football_data_org,555072
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,Chapecoense AF,Mirassol FC,,,scheduled,football_data_org,555073
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,Cruzeiro EC,EC Bahia,,,scheduled,football_data_org,555074
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,CR Flamengo,Grêmio FBPA,,,scheduled,football_data_org,555075
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,SC Internacional,Coritiba FBC,,,scheduled,football_data_org,555076
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,SE Palmeiras,Clube do Remo,,,scheduled,football_data_org,555077
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,São Paulo FC,SC Corinthians Paulista,,,scheduled,football_data_org,555078
+football,brasileirao,2026,2026-11-04 00:00:00+00:00,EC Vitória,Fluminense FC,,,scheduled,football_data_org,555079
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,SC Corinthians Paulista,Botafogo FR,,,scheduled,football_data_org,555080
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,Coritiba FBC,Santos FC,,,scheduled,football_data_org,555081
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,Cruzeiro EC,SE Palmeiras,,,scheduled,football_data_org,555082
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,CR Flamengo,CA Paranaense,,,scheduled,football_data_org,555083
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,Grêmio FBPA,EC Bahia,,,scheduled,football_data_org,555084
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,Mirassol FC,CA Mineiro,,,scheduled,football_data_org,555085
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,Clube do Remo,Chapecoense AF,,,scheduled,football_data_org,555086
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,São Paulo FC,Fluminense FC,,,scheduled,football_data_org,555087
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,CR Vasco da Gama,SC Internacional,,,scheduled,football_data_org,555088
+football,brasileirao,2026,2026-11-18 00:00:00+00:00,EC Vitória,RB Bragantino,,,scheduled,football_data_org,555089
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,CA Paranaense,Clube do Remo,,,scheduled,football_data_org,555090
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,CA Mineiro,SC Corinthians Paulista,,,scheduled,football_data_org,555091
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,EC Bahia,Coritiba FBC,,,scheduled,football_data_org,555092
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,Botafogo FR,São Paulo FC,,,scheduled,football_data_org,555093
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,RB Bragantino,CR Vasco da Gama,,,scheduled,football_data_org,555094
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,Chapecoense AF,Cruzeiro EC,,,scheduled,football_data_org,555095
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,Fluminense FC,Mirassol FC,,,scheduled,football_data_org,555096
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,SC Internacional,EC Vitória,,,scheduled,football_data_org,555097
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,SE Palmeiras,CR Flamengo,,,scheduled,football_data_org,555098
+football,brasileirao,2026,2026-11-21 00:00:00+00:00,Santos FC,Grêmio FBPA,,,scheduled,football_data_org,555099
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,CA Mineiro,CR Vasco da Gama,,,scheduled,football_data_org,555100
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,Botafogo FR,EC Bahia,,,scheduled,football_data_org,555101
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,Chapecoense AF,SE Palmeiras,,,scheduled,football_data_org,555102
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,SC Corinthians Paulista,Grêmio FBPA,,,scheduled,football_data_org,555103
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,Coritiba FBC,CR Flamengo,,,scheduled,football_data_org,555104
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,Fluminense FC,Cruzeiro EC,,,scheduled,football_data_org,555105
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,SC Internacional,RB Bragantino,,,scheduled,football_data_org,555106
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,Mirassol FC,CA Paranaense,,,scheduled,football_data_org,555107
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,São Paulo FC,Clube do Remo,,,scheduled,football_data_org,555108
+football,brasileirao,2026,2026-11-28 00:00:00+00:00,EC Vitória,Santos FC,,,scheduled,football_data_org,555109
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,CA Paranaense,São Paulo FC,,,scheduled,football_data_org,555110
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,EC Bahia,CA Mineiro,,,scheduled,football_data_org,555111
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,RB Bragantino,Fluminense FC,,,scheduled,football_data_org,555112
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,Cruzeiro EC,SC Internacional,,,scheduled,football_data_org,555113
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,CR Flamengo,Chapecoense AF,,,scheduled,football_data_org,555114
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,Grêmio FBPA,Mirassol FC,,,scheduled,football_data_org,555115
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,SE Palmeiras,Coritiba FBC,,,scheduled,football_data_org,555116
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,Clube do Remo,SC Corinthians Paulista,,,scheduled,football_data_org,555117
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,Santos FC,Botafogo FR,,,scheduled,football_data_org,555118
+football,brasileirao,2026,2026-12-02 00:00:00+00:00,CR Vasco da Gama,EC Vitória,,,scheduled,football_data_org,555119

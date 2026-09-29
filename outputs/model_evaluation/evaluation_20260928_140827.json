@@ -1,0 +1,29 @@
+{
+    "metrics": {
+        "model_name": "poisson",
+        "model_version": null,
+        "sport": "football",
+        "competition": "premier_league",
+        "season": "2026-27",
+        "evaluation_rows": 10,
+        "accuracy": 0.3,
+        "log_loss": 2.882157069430782,
+        "brier_score": 1.0171243264336307,
+        "mean_calibration_error": 0.45925574968945765,
+        "evaluation_status": "LOW_SAMPLE_SIZE",
+        "run_id": "20260928_140827",
+        "training_rows": 40,
+        "validation_rows": 10,
+        "valid_predictions": 10,
+        "skipped_rows": 0,
+        "coverage": 1.0,
+        "sample_status": "LOW_SAMPLE_SIZE",
+        "probability_tolerance": 1e-06
+    },
+    "report_paths": {
+        "metrics": "outputs\\model_evaluation\\model_metrics_20260928_140827.csv",
+        "calibration": "outputs\\model_evaluation\\calibration_report_20260928_140827.csv",
+        "json": "outputs\\model_evaluation\\evaluation_20260928_140827.json",
+        "match_diagnostics": "outputs\\model_evaluation\\match_diagnostics_20260928_140827.csv"
+    }
+}

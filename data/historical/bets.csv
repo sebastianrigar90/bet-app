@@ -1,0 +1,2 @@
+﻿bet_id,run_id,detected_at,sport,competition,season,match_date,local,visitante,mercado,cuota_teorica,cuota_real,edge,stake,status,result,pnl,settled_at
+2038867c-b122-401d-9b2a-3d61aa2ba15b,RUN_20260924_131015,2026-09-24T13:10:16.444397,football,premier_league,2026-27,,Arsenal,Leeds United,EMPATE,2.0556914880233164,4.9,1.383626156234015,10000.0,OPEN,,,

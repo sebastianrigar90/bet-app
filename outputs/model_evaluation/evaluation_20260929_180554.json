@@ -1,0 +1,16 @@
+[
+    {
+        "model_name":"poisson",
+        "model_version":"candidate",
+        "sport":"football",
+        "competition":"primera_a_clausura",
+        "season":"2026",
+        "evaluation_rows":22,
+        "accuracy":0.4090909091,
+        "log_loss":1.0359730437,
+        "brier_score":0.6437618434,
+        "mean_calibration_error":0.2482151972,
+        "evaluation_status":"SUCCESS",
+        "skipped_rows":0
+    }
+]

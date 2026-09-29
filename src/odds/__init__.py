@@ -1,0 +1,1 @@
+# Módulo de cuotas de casas de apuestas.

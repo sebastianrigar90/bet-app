@@ -1,0 +1,2 @@
+﻿model_id,created_at,sport,competition,season,data_hash,training_rows,validation_rows,log_loss,accuracy,status,model_file
+model_20260925_142727_542204,2026-09-25T14:27:27.574524,football,bundesliga,2026-27,3fc2ea37cc0efea693a2125235fef0ae97d61e2cc7a46cb1e47579c4b82f0304,28,8,9.878523111868372,0.125,active,data\models\football\bundesliga\2026-27\versions\model_20260925_142727_542204.pkl

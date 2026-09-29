@@ -1,0 +1,74 @@
+football:
+
+  premier_league:
+
+    - source: pulselive
+      priority: 1
+
+      config:
+        competition_id: 1
+        competition_season_id: 841
+
+
+  primera_a_clausura:
+
+    - source: colombia_com
+      priority: 1
+
+
+  serie_a:
+
+    - source: football_data
+      priority: 1
+
+      config:
+        league_code: I1
+        season_code: "2627"
+        competition: serie_a
+
+    - source: football_data_org
+      priority: 2
+
+      config:
+        competition_code: SA
+        competition: serie_a
+
+
+  ligue_1:
+
+    - source: football_data_org
+      priority: 1
+
+      config:
+        competition_code: FL1
+        competition: ligue_1
+
+
+  la_liga:
+
+    - source: football_data_org
+      priority: 1
+
+      config:
+        competition_code: PD
+        competition: la_liga
+
+
+  bundesliga:
+
+    - source: football_data_org
+      priority: 1
+
+      config:
+        competition_code: BL1
+        competition: bundesliga
+
+
+  brasileirao:
+
+    - source: football_data_org
+      priority: 1
+
+      config:
+        competition_code: BSA
+        competition: brasileirao

@@ -1,0 +1,307 @@
+﻿sport,competition,season,date,home,away,home_score,away_score,status,source,source_id
+football,ligue_1,2026-27,2026-08-21 18:45:00+00:00,Olympique de Marseille,RC Strasbourg Alsace,4.0,0.0,finished,football_data_org,559715
+football,ligue_1,2026-27,2026-08-22 15:15:00+00:00,Racing Club de Lens,AJ Auxerre,5.0,2.0,finished,football_data_org,559712
+football,ligue_1,2026-27,2026-08-22 18:45:00+00:00,Le Mans FC,Stade Brestois 29,2.0,2.0,finished,football_data_org,559711
+football,ligue_1,2026-27,2026-08-22 18:45:00+00:00,ES Troyes AC,Paris FC,0.0,0.0,finished,football_data_org,559714
+football,ligue_1,2026-27,2026-08-22 18:45:00+00:00,OGC Nice,FC Lorient,0.0,0.0,finished,football_data_org,559716
+football,ligue_1,2026-27,2026-08-22 18:45:00+00:00,Toulouse FC,Olympique Lyonnais,0.0,2.0,finished,football_data_org,559718
+football,ligue_1,2026-27,2026-08-23 13:00:00+00:00,Angers SCO,Lille OSC,0.0,2.0,finished,football_data_org,559717
+football,ligue_1,2026-27,2026-08-23 15:15:00+00:00,Le Havre AC,AS Monaco FC,0.0,1.0,finished,football_data_org,559719
+football,ligue_1,2026-27,2026-08-23 18:45:00+00:00,Stade Rennais FC 1901,Paris Saint-Germain FC,2.0,2.0,finished,football_data_org,559713
+football,ligue_1,2026-27,2026-08-28 18:45:00+00:00,Lille OSC,Paris Saint-Germain FC,2.0,2.0,finished,football_data_org,559702
+football,ligue_1,2026-27,2026-08-29 15:15:00+00:00,RC Strasbourg Alsace,Racing Club de Lens,2.0,1.0,finished,football_data_org,559704
+football,ligue_1,2026-27,2026-08-29 18:45:00+00:00,FC Lorient,ES Troyes AC,1.0,2.0,finished,football_data_org,559705
+football,ligue_1,2026-27,2026-08-29 18:45:00+00:00,Olympique Lyonnais,Le Havre AC,1.0,1.0,finished,football_data_org,559706
+football,ligue_1,2026-27,2026-08-29 18:45:00+00:00,AJ Auxerre,Angers SCO,1.0,3.0,finished,football_data_org,559708
+football,ligue_1,2026-27,2026-08-29 18:45:00+00:00,Stade Brestois 29,Toulouse FC,2.0,2.0,finished,football_data_org,559710
+football,ligue_1,2026-27,2026-08-30 13:00:00+00:00,Paris FC,OGC Nice,3.0,0.0,finished,football_data_org,559707
+football,ligue_1,2026-27,2026-08-30 15:15:00+00:00,Stade Rennais FC 1901,Le Mans FC,3.0,2.0,finished,football_data_org,559709
+football,ligue_1,2026-27,2026-08-30 18:45:00+00:00,AS Monaco FC,Olympique de Marseille,2.0,0.0,finished,football_data_org,559703
+football,ligue_1,2026-27,2026-09-03 18:45:00+00:00,Toulouse FC,Lille OSC,0.0,1.0,finished,football_data_org,559696
+football,ligue_1,2026-27,2026-09-04 17:00:00+00:00,Olympique Lyonnais,AJ Auxerre,3.0,1.0,finished,football_data_org,559699
+football,ligue_1,2026-27,2026-09-04 19:05:00+00:00,Paris Saint-Germain FC,AS Monaco FC,1.0,2.0,finished,football_data_org,559697
+football,ligue_1,2026-27,2026-09-05 15:15:00+00:00,Racing Club de Lens,FC Lorient,0.0,1.0,finished,football_data_org,559695
+football,ligue_1,2026-27,2026-09-05 18:45:00+00:00,Le Havre AC,Stade Brestois 29,1.0,2.0,finished,football_data_org,559693
+football,ligue_1,2026-27,2026-09-05 18:45:00+00:00,OGC Nice,Le Mans FC,1.0,1.0,finished,football_data_org,559701
+football,ligue_1,2026-27,2026-09-06 13:00:00+00:00,ES Troyes AC,RC Strasbourg Alsace,2.0,6.0,finished,football_data_org,559700
+football,ligue_1,2026-27,2026-09-06 15:15:00+00:00,Angers SCO,Stade Rennais FC 1901,1.0,2.0,finished,football_data_org,559698
+football,ligue_1,2026-27,2026-09-06 18:45:00+00:00,Olympique de Marseille,Paris FC,2.0,3.0,finished,football_data_org,559694
+football,ligue_1,2026-27,2026-09-11 18:45:00+00:00,Stade Rennais FC 1901,Olympique de Marseille,1.0,0.0,finished,football_data_org,559689
+football,ligue_1,2026-27,2026-09-12 15:15:00+00:00,RC Strasbourg Alsace,AS Monaco FC,1.0,1.0,finished,football_data_org,559687
+football,ligue_1,2026-27,2026-09-12 18:45:00+00:00,FC Lorient,Toulouse FC,2.0,2.0,finished,football_data_org,559684
+football,ligue_1,2026-27,2026-09-12 18:45:00+00:00,AJ Auxerre,OGC Nice,1.0,0.0,finished,football_data_org,559688
+football,ligue_1,2026-27,2026-09-12 18:45:00+00:00,Le Havre AC,Angers SCO,0.0,0.0,finished,football_data_org,559690
+football,ligue_1,2026-27,2026-09-12 18:45:00+00:00,Paris FC,Olympique Lyonnais,0.0,0.0,finished,football_data_org,559692
+football,ligue_1,2026-27,2026-09-13 13:00:00+00:00,Lille OSC,ES Troyes AC,2.0,0.0,finished,football_data_org,559685
+football,ligue_1,2026-27,2026-09-13 15:15:00+00:00,Le Mans FC,Racing Club de Lens,2.0,2.0,finished,football_data_org,559686
+football,ligue_1,2026-27,2026-09-13 18:45:00+00:00,Stade Brestois 29,Paris Saint-Germain FC,0.0,1.0,finished,football_data_org,559691
+football,ligue_1,2026-27,2026-09-18 18:45:00+00:00,AS Monaco FC,Racing Club de Lens,2.0,1.0,finished,football_data_org,559682
+football,ligue_1,2026-27,2026-09-19 15:15:00+00:00,Paris FC,RC Strasbourg Alsace,2.0,1.0,finished,football_data_org,559679
+football,ligue_1,2026-27,2026-09-19 18:45:00+00:00,Le Mans FC,FC Lorient,2.0,1.0,finished,football_data_org,559677
+football,ligue_1,2026-27,2026-09-19 18:45:00+00:00,Toulouse FC,Le Havre AC,3.0,2.0,finished,football_data_org,559680
+football,ligue_1,2026-27,2026-09-19 18:45:00+00:00,Angers SCO,ES Troyes AC,2.0,0.0,finished,football_data_org,559681
+football,ligue_1,2026-27,2026-09-19 18:45:00+00:00,Olympique Lyonnais,Stade Rennais FC 1901,4.0,0.0,finished,football_data_org,559683
+football,ligue_1,2026-27,2026-09-20 13:00:00+00:00,AJ Auxerre,Stade Brestois 29,2.0,1.0,finished,football_data_org,559676
+football,ligue_1,2026-27,2026-09-20 15:15:00+00:00,OGC Nice,Lille OSC,2.0,1.0,finished,football_data_org,559678
+football,ligue_1,2026-27,2026-09-20 18:45:00+00:00,Olympique de Marseille,Paris Saint-Germain FC,1.0,2.0,finished,football_data_org,559675
+football,ligue_1,2026-27,2026-10-09 18:45:00+00:00,Racing Club de Lens,Olympique Lyonnais,,,scheduled,football_data_org,559669
+football,ligue_1,2026-27,2026-10-10 15:15:00+00:00,Lille OSC,Le Havre AC,,,scheduled,football_data_org,559674
+football,ligue_1,2026-27,2026-10-10 18:45:00+00:00,Stade Brestois 29,Angers SCO,,,scheduled,football_data_org,559666
+football,ligue_1,2026-27,2026-10-10 18:45:00+00:00,FC Lorient,Paris FC,,,scheduled,football_data_org,559668
+football,ligue_1,2026-27,2026-10-10 18:45:00+00:00,Paris Saint-Germain FC,Le Mans FC,,,scheduled,football_data_org,559672
+football,ligue_1,2026-27,2026-10-10 18:45:00+00:00,AS Monaco FC,Toulouse FC,,,scheduled,football_data_org,559673
+football,ligue_1,2026-27,2026-10-11 13:00:00+00:00,OGC Nice,RC Strasbourg Alsace,,,scheduled,football_data_org,559670
+football,ligue_1,2026-27,2026-10-11 15:15:00+00:00,Stade Rennais FC 1901,AJ Auxerre,,,scheduled,football_data_org,559667
+football,ligue_1,2026-27,2026-10-11 18:45:00+00:00,ES Troyes AC,Olympique de Marseille,,,scheduled,football_data_org,559671
+football,ligue_1,2026-27,2026-10-16 18:45:00+00:00,Le Mans FC,Toulouse FC,,,scheduled,football_data_org,559661
+football,ligue_1,2026-27,2026-10-17 15:15:00+00:00,RC Strasbourg Alsace,Paris Saint-Germain FC,,,scheduled,football_data_org,559662
+football,ligue_1,2026-27,2026-10-17 18:45:00+00:00,ES Troyes AC,Racing Club de Lens,,,scheduled,football_data_org,559659
+football,ligue_1,2026-27,2026-10-17 18:45:00+00:00,Lille OSC,Stade Brestois 29,,,scheduled,football_data_org,559660
+football,ligue_1,2026-27,2026-10-18 13:00:00+00:00,Angers SCO,Olympique de Marseille,,,scheduled,football_data_org,559664
+football,ligue_1,2026-27,2026-10-18 15:15:00+00:00,FC Lorient,AS Monaco FC,,,scheduled,football_data_org,559657
+football,ligue_1,2026-27,2026-10-18 15:15:00+00:00,Paris FC,Stade Rennais FC 1901,,,scheduled,football_data_org,559658
+football,ligue_1,2026-27,2026-10-18 15:15:00+00:00,Le Havre AC,AJ Auxerre,,,scheduled,football_data_org,559663
+football,ligue_1,2026-27,2026-10-18 18:45:00+00:00,Olympique Lyonnais,OGC Nice,,,scheduled,football_data_org,559665
+football,ligue_1,2026-27,2026-10-23 18:45:00+00:00,Stade Brestois 29,OGC Nice,,,scheduled,football_data_org,559654
+football,ligue_1,2026-27,2026-10-24 15:15:00+00:00,Toulouse FC,ES Troyes AC,,,scheduled,football_data_org,559655
+football,ligue_1,2026-27,2026-10-24 18:45:00+00:00,Racing Club de Lens,Paris FC,,,scheduled,football_data_org,559652
+football,ligue_1,2026-27,2026-10-25 14:00:00+00:00,AS Monaco FC,Lille OSC,,,scheduled,football_data_org,559650
+football,ligue_1,2026-27,2026-10-25 16:15:00+00:00,Olympique de Marseille,Le Havre AC,,,scheduled,football_data_org,559649
+football,ligue_1,2026-27,2026-10-25 16:15:00+00:00,Stade Rennais FC 1901,RC Strasbourg Alsace,,,scheduled,football_data_org,559651
+football,ligue_1,2026-27,2026-10-25 16:15:00+00:00,Angers SCO,FC Lorient,,,scheduled,football_data_org,559653
+football,ligue_1,2026-27,2026-10-25 16:15:00+00:00,AJ Auxerre,Le Mans FC,,,scheduled,football_data_org,559656
+football,ligue_1,2026-27,2026-10-25 19:45:00+00:00,Paris Saint-Germain FC,Olympique Lyonnais,,,scheduled,football_data_org,559648
+football,ligue_1,2026-27,2026-10-30 18:00:00+00:00,Le Havre AC,Paris Saint-Germain FC,,,scheduled,football_data_org,559644
+football,ligue_1,2026-27,2026-10-30 20:05:00+00:00,Lille OSC,Racing Club de Lens,,,scheduled,football_data_org,559639
+football,ligue_1,2026-27,2026-10-31 16:15:00+00:00,OGC Nice,Stade Rennais FC 1901,,,scheduled,football_data_org,559646
+football,ligue_1,2026-27,2026-10-31 19:45:00+00:00,Olympique Lyonnais,Angers SCO,,,scheduled,football_data_org,559640
+football,ligue_1,2026-27,2026-10-31 19:45:00+00:00,FC Lorient,Stade Brestois 29,,,scheduled,football_data_org,559641
+football,ligue_1,2026-27,2026-10-31 19:45:00+00:00,ES Troyes AC,Le Mans FC,,,scheduled,football_data_org,559643
+football,ligue_1,2026-27,2026-11-01 14:00:00+00:00,RC Strasbourg Alsace,AJ Auxerre,,,scheduled,football_data_org,559647
+football,ligue_1,2026-27,2026-11-01 16:15:00+00:00,Paris FC,AS Monaco FC,,,scheduled,football_data_org,559642
+football,ligue_1,2026-27,2026-11-01 19:45:00+00:00,Olympique de Marseille,Toulouse FC,,,scheduled,football_data_org,559645
+football,ligue_1,2026-27,2026-11-06 19:45:00+00:00,Toulouse FC,RC Strasbourg Alsace,,,scheduled,football_data_org,559638
+football,ligue_1,2026-27,2026-11-07 16:15:00+00:00,AJ Auxerre,Paris FC,,,scheduled,football_data_org,559637
+football,ligue_1,2026-27,2026-11-07 19:45:00+00:00,Paris Saint-Germain FC,ES Troyes AC,,,scheduled,football_data_org,559635
+football,ligue_1,2026-27,2026-11-08 14:00:00+00:00,Stade Rennais FC 1901,Lille OSC,,,scheduled,football_data_org,559636
+football,ligue_1,2026-27,2026-11-08 16:15:00+00:00,Le Mans FC,AS Monaco FC,,,scheduled,football_data_org,559631
+football,ligue_1,2026-27,2026-11-08 16:15:00+00:00,Stade Brestois 29,Olympique Lyonnais,,,scheduled,football_data_org,559632
+football,ligue_1,2026-27,2026-11-08 16:15:00+00:00,Le Havre AC,FC Lorient,,,scheduled,football_data_org,559633
+football,ligue_1,2026-27,2026-11-08 16:15:00+00:00,Angers SCO,OGC Nice,,,scheduled,football_data_org,559634
+football,ligue_1,2026-27,2026-11-08 19:45:00+00:00,Racing Club de Lens,Olympique de Marseille,,,scheduled,football_data_org,559630
+football,ligue_1,2026-27,2026-11-20 19:45:00+00:00,ES Troyes AC,Le Havre AC,,,scheduled,football_data_org,559622
+football,ligue_1,2026-27,2026-11-21 16:15:00+00:00,OGC Nice,Paris Saint-Germain FC,,,scheduled,football_data_org,559628
+football,ligue_1,2026-27,2026-11-21 19:45:00+00:00,AS Monaco FC,AJ Auxerre,,,scheduled,football_data_org,559621
+football,ligue_1,2026-27,2026-11-21 19:45:00+00:00,Racing Club de Lens,Toulouse FC,,,scheduled,football_data_org,559623
+football,ligue_1,2026-27,2026-11-21 19:45:00+00:00,Lille OSC,Olympique Lyonnais,,,scheduled,football_data_org,559624
+football,ligue_1,2026-27,2026-11-21 19:45:00+00:00,RC Strasbourg Alsace,Stade Brestois 29,,,scheduled,football_data_org,559627
+football,ligue_1,2026-27,2026-11-22 14:00:00+00:00,Paris FC,Angers SCO,,,scheduled,football_data_org,559625
+football,ligue_1,2026-27,2026-11-22 16:15:00+00:00,FC Lorient,Stade Rennais FC 1901,,,scheduled,football_data_org,559626
+football,ligue_1,2026-27,2026-11-22 19:45:00+00:00,Olympique de Marseille,Le Mans FC,,,scheduled,football_data_org,559629
+football,ligue_1,2026-27,2026-11-27 19:45:00+00:00,Stade Brestois 29,Paris FC,,,scheduled,football_data_org,559616
+football,ligue_1,2026-27,2026-11-28 16:15:00+00:00,Angers SCO,Racing Club de Lens,,,scheduled,football_data_org,559612
+football,ligue_1,2026-27,2026-11-28 19:45:00+00:00,Le Mans FC,Lille OSC,,,scheduled,football_data_org,559617
+football,ligue_1,2026-27,2026-11-28 19:45:00+00:00,OGC Nice,ES Troyes AC,,,scheduled,football_data_org,559620
+football,ligue_1,2026-27,2026-11-28 19:45:00+00:00,Le Havre AC,RC Strasbourg Alsace,,,scheduled,football_data_org,559613
+football,ligue_1,2026-27,2026-11-28 19:45:00+00:00,Paris Saint-Germain FC,FC Lorient,,,scheduled,football_data_org,559614
+football,ligue_1,2026-27,2026-11-29 14:00:00+00:00,AJ Auxerre,Olympique de Marseille,,,scheduled,football_data_org,559619
+football,ligue_1,2026-27,2026-11-29 16:15:00+00:00,Toulouse FC,Stade Rennais FC 1901,,,scheduled,football_data_org,559618
+football,ligue_1,2026-27,2026-11-29 19:45:00+00:00,Olympique Lyonnais,AS Monaco FC,,,scheduled,football_data_org,559615
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,ES Troyes AC,Olympique Lyonnais,,,scheduled,football_data_org,559603
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,AS Monaco FC,Angers SCO,,,scheduled,football_data_org,559604
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,Racing Club de Lens,Le Havre AC,,,scheduled,football_data_org,559605
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,Lille OSC,AJ Auxerre,,,scheduled,football_data_org,559606
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,Olympique de Marseille,OGC Nice,,,scheduled,football_data_org,559607
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,Stade Rennais FC 1901,Stade Brestois 29,,,scheduled,football_data_org,559608
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,Toulouse FC,Paris Saint-Germain FC,,,scheduled,football_data_org,559609
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,RC Strasbourg Alsace,FC Lorient,,,scheduled,football_data_org,559610
+football,ligue_1,2026-27,2026-12-05 00:00:00+00:00,Paris FC,Le Mans FC,,,scheduled,football_data_org,559611
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,OGC Nice,Racing Club de Lens,,,scheduled,football_data_org,559595
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,Paris Saint-Germain FC,Paris FC,,,scheduled,football_data_org,559596
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,Angers SCO,RC Strasbourg Alsace,,,scheduled,football_data_org,559597
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,Stade Brestois 29,ES Troyes AC,,,scheduled,football_data_org,559598
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,Le Havre AC,Le Mans FC,,,scheduled,football_data_org,559599
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,Stade Rennais FC 1901,AS Monaco FC,,,scheduled,football_data_org,559600
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,FC Lorient,Lille OSC,,,scheduled,football_data_org,559601
+football,ligue_1,2026-27,2026-12-12 00:00:00+00:00,AJ Auxerre,Toulouse FC,,,scheduled,football_data_org,559602
+football,ligue_1,2026-27,2026-12-13 19:45:00+00:00,Olympique Lyonnais,Olympique de Marseille,,,scheduled,football_data_org,559594
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,Le Mans FC,Olympique Lyonnais,,,scheduled,football_data_org,559586
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,Stade Brestois 29,Olympique de Marseille,,,scheduled,football_data_org,559587
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,ES Troyes AC,Stade Rennais FC 1901,,,scheduled,football_data_org,559588
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,Toulouse FC,Angers SCO,,,scheduled,football_data_org,559589
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,AS Monaco FC,OGC Nice,,,scheduled,football_data_org,559590
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,Paris FC,Le Havre AC,,,scheduled,football_data_org,559591
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,FC Lorient,AJ Auxerre,,,scheduled,football_data_org,559592
+football,ligue_1,2026-27,2027-01-02 00:00:00+00:00,Lille OSC,RC Strasbourg Alsace,,,scheduled,football_data_org,559593
+football,ligue_1,2026-27,2027-01-03 19:45:00+00:00,Racing Club de Lens,Paris Saint-Germain FC,,,scheduled,football_data_org,559585
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,Olympique de Marseille,Lille OSC,,,scheduled,football_data_org,559576
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,Olympique Lyonnais,FC Lorient,,,scheduled,football_data_org,559577
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,Paris FC,Toulouse FC,,,scheduled,football_data_org,559578
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,Stade Rennais FC 1901,Racing Club de Lens,,,scheduled,football_data_org,559579
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,OGC Nice,Le Havre AC,,,scheduled,football_data_org,559580
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,AJ Auxerre,ES Troyes AC,,,scheduled,football_data_org,559581
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,RC Strasbourg Alsace,Le Mans FC,,,scheduled,football_data_org,559582
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,AS Monaco FC,Stade Brestois 29,,,scheduled,football_data_org,559583
+football,ligue_1,2026-27,2027-01-16 00:00:00+00:00,Angers SCO,Paris Saint-Germain FC,,,scheduled,football_data_org,559584
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,Le Havre AC,Stade Rennais FC 1901,,,scheduled,football_data_org,559567
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,RC Strasbourg Alsace,Olympique Lyonnais,,,scheduled,football_data_org,559568
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,Lille OSC,Paris FC,,,scheduled,football_data_org,559569
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,Racing Club de Lens,Stade Brestois 29,,,scheduled,football_data_org,559570
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,Paris Saint-Germain FC,AJ Auxerre,,,scheduled,football_data_org,559571
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,ES Troyes AC,AS Monaco FC,,,scheduled,football_data_org,559572
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,FC Lorient,Olympique de Marseille,,,scheduled,football_data_org,559573
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,Le Mans FC,Angers SCO,,,scheduled,football_data_org,559574
+football,ligue_1,2026-27,2027-01-23 00:00:00+00:00,Toulouse FC,OGC Nice,,,scheduled,football_data_org,559575
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Paris FC,AJ Auxerre,,,scheduled,football_data_org,559558
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Olympique Lyonnais,Lille OSC,,,scheduled,football_data_org,559559
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Stade Rennais FC 1901,FC Lorient,,,scheduled,football_data_org,559560
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Le Mans FC,OGC Nice,,,scheduled,football_data_org,559561
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Olympique de Marseille,ES Troyes AC,,,scheduled,football_data_org,559562
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Angers SCO,Le Havre AC,,,scheduled,football_data_org,559563
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Stade Brestois 29,RC Strasbourg Alsace,,,scheduled,football_data_org,559564
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,AS Monaco FC,Paris Saint-Germain FC,,,scheduled,football_data_org,559565
+football,ligue_1,2026-27,2027-01-30 00:00:00+00:00,Toulouse FC,Racing Club de Lens,,,scheduled,football_data_org,559566
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,ES Troyes AC,Lille OSC,,,scheduled,football_data_org,559550
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,Racing Club de Lens,Angers SCO,,,scheduled,football_data_org,559551
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,Le Havre AC,Toulouse FC,,,scheduled,football_data_org,559552
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,FC Lorient,Le Mans FC,,,scheduled,football_data_org,559553
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,OGC Nice,Stade Brestois 29,,,scheduled,football_data_org,559554
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,Stade Rennais FC 1901,Olympique Lyonnais,,,scheduled,football_data_org,559555
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,RC Strasbourg Alsace,Paris FC,,,scheduled,football_data_org,559556
+football,ligue_1,2026-27,2027-02-06 00:00:00+00:00,AJ Auxerre,AS Monaco FC,,,scheduled,football_data_org,559557
+football,ligue_1,2026-27,2027-02-07 19:45:00+00:00,Paris Saint-Germain FC,Olympique de Marseille,,,scheduled,football_data_org,559549
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Stade Brestois 29,Stade Rennais FC 1901,,,scheduled,football_data_org,559540
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Paris FC,ES Troyes AC,,,scheduled,football_data_org,559541
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Le Mans FC,Paris Saint-Germain FC,,,scheduled,football_data_org,559542
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,FC Lorient,Le Havre AC,,,scheduled,football_data_org,559543
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,AJ Auxerre,RC Strasbourg Alsace,,,scheduled,football_data_org,559544
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Toulouse FC,AS Monaco FC,,,scheduled,football_data_org,559545
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Olympique de Marseille,Angers SCO,,,scheduled,football_data_org,559546
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Lille OSC,OGC Nice,,,scheduled,football_data_org,559547
+football,ligue_1,2026-27,2027-02-13 00:00:00+00:00,Olympique Lyonnais,Racing Club de Lens,,,scheduled,football_data_org,559548
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,Angers SCO,Paris FC,,,scheduled,football_data_org,559531
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,Stade Rennais FC 1901,Toulouse FC,,,scheduled,football_data_org,559532
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,Paris Saint-Germain FC,Stade Brestois 29,,,scheduled,football_data_org,559533
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,RC Strasbourg Alsace,Olympique de Marseille,,,scheduled,football_data_org,559534
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,OGC Nice,AJ Auxerre,,,scheduled,football_data_org,559535
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,Le Havre AC,Olympique Lyonnais,,,scheduled,football_data_org,559536
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,AS Monaco FC,Le Mans FC,,,scheduled,football_data_org,559537
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,Lille OSC,FC Lorient,,,scheduled,football_data_org,559538
+football,ligue_1,2026-27,2027-02-20 00:00:00+00:00,Racing Club de Lens,ES Troyes AC,,,scheduled,football_data_org,559539
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,RC Strasbourg Alsace,Le Havre AC,,,scheduled,football_data_org,559523
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,AJ Auxerre,Lille OSC,,,scheduled,football_data_org,559524
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,ES Troyes AC,OGC Nice,,,scheduled,football_data_org,559525
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,Stade Brestois 29,AS Monaco FC,,,scheduled,football_data_org,559526
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,FC Lorient,Angers SCO,,,scheduled,football_data_org,559527
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,Olympique de Marseille,Stade Rennais FC 1901,,,scheduled,football_data_org,559528
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,Olympique Lyonnais,Toulouse FC,,,scheduled,football_data_org,559529
+football,ligue_1,2026-27,2027-02-27 00:00:00+00:00,Le Mans FC,Paris FC,,,scheduled,football_data_org,559530
+football,ligue_1,2026-27,2027-02-28 19:45:00+00:00,Paris Saint-Germain FC,Racing Club de Lens,,,scheduled,football_data_org,559522
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Le Havre AC,OGC Nice,,,scheduled,football_data_org,559513
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Paris Saint-Germain FC,Stade Rennais FC 1901,,,scheduled,football_data_org,559514
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Racing Club de Lens,RC Strasbourg Alsace,,,scheduled,football_data_org,559515
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Toulouse FC,Le Mans FC,,,scheduled,football_data_org,559516
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,ES Troyes AC,FC Lorient,,,scheduled,football_data_org,559517
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Angers SCO,AJ Auxerre,,,scheduled,football_data_org,559518
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,AS Monaco FC,Olympique Lyonnais,,,scheduled,football_data_org,559519
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Paris FC,Stade Brestois 29,,,scheduled,football_data_org,559520
+football,ligue_1,2026-27,2027-03-06 00:00:00+00:00,Lille OSC,Olympique de Marseille,,,scheduled,football_data_org,559521
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,OGC Nice,Toulouse FC,,,scheduled,football_data_org,559504
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,Paris FC,FC Lorient,,,scheduled,football_data_org,559505
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,RC Strasbourg Alsace,Angers SCO,,,scheduled,football_data_org,559506
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,Le Mans FC,Stade Rennais FC 1901,,,scheduled,football_data_org,559507
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,Stade Brestois 29,Lille OSC,,,scheduled,football_data_org,559508
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,Le Havre AC,Racing Club de Lens,,,scheduled,football_data_org,559509
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,Olympique de Marseille,AS Monaco FC,,,scheduled,football_data_org,559510
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,AJ Auxerre,Paris Saint-Germain FC,,,scheduled,football_data_org,559511
+football,ligue_1,2026-27,2027-03-13 00:00:00+00:00,Olympique Lyonnais,ES Troyes AC,,,scheduled,football_data_org,559512
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,Angers SCO,Le Mans FC,,,scheduled,football_data_org,559496
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,Toulouse FC,Stade Brestois 29,,,scheduled,football_data_org,559497
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,ES Troyes AC,AJ Auxerre,,,scheduled,football_data_org,559498
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,Stade Rennais FC 1901,Paris FC,,,scheduled,football_data_org,559499
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,AS Monaco FC,Le Havre AC,,,scheduled,football_data_org,559500
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,Paris Saint-Germain FC,RC Strasbourg Alsace,,,scheduled,football_data_org,559501
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,Racing Club de Lens,Lille OSC,,,scheduled,football_data_org,559502
+football,ligue_1,2026-27,2027-03-20 00:00:00+00:00,FC Lorient,OGC Nice,,,scheduled,football_data_org,559503
+football,ligue_1,2026-27,2027-03-21 19:45:00+00:00,Olympique de Marseille,Olympique Lyonnais,,,scheduled,football_data_org,559495
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,Le Havre AC,ES Troyes AC,,,scheduled,football_data_org,559486
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,Angers SCO,AS Monaco FC,,,scheduled,football_data_org,559487
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,Le Mans FC,Olympique de Marseille,,,scheduled,football_data_org,559488
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,AJ Auxerre,Racing Club de Lens,,,scheduled,football_data_org,559489
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,Lille OSC,Stade Rennais FC 1901,,,scheduled,football_data_org,559490
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,Stade Brestois 29,FC Lorient,,,scheduled,football_data_org,559491
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,RC Strasbourg Alsace,Toulouse FC,,,scheduled,football_data_org,559492
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,Paris FC,Paris Saint-Germain FC,,,scheduled,football_data_org,559493
+football,ligue_1,2026-27,2027-04-03 00:00:00+00:00,OGC Nice,Olympique Lyonnais,,,scheduled,football_data_org,559494
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,FC Lorient,Racing Club de Lens,,,scheduled,football_data_org,559477
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,Olympique de Marseille,Stade Brestois 29,,,scheduled,football_data_org,559478
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,AS Monaco FC,Stade Rennais FC 1901,,,scheduled,football_data_org,559479
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,ES Troyes AC,Angers SCO,,,scheduled,football_data_org,559480
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,Paris Saint-Germain FC,Le Havre AC,,,scheduled,football_data_org,559481
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,Olympique Lyonnais,RC Strasbourg Alsace,,,scheduled,football_data_org,559482
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,Le Mans FC,AJ Auxerre,,,scheduled,football_data_org,559483
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,Lille OSC,Toulouse FC,,,scheduled,football_data_org,559484
+football,ligue_1,2026-27,2027-04-10 00:00:00+00:00,OGC Nice,Paris FC,,,scheduled,football_data_org,559485
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,AJ Auxerre,FC Lorient,,,scheduled,football_data_org,559468
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Stade Brestois 29,Le Mans FC,,,scheduled,football_data_org,559469
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,AS Monaco FC,RC Strasbourg Alsace,,,scheduled,football_data_org,559470
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Angers SCO,Olympique Lyonnais,,,scheduled,football_data_org,559471
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Racing Club de Lens,OGC Nice,,,scheduled,football_data_org,559472
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Stade Rennais FC 1901,ES Troyes AC,,,scheduled,football_data_org,559473
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Le Havre AC,Olympique de Marseille,,,scheduled,football_data_org,559474
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Paris Saint-Germain FC,Lille OSC,,,scheduled,football_data_org,559475
+football,ligue_1,2026-27,2027-04-17 00:00:00+00:00,Toulouse FC,Paris FC,,,scheduled,football_data_org,559476
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,Paris FC,Racing Club de Lens,,,scheduled,football_data_org,559459
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,Olympique de Marseille,AJ Auxerre,,,scheduled,football_data_org,559460
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,Lille OSC,AS Monaco FC,,,scheduled,football_data_org,559461
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,FC Lorient,Paris Saint-Germain FC,,,scheduled,football_data_org,559462
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,ES Troyes AC,Toulouse FC,,,scheduled,football_data_org,559463
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,OGC Nice,Angers SCO,,,scheduled,football_data_org,559464
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,Olympique Lyonnais,Stade Brestois 29,,,scheduled,football_data_org,559465
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,Le Mans FC,Le Havre AC,,,scheduled,football_data_org,559466
+football,ligue_1,2026-27,2027-04-24 00:00:00+00:00,RC Strasbourg Alsace,Stade Rennais FC 1901,,,scheduled,football_data_org,559467
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,RC Strasbourg Alsace,Lille OSC,,,scheduled,football_data_org,559450
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,AS Monaco FC,FC Lorient,,,scheduled,football_data_org,559451
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,ES Troyes AC,Stade Brestois 29,,,scheduled,football_data_org,559452
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,Racing Club de Lens,Le Mans FC,,,scheduled,football_data_org,559453
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,Paris Saint-Germain FC,Angers SCO,,,scheduled,football_data_org,559454
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,Le Havre AC,Paris FC,,,scheduled,football_data_org,559455
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,AJ Auxerre,Olympique Lyonnais,,,scheduled,football_data_org,559456
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,Stade Rennais FC 1901,OGC Nice,,,scheduled,football_data_org,559457
+football,ligue_1,2026-27,2027-05-01 00:00:00+00:00,Toulouse FC,Olympique de Marseille,,,scheduled,football_data_org,559458
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,Paris FC,Lille OSC,,,scheduled,football_data_org,559442
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,FC Lorient,RC Strasbourg Alsace,,,scheduled,football_data_org,559443
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,Stade Brestois 29,AJ Auxerre,,,scheduled,football_data_org,559444
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,Le Mans FC,ES Troyes AC,,,scheduled,football_data_org,559445
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,Stade Rennais FC 1901,Le Havre AC,,,scheduled,football_data_org,559446
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,Racing Club de Lens,AS Monaco FC,,,scheduled,football_data_org,559447
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,Angers SCO,Toulouse FC,,,scheduled,football_data_org,559448
+football,ligue_1,2026-27,2027-05-08 00:00:00+00:00,OGC Nice,Olympique de Marseille,,,scheduled,football_data_org,559449
+football,ligue_1,2026-27,2027-05-09 18:45:00+00:00,Olympique Lyonnais,Paris Saint-Germain FC,,,scheduled,football_data_org,559441
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,AS Monaco FC,Paris FC,,,scheduled,football_data_org,559432
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,Olympique Lyonnais,Le Mans FC,,,scheduled,football_data_org,559433
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,Paris Saint-Germain FC,OGC Nice,,,scheduled,football_data_org,559434
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,Toulouse FC,FC Lorient,,,scheduled,football_data_org,559435
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,Stade Brestois 29,Le Havre AC,,,scheduled,football_data_org,559436
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,Olympique de Marseille,Racing Club de Lens,,,scheduled,football_data_org,559437
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,Lille OSC,Angers SCO,,,scheduled,football_data_org,559438
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,AJ Auxerre,Stade Rennais FC 1901,,,scheduled,football_data_org,559439
+football,ligue_1,2026-27,2027-05-16 00:00:00+00:00,RC Strasbourg Alsace,ES Troyes AC,,,scheduled,football_data_org,559440
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,OGC Nice,AS Monaco FC,,,scheduled,football_data_org,559423
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,Angers SCO,Stade Brestois 29,,,scheduled,football_data_org,559424
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,FC Lorient,Olympique Lyonnais,,,scheduled,football_data_org,559425
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,ES Troyes AC,Paris Saint-Germain FC,,,scheduled,football_data_org,559426
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,Le Mans FC,RC Strasbourg Alsace,,,scheduled,football_data_org,559427
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,Toulouse FC,AJ Auxerre,,,scheduled,football_data_org,559428
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,Le Havre AC,Lille OSC,,,scheduled,football_data_org,559429
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,Paris FC,Olympique de Marseille,,,scheduled,football_data_org,559430
+football,ligue_1,2026-27,2027-05-22 00:00:00+00:00,Racing Club de Lens,Stade Rennais FC 1901,,,scheduled,football_data_org,559431
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,AS Monaco FC,ES Troyes AC,,,scheduled,football_data_org,559414
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,Paris Saint-Germain FC,Toulouse FC,,,scheduled,football_data_org,559415
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,Lille OSC,Le Mans FC,,,scheduled,football_data_org,559416
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,Stade Brestois 29,Racing Club de Lens,,,scheduled,football_data_org,559417
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,Olympique de Marseille,FC Lorient,,,scheduled,football_data_org,559418
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,Stade Rennais FC 1901,Angers SCO,,,scheduled,football_data_org,559419
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,Olympique Lyonnais,Paris FC,,,scheduled,football_data_org,559420
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,AJ Auxerre,Le Havre AC,,,scheduled,football_data_org,559421
+football,ligue_1,2026-27,2027-05-29 00:00:00+00:00,RC Strasbourg Alsace,OGC Nice,,,scheduled,football_data_org,559422

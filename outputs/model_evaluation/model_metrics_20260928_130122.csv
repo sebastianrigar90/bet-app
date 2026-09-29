@@ -1,0 +1,2 @@
+﻿model_name,model_version,sport,competition,season,evaluation_rows,accuracy,log_loss,brier_score,mean_calibration_error,evaluation_status
+test_model,v1,football,test,2026,12,1.0,0.48687601112380424,0.22791666666666668,0.25555555555555554,SUCCESS

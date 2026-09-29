@@ -1,0 +1,2131 @@
+
+
+
+================================================================================
+ARCHIVO: src\modeling\poisson_model.py
+================================================================================
+
+from __future__ import annotations
+
+import numpy as np
+import pandas as pd
+
+from scipy.optimize import minimize
+from scipy.stats import poisson
+
+
+class PoissonModel:
+    """
+    Modelo Poisson para estimar:
+
+    - Fuerza ofensiva
+    - Fuerza defensiva
+    - Ventaja de local
+    - Goles esperados
+    - Probabilidades 1X2
+    - Cuotas teóricas 1X2
+
+    Las probabilidades 1X2 se calculan utilizando una
+    matriz de goles con rango dinámico para reducir
+    la pérdida de masa por truncamiento.
+    """
+
+    def __init__(
+        self,
+        random_starts: int = 20,
+        random_seed: int = 0,
+        max_goals: int = 10,
+        tail_tolerance: float = 1e-12,
+        max_goal_limit: int = 1000,
+    ):
+        self.random_starts = random_starts
+        self.random_seed = random_seed
+        self.max_goals = max_goals
+        self.tail_tolerance = tail_tolerance
+        self.max_goal_limit = max_goal_limit
+
+        self.team_params = None
+        self.home_advantage = None
+        self.mean_goals = None
+        self.objective = None
+
+    # ---------------------------------------------------------
+    # MEDIA DE GOLES
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _calculate_mean_goals(
+        matches: pd.DataFrame,
+    ) -> float:
+
+        home = matches["home_score"]
+        away = matches["away_score"]
+
+        goals = pd.concat(
+            [home, away],
+            ignore_index=True,
+        )
+
+        mean_goals = float(goals.mean())
+
+        if (
+            not np.isfinite(mean_goals)
+            or mean_goals <= 0
+        ):
+            raise ValueError(
+                "La media de goles debe ser positiva "
+                "y finita."
+            )
+
+        return mean_goals
+
+    # ---------------------------------------------------------
+    # GOLES ESPERADOS
+    # ---------------------------------------------------------
+
+    def _expected_goals(
+        self,
+        matches: pd.DataFrame,
+        team_params: pd.DataFrame,
+        home_advantage: float,
+        mean_goals: float,
+    ) -> pd.DataFrame:
+
+        params = team_params.set_index("team")
+
+        home_attack = matches["home"].map(
+            params["attack"]
+        )
+
+        away_attack = matches["away"].map(
+            params["attack"]
+        )
+
+        home_defense = matches["home"].map(
+            params["defense"]
+        )
+
+        away_defense = matches["away"].map(
+            params["defense"]
+        )
+
+        result = matches.copy()
+
+        result["home_lambda"] = (
+            mean_goals
+            * home_attack
+            * away_defense
+            * home_advantage
+        )
+
+        result["away_lambda"] = (
+            mean_goals
+            * away_attack
+            * home_defense
+            / home_advantage
+        )
+
+        home_score = result["home_score"]
+        away_score = result["away_score"]
+
+        result["error"] = (
+            (home_score - result["home_lambda"]) ** 2
+            + (away_score - result["away_lambda"]) ** 2
+        )
+
+        return result
+
+    # ---------------------------------------------------------
+    # FUNCIÓN OBJETIVO
+    # ---------------------------------------------------------
+
+    def _objective(
+        self,
+        x: np.ndarray,
+        matches: pd.DataFrame,
+        teams: list[str],
+        mean_goals: float,
+    ) -> float:
+
+        n = len(teams)
+
+        attack = x[:n]
+        defense = x[n:2 * n]
+        home_advantage = x[2 * n]
+
+        params = pd.DataFrame(
+            {
+                "team": teams,
+                "attack": attack,
+                "defense": defense,
+            }
+        )
+
+        result = self._expected_goals(
+            matches=matches,
+            team_params=params,
+            home_advantage=home_advantage,
+            mean_goals=mean_goals,
+        )
+
+        return float(
+            result["error"].sum()
+        )
+
+    # ---------------------------------------------------------
+    # ENTRENAMIENTO
+    # ---------------------------------------------------------
+
+    def fit(
+        self,
+        matches: pd.DataFrame,
+    ) -> "PoissonModel":
+
+        required = {
+            "home",
+            "away",
+            "home_score",
+            "away_score",
+        }
+
+        missing = required - set(matches.columns)
+
+        if missing:
+            raise ValueError(
+                f"Faltan columnas requeridas: "
+                f"{sorted(missing)}"
+            )
+
+        data = matches.copy()
+
+        data = data.dropna(
+            subset=[
+                "home",
+                "away",
+                "home_score",
+                "away_score",
+            ]
+        )
+
+        data["home_score"] = pd.to_numeric(
+            data["home_score"],
+            errors="coerce",
+        )
+
+        data["away_score"] = pd.to_numeric(
+            data["away_score"],
+            errors="coerce",
+        )
+
+        data = data.dropna(
+            subset=[
+                "home_score",
+                "away_score",
+            ]
+        )
+
+        data = data[
+            (data["home_score"] >= 0)
+            & (data["away_score"] >= 0)
+        ].copy()
+
+        if data.empty:
+            raise ValueError(
+                "No existen partidos válidos para entrenar."
+            )
+
+        teams = sorted(
+            set(data["home"])
+            | set(data["away"])
+        )
+
+        if not teams:
+            raise ValueError(
+                "No se encontraron equipos."
+            )
+
+        mean_goals = self._calculate_mean_goals(
+            data
+        )
+
+        n = len(teams)
+
+        x0 = np.r_[
+            np.ones(n),
+            np.ones(n),
+            1.0,
+        ]
+
+        constraints = [
+            {
+                "type": "eq",
+                "fun": lambda x: (
+                    np.mean(x[:n]) - 1.0
+                ),
+            },
+            {
+                "type": "eq",
+                "fun": lambda x: (
+                    np.mean(x[n:2 * n]) - 1.0
+                ),
+            },
+        ]
+
+        bounds = (
+            [(1e-6, 10.0)] * (2 * n)
+            + [(0.05, 5.0)]
+        )
+
+        starts = [x0]
+
+        rng = np.random.default_rng(
+            self.random_seed
+        )
+
+        for _ in range(
+            max(0, self.random_starts - 1)
+        ):
+
+            attack = np.clip(
+                rng.normal(1.0, 0.20, n),
+                0.05,
+                3.0,
+            )
+
+            defense = np.clip(
+                rng.normal(1.0, 0.20, n),
+                0.05,
+                3.0,
+            )
+
+            attack /= attack.mean()
+            defense /= defense.mean()
+
+            home_advantage = float(
+                np.clip(
+                    rng.normal(1.0, 0.10),
+                    0.05,
+                    4.9,
+                )
+            )
+
+            starts.append(
+                np.r_[
+                    attack,
+                    defense,
+                    home_advantage,
+                ]
+            )
+
+        best = None
+        successful_results = []
+
+        for start in starts:
+
+            result = minimize(
+                self._objective,
+                start,
+                args=(
+                    data,
+                    teams,
+                    mean_goals,
+                ),
+                method="SLSQP",
+                bounds=bounds,
+                constraints=constraints,
+                options={
+                    "ftol": 1e-9,
+                    "maxiter": 3000,
+                    "disp": False,
+                },
+            )
+
+            if (
+                result.success
+                and np.isfinite(result.fun)
+                and np.all(np.isfinite(result.x))
+            ):
+                successful_results.append(result)
+
+        if successful_results:
+            best = min(
+                successful_results,
+                key=lambda result: result.fun,
+            )
+
+        else:
+            raise RuntimeError(
+                "Ninguna inicialización del optimizador "
+                "convergió correctamente. No se guardó "
+                "una solución fallida."
+            )
+
+        x = best.x
+
+        self.team_params = pd.DataFrame(
+            {
+                "team": teams,
+                "attack": x[:n],
+                "defense": x[n:2 * n],
+            }
+        )
+
+        self.home_advantage = float(
+            x[2 * n]
+        )
+
+        self.mean_goals = mean_goals
+        self.objective = float(
+            best.fun
+        )
+
+        return self
+
+    # ---------------------------------------------------------
+    # RANGO DINÁMICO DE GOLES
+    # ---------------------------------------------------------
+
+    def _get_goal_range(
+        self,
+        home_lambda: float,
+        away_lambda: float,
+    ) -> np.ndarray:
+        """
+        Determina el máximo de goles requerido para cubrir
+        la mayor parte de ambas distribuciones.
+
+        max_goals se mantiene como mínimo configurable.
+        El rango se amplía si la cola de Poisson lo requiere.
+        """
+
+        lambdas = [
+            home_lambda,
+            away_lambda,
+        ]
+
+        if any(
+            not np.isfinite(value)
+            or value < 0
+            for value in lambdas
+        ):
+            raise ValueError(
+                "Los goles esperados deben ser valores "
+                "finitos y no negativos."
+            )
+
+        required_max = self.max_goals
+
+        for lam in lambdas:
+
+            quantile = poisson.ppf(
+                1 - self.tail_tolerance,
+                lam,
+            )
+
+            if np.isfinite(quantile):
+                required_max = max(
+                    required_max,
+                    int(np.ceil(quantile)),
+                )
+
+        if required_max > self.max_goal_limit:
+            raise ValueError(
+                "El rango de goles requerido supera "
+                f"el límite de seguridad "
+                f"({self.max_goal_limit})."
+            )
+
+        return np.arange(
+            required_max + 1
+        )
+
+    # ---------------------------------------------------------
+    # PREDICCIÓN 1X2
+    # ---------------------------------------------------------
+
+    def predict_match(
+        self,
+        home: str,
+        away: str,
+    ) -> dict:
+
+        if self.team_params is None:
+            raise RuntimeError(
+                "El modelo todavía no ha sido entrenado."
+            )
+
+        params = self.team_params.set_index(
+            "team"
+        )
+
+        if home not in params.index:
+            raise ValueError(
+                f"Equipo local no encontrado: {home}"
+            )
+
+        if away not in params.index:
+            raise ValueError(
+                f"Equipo visitante no encontrado: {away}"
+            )
+
+        home_lambda = float(
+            self.mean_goals
+            * params.loc[home, "attack"]
+            * params.loc[away, "defense"]
+            * self.home_advantage
+        )
+
+        away_lambda = float(
+            self.mean_goals
+            * params.loc[away, "attack"]
+            * params.loc[home, "defense"]
+            / self.home_advantage
+        )
+
+        goals = self._get_goal_range(
+            home_lambda,
+            away_lambda,
+        )
+
+        home_probs = poisson.pmf(
+            goals,
+            home_lambda,
+        )
+
+        away_probs = poisson.pmf(
+            goals,
+            away_lambda,
+        )
+
+        matrix = np.outer(
+            home_probs,
+            away_probs,
+        )
+
+        # Masa de probabilidad cubierta por la matriz.
+        covered_mass = float(
+            matrix.sum()
+        )
+
+        # Probabilidad omitida por el truncamiento.
+        omitted_mass = max(
+            0.0,
+            1.0 - covered_mass,
+        )
+
+        # Probabilidades 1X2 antes de normalizar.
+        p_home_raw = float(
+            np.tril(matrix, -1).sum()
+        )
+
+        p_draw_raw = float(
+            np.trace(matrix)
+        )
+
+        p_away_raw = float(
+            np.triu(matrix, 1).sum()
+        )
+
+        probabilities = np.array(
+            [
+                p_home_raw,
+                p_draw_raw,
+                p_away_raw,
+            ],
+            dtype=float,
+        )
+
+        probability_sum = float(
+            probabilities.sum()
+        )
+
+        if (
+            not np.isfinite(probability_sum)
+            or probability_sum <= 0
+        ):
+            raise ValueError(
+                "No fue posible calcular probabilidades "
+                "1X2 válidas."
+            )
+
+        # Normalización para asegurar que las tres
+        # probabilidades sumen exactamente 1.
+        probabilities /= probability_sum
+
+        p_home = float(probabilities[0])
+        p_draw = float(probabilities[1])
+        p_away = float(probabilities[2])
+
+        return {
+            "home": home,
+            "away": away,
+            "home_lambda": home_lambda,
+            "away_lambda": away_lambda,
+            "prob_home": p_home,
+            "prob_draw": p_draw,
+            "prob_away": p_away,
+            "probability_sum": float(
+                probabilities.sum()
+            ),
+            "covered_mass": covered_mass,
+            "omitted_mass": omitted_mass,
+            "goal_range_max": int(goals[-1]),
+            "fair_odds_home": (
+                1 / p_home
+                if p_home > 0
+                else np.inf
+            ),
+            "fair_odds_draw": (
+                1 / p_draw
+                if p_draw > 0
+                else np.inf
+            ),
+            "fair_odds_away": (
+                1 / p_away
+                if p_away > 0
+                else np.inf
+            ),
+        }
+
+
+
+================================================================================
+ARCHIVO: src\modeling\trainer.py
+================================================================================
+
+from __future__ import annotations
+
+import hashlib
+from pathlib import Path
+from typing import Optional
+
+import pandas as pd
+import yaml
+
+from .evaluation import ModelEvaluator
+from .poisson_model import PoissonModel
+from .registry import ModelRegistry
+
+
+class ModelTrainer:
+    """
+    Gestión central de modelos deportivos.
+
+    Responsabilidades:
+    - Cargar datos procesados.
+    - Preparar datos de entrenamiento.
+    - Detectar si el dataset cambió.
+    - Reutilizar el modelo activo cuando no hay datos nuevos.
+    - Entrenar una nueva versión cuando hay datos nuevos.
+    - Evaluar el modelo con métricas estandarizadas.
+    - Guardar reportes de evaluación.
+    - Registrar cada versión del modelo.
+    - Mantener un modelo activo.
+    """
+
+    def __init__(
+        self,
+        config_path: str = "config/models.yaml",
+        registry_path: str = "data/models",
+        evaluation_path: str = "outputs/model_evaluation",
+    ):
+        self.config_path = Path(config_path)
+        self.config = self._load_config()
+
+        self.registry = ModelRegistry(
+            base_path=registry_path
+        )
+
+        self.evaluator = ModelEvaluator()
+        self.evaluation_path = Path(evaluation_path)
+
+    # ---------------------------------------------------------
+    # CONFIGURACIÓN
+    # ---------------------------------------------------------
+
+    def _load_config(self) -> dict:
+        if not self.config_path.exists():
+            raise FileNotFoundError(
+                f"No existe el archivo: {self.config_path}"
+            )
+
+        with open(
+            self.config_path,
+            "r",
+            encoding="utf-8",
+        ) as file:
+            return yaml.safe_load(file) or {}
+
+    def get_config(
+        self,
+        sport: str,
+        competition: str,
+    ) -> dict:
+        try:
+            config = self.config[sport][competition]
+
+        except KeyError as exc:
+            raise ValueError(
+                f"No existe configuración para "
+                f"{sport}/{competition}"
+            ) from exc
+
+        return config
+
+    # ---------------------------------------------------------
+    # CARGA DE DATOS
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def load_processed_data(
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> pd.DataFrame:
+
+        path = (
+            Path("data")
+            / "processed"
+            / sport
+            / competition
+            / season
+            / "events.csv"
+        )
+
+        if not path.exists():
+            raise FileNotFoundError(
+                f"No existe histórico procesado:\n{path}"
+            )
+
+        df = pd.read_csv(path)
+
+        if df.empty:
+            raise ValueError(
+                f"El histórico está vacío:\n{path}"
+            )
+
+        return df
+
+    @staticmethod
+    def prepare_data(
+        df: pd.DataFrame,
+    ) -> pd.DataFrame:
+
+        required = {
+            "date",
+            "home",
+            "away",
+            "home_score",
+            "away_score",
+        }
+
+        missing = required - set(df.columns)
+
+        if missing:
+            raise ValueError(
+                f"Faltan columnas requeridas: {sorted(missing)}"
+            )
+
+        data = df[
+            [
+                "date",
+                "home",
+                "away",
+                "home_score",
+                "away_score",
+            ]
+        ].copy()
+
+        data["date"] = pd.to_datetime(
+            data["date"],
+            errors="coerce",
+        )
+
+        data["home_score"] = pd.to_numeric(
+            data["home_score"],
+            errors="coerce",
+        )
+
+        data["away_score"] = pd.to_numeric(
+            data["away_score"],
+            errors="coerce",
+        )
+
+        data = data.dropna(
+            subset=[
+                "date",
+                "home",
+                "away",
+                "home_score",
+                "away_score",
+            ]
+        )
+
+        # Los marcadores deben ser valores válidos
+        # y no negativos.
+        data = data[
+            (data["home_score"] >= 0)
+            & (data["away_score"] >= 0)
+        ].copy()
+
+        data = data.sort_values(
+            "date"
+        ).reset_index(drop=True)
+
+        if data.empty:
+            raise ValueError(
+                "No existen partidos finalizados disponibles "
+                "para entrenar."
+            )
+
+        return data
+
+    # ---------------------------------------------------------
+    # HUELLA DEL DATASET
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _data_hash(
+        data: pd.DataFrame,
+    ) -> str:
+        """
+        Genera una huella estable del dataset
+        utilizado para entrenamiento.
+        """
+
+        columns = [
+            "date",
+            "home",
+            "away",
+            "home_score",
+            "away_score",
+        ]
+
+        available = [
+            column
+            for column in columns
+            if column in data.columns
+        ]
+
+        normalized = (
+            data[available]
+            .sort_values(available)
+            .reset_index(drop=True)
+        )
+
+        content = normalized.to_csv(
+            index=False
+        ).encode("utf-8")
+
+        return hashlib.sha256(
+            content
+        ).hexdigest()
+
+    # ---------------------------------------------------------
+    # SEPARACIÓN TEMPORAL
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _split_train_validation(
+        data: pd.DataFrame,
+        validation_fraction: float = 0.20,
+        min_train_rows: int = 10,
+        min_validation_rows: int = 1,
+    ) -> tuple[pd.DataFrame, pd.DataFrame]:
+        """
+        Separa cronológicamente los datos.
+
+        Si no existe un volumen mínimo para entrenar
+        y validar de forma independiente, devuelve
+        una validación vacía.
+
+        Nunca utiliza los mismos partidos para
+        entrenamiento y evaluación.
+        """
+
+        if not 0 < validation_fraction < 1:
+            raise ValueError(
+                "validation_fraction debe estar entre 0 y 1."
+            )
+
+        if len(data) < (
+            min_train_rows + min_validation_rows
+        ):
+            return data.copy(), data.iloc[0:0].copy()
+
+        split = int(
+            len(data) * (1 - validation_fraction)
+        )
+
+        split = max(
+            min_train_rows,
+            min(
+                split,
+                len(data) - min_validation_rows,
+            ),
+        )
+
+        train = data.iloc[:split].copy()
+        validation = data.iloc[split:].copy()
+
+        return train, validation
+
+    # ---------------------------------------------------------
+    # CONSTRUCCIÓN DE RESULTADOS REALES
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def _actual_result(
+        home_score: int,
+        away_score: int,
+    ) -> int:
+        """
+        Codificación de resultados:
+        0 = victoria local
+        1 = empate
+        2 = victoria visitante
+        """
+
+        if home_score > away_score:
+            return 0
+
+        if home_score == away_score:
+            return 1
+
+        return 2
+
+    # ---------------------------------------------------------
+    # PREDICCIONES DE VALIDACIÓN
+    # ---------------------------------------------------------
+
+    @classmethod
+    def _collect_predictions(
+        cls,
+        model: PoissonModel,
+        validation: pd.DataFrame,
+    ) -> tuple[list[int], list[list[float]], int]:
+        """
+        Genera probabilidades y resultados reales.
+
+        Los partidos con equipos desconocidos o
+        predicciones inválidas se excluyen del cálculo.
+        """
+
+        y_true = []
+        probabilities = []
+
+        skipped = 0
+
+        for _, row in validation.iterrows():
+
+            try:
+                prediction = model.predict_match(
+                    row["home"],
+                    row["away"],
+                )
+
+                probs = [
+                    float(prediction["prob_home"]),
+                    float(prediction["prob_draw"]),
+                    float(prediction["prob_away"]),
+                ]
+
+            except (ValueError, KeyError, TypeError):
+                skipped += 1
+                continue
+
+            # Validar que las probabilidades sean utilizables.
+            if (
+                len(probs) != 3
+                or any(
+                    not pd.notna(p)
+                    or p < 0
+                    or p > 1
+                    for p in probs
+                )
+            ):
+                skipped += 1
+                continue
+
+            probability_sum = sum(probs)
+
+            if (
+                probability_sum <= 0
+                or abs(probability_sum - 1.0) > 1e-6
+            ):
+                skipped += 1
+                continue
+
+            actual = cls._actual_result(
+                int(row["home_score"]),
+                int(row["away_score"]),
+            )
+
+            y_true.append(actual)
+            probabilities.append(probs)
+
+        return y_true, probabilities, skipped
+
+    # ---------------------------------------------------------
+    # EVALUACIÓN ESTANDARIZADA
+    # ---------------------------------------------------------
+
+    def _evaluate_model(
+        self,
+        model: PoissonModel,
+        validation: pd.DataFrame,
+        sport: str = "football",
+        competition: str = "unknown",
+        season: str = "unknown",
+        model_name: str = "poisson",
+        model_version: str = "candidate",
+    ) -> dict:
+        """
+        Evalúa el modelo y devuelve métricas estándar.
+
+        Si no hay suficientes observaciones válidas,
+        la evaluación se marca como INSUFFICIENT_DATA.
+        """
+
+        y_true, probabilities, skipped = (
+            self._collect_predictions(
+                model=model,
+                validation=validation,
+            )
+        )
+
+        evaluation_rows = len(y_true)
+
+        if evaluation_rows == 0:
+            return {
+                "metrics": {
+                    "model_name": model_name,
+                    "model_version": model_version,
+                    "sport": sport,
+                    "competition": competition,
+                    "season": season,
+                    "evaluation_rows": 0,
+                    "skipped_rows": skipped,
+                    "accuracy": None,
+                    "log_loss": None,
+                    "brier_score": None,
+                    "mean_calibration_error": None,
+                    "evaluation_status": "INSUFFICIENT_DATA",
+                },
+                "calibration": pd.DataFrame(),
+            }
+
+        result = self.evaluator.evaluate(
+            y_true=y_true,
+            probabilities=probabilities,
+            model_name=model_name,
+            model_version=model_version,
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        metrics = result["metrics"].copy()
+
+        metrics["evaluation_rows"] = evaluation_rows
+        metrics["skipped_rows"] = skipped
+
+        if evaluation_rows < 10:
+            metrics["evaluation_status"] = (
+                "LOW_SAMPLE_SIZE"
+            )
+
+        return {
+            "metrics": metrics,
+            "calibration": result["calibration"],
+        }
+
+    # ---------------------------------------------------------
+    # ENTRENAMIENTO
+    # ---------------------------------------------------------
+
+    def train(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+        data: Optional[pd.DataFrame] = None,
+    ) -> PoissonModel:
+
+        config = self.get_config(
+            sport=sport,
+            competition=competition,
+        )
+
+        model_name = config.get(
+            "model",
+            "poisson",
+        )
+
+        if model_name != "poisson":
+            raise ValueError(
+                f"Modelo no soportado: {model_name}"
+            )
+
+        if data is None:
+            data = self.load_processed_data(
+                sport=sport,
+                competition=competition,
+                season=season,
+            )
+
+        prepared = self.prepare_data(data)
+
+        model = PoissonModel(
+            random_starts=config.get(
+                "random_starts",
+                20,
+            ),
+            max_goals=config.get(
+                "max_goals",
+                10,
+            ),
+        )
+
+        model.fit(prepared)
+
+        return model
+
+    # ---------------------------------------------------------
+    # ENTRENAMIENTO O REUTILIZACIÓN
+    # ---------------------------------------------------------
+
+    def get_or_train(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> tuple[PoissonModel, bool]:
+
+        data = self.load_processed_data(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        prepared = self.prepare_data(data)
+
+        data_hash = self._data_hash(prepared)
+
+        # -----------------------------------------------------
+        # 1. ¿YA TENEMOS MODELO CON ESTE DATASET?
+        # -----------------------------------------------------
+
+        if self.registry.has_same_data(
+            sport=sport,
+            competition=competition,
+            season=season,
+            data_hash=data_hash,
+        ):
+
+            active = self.registry.load_active(
+                sport=sport,
+                competition=competition,
+                season=season,
+            )
+
+            if active is not None:
+                return active, False
+
+        # -----------------------------------------------------
+        # 2. HAY DATOS NUEVOS → ENTRENAR
+        # -----------------------------------------------------
+
+        train_data, validation_data = (
+            self._split_train_validation(prepared)
+        )
+
+        model = self.train(
+            sport=sport,
+            competition=competition,
+            season=season,
+            data=train_data,
+        )
+
+        evaluation = self._evaluate_model(
+            model=model,
+            validation=validation_data,
+            sport=sport,
+            competition=competition,
+            season=season,
+            model_name="poisson",
+        )
+
+        metrics = evaluation["metrics"]
+
+        # Guardar reportes cuando existan observaciones evaluables.
+        if metrics["evaluation_rows"] > 0:
+            self.evaluator.save_report(
+                result=evaluation,
+                output_dir=self.evaluation_path,
+            )
+
+        # -----------------------------------------------------
+        # 3. COMPARAR CONTRA MODELO ACTIVO
+        # -----------------------------------------------------
+
+        active_record = self.registry.get_active_record(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        activate = active_record is None
+
+        # Conservamos temporalmente el criterio anterior:
+        # menor log-loss que el modelo activo.
+        #
+        # La selección multicriterio se implementará
+        # después de validar el historial de métricas.
+
+        if (
+            active_record is not None
+            and metrics["log_loss"] is not None
+            and pd.notna(active_record.get("log_loss"))
+        ):
+
+            activate = (
+                metrics["log_loss"]
+                < float(active_record["log_loss"])
+            )
+
+        # -----------------------------------------------------
+        # 4. REGISTRAR NUEVA VERSIÓN
+        # -----------------------------------------------------
+
+        self.registry.register(
+            model=model,
+            sport=sport,
+            competition=competition,
+            season=season,
+            data_hash=data_hash,
+            training_rows=len(train_data),
+            validation_rows=metrics["evaluation_rows"],
+            log_loss=metrics["log_loss"],
+            accuracy=metrics["accuracy"],
+            activate=activate,
+        )
+
+        # -----------------------------------------------------
+        # 5. DEVOLVER MODELO ACTIVO
+        # -----------------------------------------------------
+
+        if activate:
+            return model, True
+
+        active = self.registry.load_active(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        if active is None:
+            raise RuntimeError(
+                "No existe un modelo activo "
+                "después del entrenamiento."
+            )
+
+        return active, False
+
+    # ---------------------------------------------------------
+    # CARGAR MODELO ACTIVO
+    # ---------------------------------------------------------
+
+    def load_active_model(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> PoissonModel:
+
+        model = self.registry.load_active(
+            sport=sport,
+            competition=competition,
+            season=season,
+        )
+
+        if model is None:
+            raise FileNotFoundError(
+                "No existe un modelo activo para "
+                f"{sport}/{competition}/{season}. "
+                "Ejecute get_or_train() primero."
+            )
+
+        return model
+
+
+
+================================================================================
+ARCHIVO: src\modeling\registry.py
+================================================================================
+from __future__ import annotations
+
+import pickle
+from datetime import datetime
+from pathlib import Path
+from typing import Any, Optional
+
+import pandas as pd
+
+
+class ModelRegistry:
+    """
+    Registro central de modelos deportivos.
+
+    Mantiene:
+
+    - versiones históricas de modelos
+    - modelo activo
+    - métricas de cada versión
+    - hash del dataset utilizado
+    - modelo con mejor performance
+    """
+
+    def __init__(
+        self,
+        base_path: str = "data/models",
+    ):
+        self.base_path = Path(base_path)
+
+        self.base_path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+    def _competition_path(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        path = (
+            self.base_path
+            / sport
+            / competition
+            / season
+        )
+
+        path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        return path
+
+    def _registry_file(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        return (
+            self._competition_path(
+                sport,
+                competition,
+                season,
+            )
+            / "registry.csv"
+        )
+
+    def _active_file(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        active_dir = (
+            self._competition_path(
+                sport,
+                competition,
+                season,
+            )
+            / "active"
+        )
+
+        active_dir.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        return active_dir / "model.pkl"
+
+    def _versions_dir(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Path:
+
+        path = (
+            self._competition_path(
+                sport,
+                competition,
+                season,
+            )
+            / "versions"
+        )
+
+        path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        return path
+
+    def register(
+        self,
+        model: Any,
+        sport: str,
+        competition: str,
+        season: str,
+        data_hash: str,
+        training_rows: int,
+        validation_rows: int,
+        log_loss: Optional[float],
+        accuracy: Optional[float],
+        activate: bool = False,
+    ) -> str:
+
+        timestamp = datetime.now().strftime(
+            "%Y%m%d_%H%M%S_%f"
+        )
+
+        model_id = (
+            f"model_{timestamp}"
+        )
+
+        model_file = (
+            self._versions_dir(
+                sport,
+                competition,
+                season,
+            )
+            / f"{model_id}.pkl"
+        )
+
+        # -------------------------------------------------
+        # GUARDAR MODELO
+        # -------------------------------------------------
+
+        with open(
+            model_file,
+            "wb",
+        ) as file:
+
+            pickle.dump(
+                model,
+                file,
+            )
+
+        # -------------------------------------------------
+        # REGISTRO
+        # -------------------------------------------------
+
+        row = {
+            "model_id": model_id,
+            "created_at": datetime.now().isoformat(),
+            "sport": sport,
+            "competition": competition,
+            "season": season,
+            "data_hash": data_hash,
+            "training_rows": training_rows,
+            "validation_rows": validation_rows,
+            "log_loss": log_loss,
+            "accuracy": accuracy,
+            "status": (
+                "active"
+                if activate
+                else "archived"
+            ),
+            "model_file": str(
+                model_file
+            ),
+        }
+
+        registry_file = self._registry_file(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry_file.exists():
+
+            registry = pd.read_csv(
+                registry_file
+            )
+
+        else:
+
+            registry = pd.DataFrame()
+
+        # Si este modelo se convierte en activo,
+        # todos los anteriores pasan a archived.
+
+        if activate and not registry.empty:
+
+            registry["status"] = "archived"
+
+        registry = pd.concat(
+            [
+                registry,
+                pd.DataFrame([row]),
+            ],
+            ignore_index=True,
+        )
+
+        registry.to_csv(
+            registry_file,
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        # -------------------------------------------------
+        # COPIAR COMO MODELO ACTIVO
+        # -------------------------------------------------
+
+        if activate:
+
+            active_file = self._active_file(
+                sport,
+                competition,
+                season,
+            )
+
+            with open(
+                model_file,
+                "rb",
+            ) as source:
+
+                model_bytes = source.read()
+
+            with open(
+                active_file,
+                "wb",
+            ) as target:
+
+                target.write(
+                    model_bytes
+                )
+
+        return model_id
+
+    def load_active(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[Any]:
+
+        active_file = self._active_file(
+            sport,
+            competition,
+            season,
+        )
+
+        if not active_file.exists():
+
+            return None
+
+        with open(
+            active_file,
+            "rb",
+        ) as file:
+
+            return pickle.load(file)
+
+    def get_registry(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> pd.DataFrame:
+
+        registry_file = self._registry_file(
+            sport,
+            competition,
+            season,
+        )
+
+        if not registry_file.exists():
+
+            return pd.DataFrame()
+
+        return pd.read_csv(
+            registry_file
+        )
+
+    def list_models(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> pd.DataFrame:
+        """
+        Devuelve todas las versiones registradas,
+        ordenadas desde la más reciente.
+        """
+
+        registry = self.get_registry(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return registry
+
+        if "created_at" in registry.columns:
+
+            registry = registry.sort_values(
+                "created_at",
+                ascending=False,
+            )
+
+        return registry.reset_index(
+            drop=True
+        )
+
+    def get_active_record(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[dict]:
+
+        registry = self.get_registry(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return None
+
+        active = registry[
+            registry["status"] == "active"
+        ]
+
+        if active.empty:
+
+            return None
+
+        return active.iloc[-1].to_dict()
+
+    def get_latest_record(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[dict]:
+        """
+        Devuelve la versión más reciente registrada.
+        """
+
+        registry = self.list_models(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return None
+
+        return registry.iloc[0].to_dict()
+
+    def get_best_record(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+    ) -> Optional[dict]:
+        """
+        Devuelve el modelo con menor log_loss.
+
+        Menor log_loss = mejor desempeño
+        en la validación registrada.
+        """
+
+        registry = self.get_registry(
+            sport,
+            competition,
+            season,
+        )
+
+        if registry.empty:
+
+            return None
+
+        if "log_loss" not in registry.columns:
+
+            return None
+
+        candidates = registry.copy()
+
+        candidates["log_loss"] = pd.to_numeric(
+            candidates["log_loss"],
+            errors="coerce",
+        )
+
+        candidates = candidates.dropna(
+            subset=["log_loss"]
+        )
+
+        if candidates.empty:
+
+            return None
+
+        best = candidates.sort_values(
+            "log_loss",
+            ascending=True,
+        ).iloc[0]
+
+        return best.to_dict()
+
+    def has_same_data(
+        self,
+        sport: str,
+        competition: str,
+        season: str,
+        data_hash: str,
+    ) -> bool:
+
+        record = self.get_active_record(
+            sport,
+            competition,
+            season,
+        )
+
+        if record is None:
+
+            return False
+
+        return (
+            str(record["data_hash"])
+            == str(data_hash)
+        )
+
+
+
+================================================================================
+ARCHIVO: src\modeling\evaluation.py
+================================================================================
+
+from __future__ import annotations
+
+from pathlib import Path
+from typing import Any
+
+import numpy as np
+import pandas as pd
+
+
+class ModelEvaluator:
+    """
+    Evaluador estándar para modelos de clasificación multiclase.
+
+    Calcula:
+    - Log-loss
+    - Brier Score
+    - Accuracy
+    - Métricas de calibración
+    - Cobertura de evaluación
+
+    No depende del algoritmo utilizado para generar
+    las probabilidades.
+    """
+
+    def __init__(
+        self,
+        labels: list[str] | None = None,
+        n_bins: int = 10,
+        epsilon: float = 1e-15,
+    ):
+        self.labels = labels or [
+            "home",
+            "draw",
+            "away",
+        ]
+
+        self.n_bins = n_bins
+        self.epsilon = epsilon
+
+        if self.n_bins < 2:
+            raise ValueError(
+                "n_bins debe ser al menos 2."
+            )
+
+    # -------------------------------------------------
+    # VALIDACIÓN DE ENTRADAS
+    # -------------------------------------------------
+
+    def _validate(
+        self,
+        y_true: np.ndarray,
+        probabilities: np.ndarray,
+    ) -> tuple[np.ndarray, np.ndarray]:
+
+        y_true = np.asarray(y_true)
+        probabilities = np.asarray(
+            probabilities,
+            dtype=float,
+        )
+
+        if probabilities.ndim != 2:
+            raise ValueError(
+                "Las probabilidades deben ser "
+                "una matriz bidimensional."
+            )
+
+        if len(y_true) != len(probabilities):
+            raise ValueError(
+                "La cantidad de resultados reales "
+                "no coincide con las predicciones."
+            )
+
+        if probabilities.shape[1] != len(self.labels):
+            raise ValueError(
+                "La cantidad de columnas de "
+                "probabilidades no coincide con labels."
+            )
+
+        if len(y_true) == 0:
+            raise ValueError(
+                "No existen observaciones para evaluar."
+            )
+
+        if not np.isfinite(probabilities).all():
+            raise ValueError(
+                "Las probabilidades contienen "
+                "valores NaN o infinitos."
+            )
+
+        if (
+            (probabilities < 0).any()
+            or (probabilities > 1).any()
+        ):
+            raise ValueError(
+                "Las probabilidades deben estar "
+                "entre 0 y 1."
+            )
+
+        row_sums = probabilities.sum(axis=1)
+
+        if not np.allclose(
+            row_sums,
+            1.0,
+            atol=1e-6,
+        ):
+            raise ValueError(
+                "Las probabilidades de cada "
+                "observación deben sumar 1."
+            )
+
+        if not np.isin(
+            y_true,
+            np.arange(len(self.labels)),
+        ).all():
+            raise ValueError(
+                "Se encontraron etiquetas reales "
+                "fuera del rango esperado."
+            )
+
+        return y_true.astype(int), probabilities
+
+    # -------------------------------------------------
+    # LOG-LOSS
+    # -------------------------------------------------
+
+    def _log_loss(
+        self,
+        y_true: np.ndarray,
+        probabilities: np.ndarray,
+    ) -> float:
+
+        probabilities = np.clip(
+            probabilities,
+            self.epsilon,
+            1.0,
+        )
+
+        probabilities = (
+            probabilities
+            / probabilities.sum(axis=1, keepdims=True)
+        )
+
+        selected = probabilities[
+            np.arange(len(y_true)),
+            y_true,
+        ]
+
+        return float(
+            -np.mean(np.log(selected))
+        )
+
+    # -------------------------------------------------
+    # BRIER SCORE MULTICLASE
+    # -------------------------------------------------
+
+    @staticmethod
+    def _brier_score(
+        y_true: np.ndarray,
+        probabilities: np.ndarray,
+    ) -> float:
+
+        one_hot = np.eye(
+            probabilities.shape[1]
+        )[y_true]
+
+        return float(
+            np.mean(
+                np.sum(
+                    (probabilities - one_hot) ** 2,
+                    axis=1,
+                )
+            )
+        )
+
+    # -------------------------------------------------
+    # CALIBRACIÓN
+    # -------------------------------------------------
+
+    def _calibration_report(
+        self,
+        y_true: np.ndarray,
+        probabilities: np.ndarray,
+    ) -> pd.DataFrame:
+
+        rows = []
+
+        bin_edges = np.linspace(
+            0.0,
+            1.0,
+            self.n_bins + 1,
+        )
+
+        for class_index, label in enumerate(
+            self.labels
+        ):
+
+            predicted = probabilities[
+                :,
+                class_index,
+            ]
+
+            observed = (
+                y_true == class_index
+            ).astype(int)
+
+            bins = pd.cut(
+                predicted,
+                bins=bin_edges,
+                include_lowest=True,
+                right=True,
+            )
+
+            for bin_interval in bins.categories:
+
+                mask = (
+                    bins == bin_interval
+                )
+
+                count = int(mask.sum())
+
+                if count == 0:
+                    continue
+
+                mean_predicted = float(
+                    predicted[mask].mean()
+                )
+
+                observed_frequency = float(
+                    observed[mask].mean()
+                )
+
+                rows.append(
+                    {
+                        "class": label,
+                        "probability_bin": str(
+                            bin_interval
+                        ),
+                        "observations": count,
+                        "mean_predicted": mean_predicted,
+                        "observed_frequency": (
+                            observed_frequency
+                        ),
+                        "calibration_error": (
+                            observed_frequency
+                            - mean_predicted
+                        ),
+                        "absolute_error": abs(
+                            observed_frequency
+                            - mean_predicted
+                        ),
+                    }
+                )
+
+        return pd.DataFrame(rows)
+
+    # -------------------------------------------------
+    # EVALUACIÓN COMPLETA
+    # -------------------------------------------------
+
+    def evaluate(
+        self,
+        y_true: Any,
+        probabilities: Any,
+        model_name: str,
+        model_version: str | None = None,
+        sport: str | None = None,
+        competition: str | None = None,
+        season: str | None = None,
+    ) -> dict:
+
+        y_true, probabilities = self._validate(
+            y_true,
+            probabilities,
+        )
+
+        predictions = np.argmax(
+            probabilities,
+            axis=1,
+        )
+
+        accuracy = float(
+            np.mean(
+                predictions == y_true
+            )
+        )
+
+        log_loss = self._log_loss(
+            y_true,
+            probabilities,
+        )
+
+        brier_score = self._brier_score(
+            y_true,
+            probabilities,
+        )
+
+        calibration = self._calibration_report(
+            y_true,
+            probabilities,
+        )
+
+        if calibration.empty:
+            mean_calibration_error = None
+        else:
+            weights = calibration[
+                "observations"
+            ].to_numpy()
+
+            errors = calibration[
+                "absolute_error"
+            ].to_numpy()
+
+            mean_calibration_error = float(
+                np.average(
+                    errors,
+                    weights=weights,
+                )
+            )
+
+        metrics = {
+            "model_name": model_name,
+            "model_version": model_version,
+            "sport": sport,
+            "competition": competition,
+            "season": season,
+            "evaluation_rows": int(
+                len(y_true)
+            ),
+            "accuracy": accuracy,
+            "log_loss": log_loss,
+            "brier_score": brier_score,
+            "mean_calibration_error": (
+                mean_calibration_error
+            ),
+            "evaluation_status": "SUCCESS",
+        }
+
+        return {
+            "metrics": metrics,
+            "calibration": calibration,
+        }
+
+    # -------------------------------------------------
+    # EXPORTACIÓN ESTÁNDAR
+    # -------------------------------------------------
+
+    @staticmethod
+    def save_report(
+        result: dict,
+        output_dir: str = "outputs/model_evaluation",
+        run_id: str | None = None,
+    ) -> dict:
+
+        output_path = Path(output_dir)
+
+        output_path.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+
+        if run_id is None:
+            run_id = pd.Timestamp.now().strftime(
+                "%Y%m%d_%H%M%S"
+            )
+
+        metrics_file = (
+            output_path
+            / f"model_metrics_{run_id}.csv"
+        )
+
+        calibration_file = (
+            output_path
+            / f"calibration_report_{run_id}.csv"
+        )
+
+        json_file = (
+            output_path
+            / f"evaluation_{run_id}.json"
+        )
+
+        metrics_df = pd.DataFrame(
+            [result["metrics"]]
+        )
+
+        metrics_df.to_csv(
+            metrics_file,
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        result["calibration"].to_csv(
+            calibration_file,
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        metrics_df.to_json(
+            json_file,
+            orient="records",
+            indent=4,
+            force_ascii=False,
+        )
+
+        return {
+            "metrics": str(metrics_file),
+            "calibration": str(calibration_file),
+            "json": str(json_file),
+        }

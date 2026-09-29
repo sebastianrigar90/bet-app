@@ -1,0 +1,30 @@
+﻿
+Path                                                                                         LineNumber Line                                              
+----                                                                                         ---------- ----                                              
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\sources\factory.py                  6 from .registry import SourceRegistry              
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\poisson_model.py          11 class PoissonModel:                               
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\poisson_model.py         176     ) -> "PoissonModel":                          
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py                11 from .evaluation import ModelEvaluator            
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py                12 from .poisson_model import PoissonModel           
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py                13 from .registry import ModelRegistry               
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py                16 class ModelTrainer:                               
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py                41         self.registry = ModelRegistry(            
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py                45         self.evaluator = ModelEvaluator()         
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py               310         model: PoissonModel,                      
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py               381         model: PoissonModel,                      
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py               459     ) -> PoissonModel:                            
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py               485         model = PoissonModel(                     
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py               509     ) -> tuple[PoissonModel, bool]:               
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\trainer.py               650     ) -> PoissonModel:                            
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\registry.py               11 class ModelRegistry:                              
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\modeling\evaluation.py             11 class ModelEvaluator:                             
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\alerts\pipeline.py                  5 from src.modeling.trainer import ModelTrainer     
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\src\alerts\pipeline.py                 22         self.trainer = ModelTrainer()             
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\tests\test_model_evaluation.py         11 from src.modeling.trainer import ModelTrainer     
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\tests\test_model_evaluation.py         12 from src.modeling.evaluation import ModelEvaluator
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\tests\test_model_evaluation.py        125     trainer = ModelTrainer()                      
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\tests\test_model_evaluation.py        396     evaluator = ModelEvaluator(                   
+H:\Mi unidad\microempresas\quae_magna\4.1_apuestas_deportivas\tests\test_model_evaluation.py        441     report_paths = ModelEvaluator.save_report(    
+
+
+
